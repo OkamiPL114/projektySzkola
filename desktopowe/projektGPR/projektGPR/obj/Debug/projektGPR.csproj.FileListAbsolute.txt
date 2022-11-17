@@ -1,0 +1,8 @@
+D:\Users\Okami\Desktop\Pulpit2.0\C#\4klasa\projektGPR\projektGPR\bin\Debug\projektGPR.exe.config
+D:\Users\Okami\Desktop\Pulpit2.0\C#\4klasa\projektGPR\projektGPR\bin\Debug\projektGPR.exe
+D:\Users\Okami\Desktop\Pulpit2.0\C#\4klasa\projektGPR\projektGPR\bin\Debug\projektGPR.pdb
+D:\Users\Okami\Desktop\Pulpit2.0\C#\4klasa\projektGPR\projektGPR\obj\Debug\projektGPR.csproj.AssemblyReference.cache
+D:\Users\Okami\Desktop\Pulpit2.0\C#\4klasa\projektGPR\projektGPR\obj\Debug\projektGPR.csproj.SuggestedBindingRedirects.cache
+D:\Users\Okami\Desktop\Pulpit2.0\C#\4klasa\projektGPR\projektGPR\obj\Debug\projektGPR.csproj.CoreCompileInputs.cache
+D:\Users\Okami\Desktop\Pulpit2.0\C#\4klasa\projektGPR\projektGPR\obj\Debug\projektGPR.exe
+D:\Users\Okami\Desktop\Pulpit2.0\C#\4klasa\projektGPR\projektGPR\obj\Debug\projektGPR.pdb
