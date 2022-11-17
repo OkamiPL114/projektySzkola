@@ -31,3 +31,11 @@ Będę tu wrzucał kody z lekcji i z zadań jeśli nie zapomnę. Odpowiednie pro
 <b>Tomasz Bąk</b> - trzeba się uczyć, ale potrafi wytłumaczyć, Bącur
 
 <b>Damian Bartuś</b> - król złoty który swoją srogością sprawił że wszyscy zdaliśmy INF.03, najlepszy nauczyciel
+
+<br><br>
+
+<h3>Ofiary klasy:</h3>
+
+<b>Patryk Krupka</b> - fajny był, ale programowanie to nie jego działka 
+
+<b>Wiktor Kłosowski</b> - bardziej umiał grać w lola niż programować, ale był fajny
