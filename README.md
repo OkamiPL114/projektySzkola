@@ -16,6 +16,8 @@ Będę tu wrzucał kody z lekcji i z zadań jeśli nie zapomnę. Odpowiednie pro
 
 <b>Stilo</b> - auto pana Barzyka, które Gajda miał panu obić
 
+<b>"Jestem najnormalniejszy w tej klasie" lub "Jestem normalny"</b> - moje słowa które są w 100% prawdziwe i szczere
+
 <br><br>
 
 <h3>Moje opisy nauczycieli:</h3>
