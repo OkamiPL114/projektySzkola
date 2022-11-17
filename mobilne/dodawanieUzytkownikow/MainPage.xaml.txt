@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutDemo.MainPage">
+
+    <StackLayout Margin="5, 20, 5, 20"
+                 >
+        <Frame BackgroundColor="#920C92"
+               CornerRadius="10">
+            <Label Text="Lista użytkowników"
+                   FontSize="26"
+                   TextColor="White"
+                   HorizontalTextAlignment="Center"                   
+                   />
+        </Frame>
+
+        <StackLayout Padding="10"
+                     BackgroundColor="#F8C2F8"
+                     Spacing="30"
+                     >
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Email" 
+                       FontSize="18"
+                       VerticalTextAlignment="Center"/>
+                <Entry Placeholder="nazwa@domena.com" 
+                       HorizontalOptions="FillAndExpand"
+                       Keyboard="Email"
+                       x:Name="emailEntry"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Rok Urodzenia" 
+                       FontSize="18"
+                       VerticalTextAlignment="Center"/>
+                <DatePicker HorizontalOptions="EndAndExpand" 
+                            x:Name="birthdateDatePicker"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Płeć" 
+                       FontSize="18"
+                       VerticalTextAlignment="Center"/>
+                <StackLayout HorizontalOptions="EndAndExpand"
+                             Orientation="Horizontal">
+                    <RadioButton Content="Mężczyzna" 
+                                 x:Name="manRadioButton"
+                                 />
+                    <RadioButton Content="Kobieta"
+                                 x:Name="womanRadioButton"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Wzrost" 
+                       FontSize="18"
+                       VerticalTextAlignment="Center"/>
+                <Label Text="{Binding Source={x:Reference heightStepper}, Path=Value}" 
+                       FontSize="18"
+                       VerticalTextAlignment="Center"
+                       HorizontalOptions="CenterAndExpand"/>
+                <Stepper  Maximum="250"
+                          Minimum="40"
+                          Value="170"
+                          x:Name="heightStepper"/>
+            </StackLayout>
+        </StackLayout>
+
+        <Button Text="Dodaj"
+                Padding="0,20"
+                FontSize="18"
+                CornerRadius="10"
+                x:Name="addUser"
+                Clicked="addUser_Clicked"/>
+
+        <Editor AutoSize="TextChanges" 
+                BackgroundColor="#F8C2F8"
+                IsReadOnly="True"
+                MinimumHeightRequest="300"
+                x:Name="listEditor"/>
+
+    </StackLayout>
+
+</ContentPage>
