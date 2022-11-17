@@ -4,6 +4,8 @@
 
 Będę tu wrzucał kody z lekcji i z zadań jeśli nie zapomnę. Odpowiednie projekty będą w odpowiednio nazwanych folderach (chyba że coś popsuję)
 
+<br><br>
+
 <h3>Memy używane w klasie i wyjaśnienia:</h3>
 
 <b>pixabay</b> - strona z darmowymi zdjęciami, którą pokazał nam Wiesław Ródnicki
@@ -13,6 +15,8 @@ Będę tu wrzucał kody z lekcji i z zadań jeśli nie zapomnę. Odpowiednie pro
 <b>"Dzień dobry chłopaki, godzina 13, zaczynamy lekcje"</b> - przywitanie Andrzeja Bosaka na zdalnych
 
 <b>Stilo</b> - auto pana Barzyka, które Gajda miał panu obić
+
+<br><br>
 
 <h3>Moje opisy nauczycieli:</h3>
 
