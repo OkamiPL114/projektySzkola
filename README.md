@@ -12,7 +12,7 @@ Fajnie że tu jesteś :3
 
 Andrzej Bażyk - dobrze tłumaczy tylko nie słuchacie, pingwin, mistrz programowania
 
-Andrzej Bosak - Python na nic nam się nie przyda i nie uczył tylko kazał przepisywać
+Andrzej Bosak - Python nie będziemy używać i nie uczył tylko kazał przepisywać
 
 Robert Suski - przyjazny, potrafił wytłumaczyć, szkoda że odszedł
 
