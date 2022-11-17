@@ -1,4 +1,8 @@
-Fajnie że tu jesteś :3
+![zdjecieRepozytorium](https://user-images.githubusercontent.com/95073438/202557030-62293c73-9cbc-4dfa-9f23-9c5438402cbf.jpg)
+
+<h1>Witaj w moim repozytorium</h1>
+
+Będę tu wrzucał kody z lekcji i z zadań jeśli nie zapomnę. Odpowiednie projekty będą w odpowiednio nazwanych folderach (chyba że coś popsuję)
 
 <h3>Memy używane w klasie i wyjaśnienia:</h3>
 
@@ -7,6 +11,8 @@ Fajnie że tu jesteś :3
 <b>bootstrap</b> - klasy stylów css używane na lekcjach Wiesława
 
 <b>"Dzień dobry chłopaki, godzina 13, zaczynamy lekcje"</b> - przywitanie Andrzeja Bosaka na zdalnych
+
+<b>Stilo</b> - auto pana Barzyka, które Gajda miał panu obić
 
 <h3>Moje opisy nauczycieli:</h3>
 
