@@ -10,14 +10,14 @@ Fajnie że tu jesteś :3
 
 <h3>Moje opisy nauczycieli:</h3>
 
-Andrzej Bażyk - dobrze tłumaczy tylko nie słuchacie, pingwin, mistrz programowania
+<b>Andrzej Bażyk</b> - dobrze tłumaczy tylko nie słuchacie, pingwin, mistrz programowania
 
-Andrzej Bosak - Python na nic nam się nie przyda i nie uczył tylko kazał przepisywać
+<b>Andrzej Bosak</b> - Python na nic nam się nie przyda i nie uczył tylko kazał przepisywać
 
-Robert Suski - przyjazny, potrafił wytłumaczyć, szkoda że odszedł
+<b>Robert Suski</b> - przyjazny, potrafił wytłumaczyć, szkoda że odszedł
 
-Robert Rączka - mało uczył, chwalił się swoim kompem jakby to był skarb świata
+<b>Robert Rączka</b> - mało uczył, chwalił się swoim kompem jakby to był skarb świata
 
-Tomasz Bąk - trzeba się uczyć, ale potrafi wytłumaczyć, Bącur
+<b>Tomasz Bąk</b> - trzeba się uczyć, ale potrafi wytłumaczyć, Bącur
 
-Damian Bartuś - król złoty który swoją srogością sprawił że wszyscy zdaliśmy INF.03, najlepszy nauczyciel
+<b>Damian Bartuś</b> - król złoty który swoją srogością sprawił że wszyscy zdaliśmy INF.03, najlepszy nauczyciel
