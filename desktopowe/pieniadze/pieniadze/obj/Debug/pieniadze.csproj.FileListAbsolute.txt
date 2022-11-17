@@ -1,0 +1,8 @@
+C:\Users\Okami\source\repos\pieniadze\pieniadze\bin\Debug\pieniadze.exe.config
+C:\Users\Okami\source\repos\pieniadze\pieniadze\bin\Debug\pieniadze.exe
+C:\Users\Okami\source\repos\pieniadze\pieniadze\bin\Debug\pieniadze.pdb
+C:\Users\Okami\source\repos\pieniadze\pieniadze\obj\Debug\pieniadze.csproj.AssemblyReference.cache
+C:\Users\Okami\source\repos\pieniadze\pieniadze\obj\Debug\pieniadze.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okami\source\repos\pieniadze\pieniadze\obj\Debug\pieniadze.csproj.CoreCompileInputs.cache
+C:\Users\Okami\source\repos\pieniadze\pieniadze\obj\Debug\pieniadze.exe
+C:\Users\Okami\source\repos\pieniadze\pieniadze\obj\Debug\pieniadze.pdb
