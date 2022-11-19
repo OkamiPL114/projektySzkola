@@ -18,6 +18,8 @@ Będę tu wrzucał kody z lekcji i z zadań jeśli nie zapomnę. Odpowiednie pro
 
 <b>"Jestem najnormalniejszy w tej klasie" lub "Jestem normalny"</b> - moje słowa które są w 100% prawdziwe i szczere
 
+<b>Div class footer/stopka</b> - chyba Kufel się wkurzył na Barzyka za nazwanie tak diva, nie wiem
+
 <br><br>
 
 <h3>Moje opisy nauczycieli:</h3>
