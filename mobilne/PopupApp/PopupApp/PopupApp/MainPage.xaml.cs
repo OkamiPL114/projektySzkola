@@ -49,7 +49,13 @@ namespace PopupApp
             Random random = new Random();
             var number1 = random.Next(1, 101);
             var number2 = random.Next(1, 101);
-            var result = await DisplayPromptAsync($"{number1} + {number2} = ?", "", "Sprawdź", "Anuluj");
+            var result = await DisplayPromptAsync("Odpowiedz na pytanie", $"{number1} + {number2} = ?", "Sprawdź", "Anuluj");
+            if (result == null)
+                return;
+            int sum = 0;
+            var validResult = int.TryParse(result, out sum);
+            if (validResult)
+                scoreLabel.Text = "Punkty: 100";
         }
     }
 }
