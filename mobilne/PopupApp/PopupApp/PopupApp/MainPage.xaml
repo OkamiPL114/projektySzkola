@@ -26,6 +26,11 @@
                 Clicked="fastfoodButton_Clicked"/>
         <Label Text="Szkodiwy fastfood według ciebie: "
                x:Name="fastfoodLabel"/>
+        <Button Text="Ćwiczenie z dodawania"
+                x:Name="mathButton"
+                Clicked="mathButton_Clicked"/>
+        <Label Text="Punkty: 0"
+               x:Name="scoreLabel"/>
     </StackLayout>
 
 </ContentPage>

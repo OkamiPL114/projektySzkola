@@ -10,9 +10,11 @@ namespace PopupApp
 {
     public partial class MainPage : ContentPage
     {
+        private int score { get; set; }
         public MainPage()
         {
             InitializeComponent();
+            score = 0;
         }
 
         private async void infoButton_Clicked(object sender, EventArgs e)
@@ -40,6 +42,14 @@ namespace PopupApp
         {
             var fastfood = await DisplayActionSheet("Wybierz najbardziej szkodliwy fastfood", "Wszystko jest zdrowe", "Wszystko jest niezdrowe", "Burgir", "Pica", "Fłytki");
             fastfoodLabel.Text = "Szkodiwy fastfood według ciebie: " + fastfood;
+        }
+
+        private async void mathButton_Clicked(object sender, EventArgs e)
+        {
+            Random random = new Random();
+            var number1 = random.Next(1, 101);
+            var number2 = random.Next(1, 101);
+            var result = await DisplayPromptAsync($"{number1} + {number2} = ?", "", "Sprawdź", "Anuluj");
         }
     }
 }
