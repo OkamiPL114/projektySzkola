@@ -1,0 +1,15 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\github\Szkola\mobilne\PopupApp\PopupApp\PopupApp\bin\Debug\netstandard2.0\PopupApp.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\github\Szkola\mobilne\PopupApp\PopupApp\PopupApp\bin\Debug\netstandard2.0\PopupApp.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\github\Szkola\mobilne\PopupApp\PopupApp\PopupApp\bin\Debug\netstandard2.0\PopupApp.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\github\Szkola\mobilne\PopupApp\PopupApp\PopupApp\obj\Debug\netstandard2.0\PopupApp.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\github\Szkola\mobilne\PopupApp\PopupApp\PopupApp\obj\Debug\netstandard2.0\PopupApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\github\Szkola\mobilne\PopupApp\PopupApp\PopupApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\github\Szkola\mobilne\PopupApp\PopupApp\PopupApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\github\Szkola\mobilne\PopupApp\PopupApp\PopupApp\obj\Debug\netstandard2.0\PopupApp.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\github\Szkola\mobilne\PopupApp\PopupApp\PopupApp\obj\Debug\netstandard2.0\PopupApp.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\github\Szkola\mobilne\PopupApp\PopupApp\PopupApp\obj\Debug\netstandard2.0\PopupApp.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\github\Szkola\mobilne\PopupApp\PopupApp\PopupApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\galuszka.szymon.ptb_\Desktop\github\Szkola\mobilne\PopupApp\PopupApp\PopupApp\obj\Debug\netstandard2.0\PopupApp.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\github\Szkola\mobilne\PopupApp\PopupApp\PopupApp\obj\Debug\netstandard2.0\refint\PopupApp.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\github\Szkola\mobilne\PopupApp\PopupApp\PopupApp\obj\Debug\netstandard2.0\PopupApp.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\github\Szkola\mobilne\PopupApp\PopupApp\PopupApp\obj\Debug\netstandard2.0\ref\PopupApp.dll

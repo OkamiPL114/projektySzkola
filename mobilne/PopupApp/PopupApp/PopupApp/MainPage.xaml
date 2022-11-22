@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PopupApp.MainPage">
+
+    <StackLayout Margin="10, 20">
+        <Frame BackgroundColor="Pink">
+            <Label Text="Przegląd okienek typu Popup"
+                   FontSize="20"/>
+        </Frame>
+        <Button Text="Informacja o programie"
+                x:Name="infoButton"
+                Clicked="infoButton_Clicked"/>
+    </StackLayout>
+
+</ContentPage>

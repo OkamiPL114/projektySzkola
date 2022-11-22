@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutExercise.MainPage">
+
+    <AbsoluteLayout BackgroundColor="Yellow">
+        <BoxView Color="Red"
+                 AbsoluteLayout.LayoutFlags="All"
+                 AbsoluteLayout.LayoutBounds="0.4, 0.4, 0.2, 0.1"
+                 Opacity="0.7"/>
+        <BoxView Color="Green"
+                 AbsoluteLayout.LayoutFlags="All"
+                 AbsoluteLayout.LayoutBounds="0.5, 0.48, 0.2, 0.1"
+                 Opacity="0.7"/>
+        <BoxView Color="Blue"
+                 CornerRadius="100"
+                 AbsoluteLayout.LayoutFlags="All"
+                 AbsoluteLayout.LayoutBounds="0.6, 0.41, 0.2, 0.1"
+                 Opacity="0.7"/>
+    </AbsoluteLayout>
+
+</ContentPage>
