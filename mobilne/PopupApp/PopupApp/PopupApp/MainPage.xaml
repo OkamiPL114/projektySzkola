@@ -31,6 +31,11 @@
                 Clicked="mathButton_Clicked"/>
         <Label Text="Punkty: 0"
                x:Name="scoreLabel"/>
+        <Button Text="Czy przestępny?"
+                x:Name="leapYearButton"
+                Clicked="leapYearButton_Clicked"/>
+        <Label Text=""
+               x:Name="leapYearLabel"/>
     </StackLayout>
 
 </ContentPage>

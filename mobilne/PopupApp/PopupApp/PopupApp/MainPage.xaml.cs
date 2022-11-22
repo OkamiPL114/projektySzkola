@@ -64,5 +64,24 @@ namespace PopupApp
             }
             scoreLabel.Text = "Punkty: " + score;
         }
+
+        private async void leapYearButton_Clicked(object sender, EventArgs e)
+        {
+            var result = await DisplayPromptAsync("Sprawdź czy przestępny", "Podaj rok", "Sprawdź", "Anuluj");
+            int inserted = int.Parse(result);
+            if(inserted < 1 || inserted > DateTime.Now.Year)
+            {
+                await DisplayAlert("Błąd", "Podano nieprawidłową wartość", "OK");
+                return;
+            }
+            if (inserted % 4 == 0)
+            {
+                leapYearLabel.Text = "Rok jest przestępny";
+            }
+            else
+            {
+                leapYearLabel.Text = "Rok nie jest przestępny";
+            }
+        }
     }
 }
