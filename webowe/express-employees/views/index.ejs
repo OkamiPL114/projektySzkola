@@ -1,0 +1,34 @@
+<%- include('./includes/header.ejs') %>
+</head>
+<body>
+    <nav>
+        <a href="/" class="a-nav a-active">Strona główna</a>
+        <a href="/about" class="a-nav">O naszej firmie</a>
+    </nav>
+    <h1><%=pageTitle%></h1>
+
+    <form action="/" method="post" id="add-employee" class="employee form">
+        <label for="firstname">Imię</label><br>
+        <input type="text" name="firstname" id="firstname"><br><br>
+        <label for="lastname">Nazwisko</label><br>
+        <input type="text" name="lastname" id="lastname"><br><br>
+        <label for="department">Dział</label><br>
+        <input type="text" name="department" id="department"><br><br>
+        <button type="reset">Wyczyść</button> 
+        <button type="submit">Dodaj</button>
+    </form>
+    <hr>
+    <% if(employees.length > 0) { %> 
+    <% employees.forEach(employee => { %>
+        <div class="employee">
+            <p class="fullname"><%= employee.firstname %> <%=employee.lastname %>
+            <br>
+            <span class="department"><%=employee.department%></span>
+            </p>      
+        </div>    
+    <%})%>
+    <%} else {%>
+        <p>Brak pracowników w bazie!</p>
+    <%}%>
+
+<%- include('./includes/footer.ejs') %>

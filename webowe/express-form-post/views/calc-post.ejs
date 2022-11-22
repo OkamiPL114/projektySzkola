@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Proste dodawanie</title>
+  </head>
+  <body>
+    <%- include('./includes/nav.ejs') %>
+    <h1>Proste dodawanie</h1>
+    <form action="\calc-post" method="post">
+      <input type="number" name="number1" /> +
+      <input type="number" name="number2" />
+      <button type="submit">Dodaj</button>
+    </form>
+    <% if(typeof num1 !== 'undefined') {%>
+        <p> <%= num1 %> + <%= num2 %> = <%= (num1 + num2) %> </p>
+    <%} else { %>
+        <p> brak danych </p>
+    <% } %>
+  </body>
+</html>

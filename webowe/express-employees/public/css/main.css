@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+}
+nav {
+    padding: 20px 0;
+    background-color: #eeeeee;
+}
+a:visited, a:active {
+    color: #333333;
+}
+.a-nav {
+    text-decoration: none;
+    padding: 6px 20px;
+    color: #333333;
+}
+.a-active {
+    background-color: rgb(200, 180, 219)
+}
+hr {
+    border: 0.5px solid rgb(200, 180, 219);
+    width: 70%;
+    margin: 40px 0 10px 0;
+}
+.employee {
+    margin: 5px 0;
+    border: 3px solid rgb(110, 4, 209);
+    padding: 4px 20px;
+    border-radius: 10px;
+    width: 400px;
+    background-color: rgb(200, 180, 219);
+}
+.fullname {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #222;
+}
+.department {
+    font-weight: normal;
+    font-size: 0.8em;
+    color: maroon;
+}
+
+.form {
+    margin: 5px 0;
+    border: 3px solid green;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    background-color: rgb(211, 227, 186);
+    border-color: green;
+}
