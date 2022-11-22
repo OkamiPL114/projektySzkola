@@ -11,6 +11,21 @@
         <Button Text="Informacja o programie"
                 x:Name="infoButton"
                 Clicked="infoButton_Clicked"/>
+        <Button Text="Czy lubisz programowanie?"
+                x:Name="likeCodingButton"
+                Clicked="likeCodingButton_Clicked"/>
+        <Label Text=""
+               x:Name="codingLabel"/>
+        <Button Text="Ulubiony język"
+                x:Name="favLangButton"
+                Clicked="favLangButton_Clicked"/>
+        <Label Text="Ulubiony język: "
+               x:Name="favLangLabel"/>
+        <Button Text="Szkodliwy fastfood - ankieta"
+                x:Name="fastfoodButton"
+                Clicked="fastfoodButton_Clicked"/>
+        <Label Text="Szkodiwy fastfood według ciebie: "
+               x:Name="fastfoodLabel"/>
     </StackLayout>
 
 </ContentPage>
