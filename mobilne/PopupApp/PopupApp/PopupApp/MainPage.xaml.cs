@@ -50,12 +50,19 @@ namespace PopupApp
             var number1 = random.Next(1, 101);
             var number2 = random.Next(1, 101);
             var result = await DisplayPromptAsync("Odpowiedz na pytanie", $"{number1} + {number2} = ?", "Sprawdź", "Anuluj");
-            if (result == null)
-                return;
             int sum = 0;
             var validResult = int.TryParse(result, out sum);
-            if (validResult)
-                scoreLabel.Text = "Punkty: 100";
+            if (!validResult)
+            {
+                await DisplayAlert("Błąd", "Nie podano prawidłowej wartości", "OK");
+                return;
+            }
+
+            if(sum == (number1 + number2))
+            {
+                score++;
+            }
+            scoreLabel.Text = "Punkty: " + score;
         }
     }
 }
