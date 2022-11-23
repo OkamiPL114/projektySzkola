@@ -60,7 +60,11 @@ namespace CSharpRS3
             
             s1.WypiszInfo();
         
-            Samochod s2 = new Samochod();
+            Samochod s2 = new Samochod("Syrena", "105", 2, 800, 7.6);
+
+            s2.WypiszInfo();
+
+            double kosztPrzejazdu = s2.ObliczKosztPrzejazdu(30.5, 4.85);
         }
     }
 }
