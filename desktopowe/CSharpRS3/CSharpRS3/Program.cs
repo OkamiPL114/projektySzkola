@@ -10,7 +10,7 @@ namespace CSharpRS3
         private int iloscDrzwi;
         private int pojemnoscSilnika;
         private double srednieSpalanie;
-        private int liczbSamochodow = 0;
+        private int liczbaSamochodow = 0;
         public Samochod()
         {
             marka = "";
@@ -18,7 +18,7 @@ namespace CSharpRS3
             iloscDrzwi = 0;
             pojemnoscSilnika = 0;
             srednieSpalanie = 0;
-            liczbSamochodow++;
+            ilosc++;
         }
         public Samochod(string marka, string model, int iloscDrzwi, int pojemnoscSilnika, double srednieSpalanie)
         {
@@ -27,12 +27,11 @@ namespace CSharpRS3
             this.iloscDrzwi = iloscDrzwi;
             this.pojemnoscSilnika = pojemnoscSilnika;
             this.srednieSpalanie = srednieSpalanie;
-            liczbSamochodow++;
+            ilosc++;
         }
         private double ObliczSpalanie(double dlugoscTrasy)
         {
-            double srednieSpalanie = 0;
-            return 0;
+            return dlugoscTrasy/srednieSpalanie;
         }
         public double ObliczKosztPrzejazdu(double dlugoscTrasy, double cenaPaliwa)
         {
