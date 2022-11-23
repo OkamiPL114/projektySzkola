@@ -4,13 +4,12 @@ namespace CSharpRS3
 {
     class Samochod
     {
-        public static int ilosc = 0;
         private string marka;
         private string model;
         private int iloscDrzwi;
         private int pojemnoscSilnika;
         private double srednieSpalanie;
-        private int liczbaSamochodow = 0;
+        public static int liczbaSamochodow = 0;
         public Samochod()
         {
             marka = "";
@@ -18,7 +17,7 @@ namespace CSharpRS3
             iloscDrzwi = 0;
             pojemnoscSilnika = 0;
             srednieSpalanie = 0;
-            ilosc++;
+            liczbaSamochodow++;
         }
         public Samochod(string marka, string model, int iloscDrzwi, int pojemnoscSilnika, double srednieSpalanie)
         {
@@ -27,19 +26,19 @@ namespace CSharpRS3
             this.iloscDrzwi = iloscDrzwi;
             this.pojemnoscSilnika = pojemnoscSilnika;
             this.srednieSpalanie = srednieSpalanie;
-            ilosc++;
+            liczbaSamochodow++;
         }
         private double ObliczSpalanie(double dlugoscTrasy)
         {
-            return dlugoscTrasy/srednieSpalanie;
+            return (srednieSpalanie / 100) * dlugoscTrasy;
         }
         public double ObliczKosztPrzejazdu(double dlugoscTrasy, double cenaPaliwa)
         {
-            return 0;
+            return (srednieSpalanie * dlugoscTrasy) * cenaPaliwa;
         }
         public void WypiszInfo()
         {
-
+            Console.WriteLine($"Marka:{marka}, model: {model}, ilość drzwi: {iloscDrzwi}, pojemność silnika: {pojemnoscSilnika}, średnie spalanie:{srednieSpalanie}");
         }
         public static void WypiszIloscSamochodow()
         {
