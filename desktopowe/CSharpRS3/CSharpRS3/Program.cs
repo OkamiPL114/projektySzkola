@@ -4,52 +4,63 @@ namespace CSharpRS3
 {
     class Samochod
     {
-        private string marka;
-        private string model;
-        private int iloscDrzwi;
-        private int pojemnoscSilnika;
-        private double srednieSpalanie;
-        public static int liczbaSamochodow = 0;
+        public string Marka { get; set; }
+        public string Model { get; set; }
+        public int IloscDrzwi { get; set; }
+        public int PojemnoscSilnika { get; set; }
+        public double SrednieSpalanie { get; set; }
+        public static int LiczbaSamochodow = 0;
         public Samochod()
         {
-            marka = "";
-            model = "";
-            iloscDrzwi = 0;
-            pojemnoscSilnika = 0;
-            srednieSpalanie = 0;
-            liczbaSamochodow++;
+            Marka = "";
+            Model = "";
+            IloscDrzwi = 0;
+            PojemnoscSilnika = 0;
+            SrednieSpalanie = 0;
+            LiczbaSamochodow++;
         }
         public Samochod(string marka, string model, int iloscDrzwi, int pojemnoscSilnika, double srednieSpalanie)
         {
-            this.marka = marka;
-            this.model = model;
-            this.iloscDrzwi = iloscDrzwi;
-            this.pojemnoscSilnika = pojemnoscSilnika;
-            this.srednieSpalanie = srednieSpalanie;
-            liczbaSamochodow++;
+            this.Marka = marka;
+            this.Model = model;
+            this.IloscDrzwi = iloscDrzwi;
+            this.PojemnoscSilnika = pojemnoscSilnika;
+            this.SrednieSpalanie = srednieSpalanie;
+            LiczbaSamochodow++;
         }
         private double ObliczSpalanie(double dlugoscTrasy)
         {
-            return (srednieSpalanie / 100) * dlugoscTrasy;
+            return (SrednieSpalanie / 100) * dlugoscTrasy;
         }
         public double ObliczKosztPrzejazdu(double dlugoscTrasy, double cenaPaliwa)
         {
-            return (srednieSpalanie * dlugoscTrasy) * cenaPaliwa;
+            return (SrednieSpalanie * dlugoscTrasy) * cenaPaliwa;
         }
         public void WypiszInfo()
         {
-            Console.WriteLine($"Marka:{marka}, model: {model}, ilość drzwi: {iloscDrzwi}, pojemność silnika: {pojemnoscSilnika}, średnie spalanie:{srednieSpalanie}");
+            Console.WriteLine($"Marka:{Marka}, model: {Model}, ilość drzwi: {IloscDrzwi}, pojemność silnika: {PojemnoscSilnika}, średnie spalanie:{SrednieSpalanie}.");
         }
         public static void WypiszIloscSamochodow()
         {
-
+            Console.WriteLine($"Jest {LiczbaSamochodow} samochodów.");
         }
     }
     internal class Program
     {
         static void Main()
         {
+            Samochod s1 = new Samochod();
+            s1.WypiszInfo();
+
+            s1.Marka = "Fiat";
+            s1.Model = "126";
+            s1.IloscDrzwi = 2;
+            s1.PojemnoscSilnika = 650;
+            s1.SrednieSpalanie = 6.0;
             
+            s1.WypiszInfo();
+        
+            Samochod s2 = new Samochod();
         }
     }
 }
