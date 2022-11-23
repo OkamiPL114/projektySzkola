@@ -13,19 +13,38 @@ namespace CSharpRS3
         private int liczbSamochodow = 0;
         public Samochod()
         {
-
+            marka = "";
+            model = "";
+            iloscDrzwi = 0;
+            pojemnoscSilnika = 0;
+            srednieSpalanie = 0;
+            liczbSamochodow++;
         }
-        public Samochod(int a)
+        public Samochod(string marka, string model, int iloscDrzwi, int pojemnoscSilnika, double srednieSpalanie)
         {
-
+            this.marka = marka;
+            this.model = model;
+            this.iloscDrzwi = iloscDrzwi;
+            this.pojemnoscSilnika = pojemnoscSilnika;
+            this.srednieSpalanie = srednieSpalanie;
+            liczbSamochodow++;
         }
         private double ObliczSpalanie(double dlugoscTrasy)
         {
+            double srednieSpalanie = 0;
             return 0;
         }
         public double ObliczKosztPrzejazdu(double dlugoscTrasy, double cenaPaliwa)
         {
             return 0;
+        }
+        public void WypiszInfo()
+        {
+
+        }
+        public static void WypiszIloscSamochodow()
+        {
+
         }
     }
     internal class Program
