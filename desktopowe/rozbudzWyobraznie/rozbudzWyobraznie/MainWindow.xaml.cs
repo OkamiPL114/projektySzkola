@@ -60,6 +60,10 @@ namespace rozbudzWyobraznie
                 for(int i = 0; i < int.Parse(noteNum); i++)
                 {
                     string line = reader.ReadLine();
+                    if (line[0].ToString() == noteNum)
+                    {
+                        readNoteTextBox.Text = line;
+                    }
                 }
             }
         }
