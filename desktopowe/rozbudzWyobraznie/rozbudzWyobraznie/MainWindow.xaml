@@ -18,7 +18,10 @@
         </Grid.ColumnDefinitions>
         <TextBox Grid.RowSpan="2" Margin="10" VerticalScrollBarVisibility="Auto" x:Name="saveNoteTextBox" TextWrapping="Wrap"/>
         <TextBox Grid.RowSpan="2" Grid.Column="1" IsEnabled="False" Margin="10" VerticalScrollBarVisibility="Auto" x:Name="readNoteTextBox" TextWrapping="Wrap"/>
-        <Button Content="Zapisz notatkę" FontSize="20" Grid.Row="2" Padding="20" HorizontalAlignment="Center" VerticalAlignment="Center" Click="saveNote_Click"/>
-        <Button Content="Odczytaj ostatnią notatkę" FontSize="20" Grid.Row="2" Grid.Column="1" Padding="20" HorizontalAlignment="Center" VerticalAlignment="Center" Click="readNote_Click"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Content="Zapisz notatkę" FontSize="20" Padding="20" Click="saveNote_Click"/>
+            <Button Content="Odczytaj ostatnią notatkę" FontSize="20" Padding="20" Click="readNote_Click"/>
+            <Button Content="Usuń ostatnią notatkę" FontSize="20" Padding="20" Click="deleteNote_Click"/>
+        </StackPanel>
     </Grid>
 </Window>
