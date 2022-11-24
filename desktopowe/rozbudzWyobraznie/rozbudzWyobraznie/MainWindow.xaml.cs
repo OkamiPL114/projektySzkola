@@ -36,8 +36,12 @@ namespace rozbudzWyobraznie
             var path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
             var numberPath = Path.Combine(path, fileName);
 
-            string noteNum = File.ReadAllText(numberPath);
-            return noteNum.ToString();
+            if (File.Exists(numberPath))
+            {
+                string noteNum = File.ReadAllText(numberPath);
+                return noteNum.ToString();
+            }
+            return "0";
         }
         private void saveNote_Click(object sender, RoutedEventArgs e)
         {
