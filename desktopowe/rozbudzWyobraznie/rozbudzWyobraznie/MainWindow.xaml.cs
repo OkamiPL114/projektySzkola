@@ -50,7 +50,7 @@ namespace rozbudzWyobraznie
                 string noteNum = File.ReadAllText(numberPath);
                 return noteNum.ToString();
             }
-            return "1";
+            return "0";
         }
         private void saveNote_Click(object sender, RoutedEventArgs e)
         {
@@ -97,38 +97,50 @@ namespace rozbudzWyobraznie
             var path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
             var notesPath = Path.Combine(path, fileName);
             string noteNum = GetNoteNumber();
-            if (File.Exists(notesPath))
+            if(noteNum != "1")
             {
-                fileName = "temp.txt";
-                var tempPath = Path.Combine(path, fileName);
-                using (var reader = new StreamReader(notesPath))
+                if (File.Exists(notesPath))
                 {
-                    for (int i = 0; i < int.Parse(noteNum); i++)
+                    fileName = "temp.txt";
+                    var tempPath = Path.Combine(path, fileName);
+                    using (var reader = new StreamReader(notesPath))
                     {
-                        string line = reader.ReadLine();
-                        if (line[0].ToString() != noteNum)
+                        for (int i = 0; i < int.Parse(noteNum); i++)
                         {
-                            File.AppendAllText(tempPath, line);
+                            string line = reader.ReadLine();
+                            if (line[0].ToString() != noteNum)
+                            {
+                                File.AppendAllText(tempPath, line);
+                            }
                         }
+                        DecreaseNoteNumber();
                     }
-                    DecreaseNoteNumber();
-                }
-                noteNum = GetNoteNumber();
-                using (var reader2 = new StreamReader(tempPath))
-                {
-                    for (int i = 0; i < int.Parse(noteNum); i++)
+                    noteNum = GetNoteNumber();
+                    using (var reader2 = new StreamReader(tempPath))
                     {
-                        string line = reader2.ReadLine();
-                        File.WriteAllText(notesPath, line);
+                        for (int i = 0; i < int.Parse(noteNum); i++)
+                        {
+                            string line = reader2.ReadLine();
+                            File.WriteAllText(notesPath, line);
+                        }
+                        File.AppendAllText(notesPath, "\n");
                     }
-                    File.AppendAllText(notesPath, "\n");
+                    MessageBox.Show("Usunięto notatkę");
+                    readNoteTextBox.Text = "";
+                    File.Delete(tempPath);
+                    return;
                 }
-                MessageBox.Show("Usunięto notatkę");
-                readNoteTextBox.Text = "";
-                File.Delete(tempPath);
-                return;
+                MessageBox.Show("Nie zapisano żadnych notatek");
             }
-            MessageBox.Show("Nie zapisano żadnych notatek");
+            else
+            {
+                fileName = "number.txt";
+                var numberPath = Path.Combine(path, fileName);
+                readNoteTextBox.Text = "";
+                File.Delete(notesPath);
+                File.Delete(numberPath);
+                MessageBox.Show("Usunięto notatkę");
+            }
         }
     }
 }
