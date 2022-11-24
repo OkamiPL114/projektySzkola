@@ -57,7 +57,10 @@ namespace rozbudzWyobraznie
             string noteNum = GetNoteNumber();
             using(var reader = new StreamReader(notesPath))
             {
-
+                for(int i = 0; i < int.Parse(noteNum); i++)
+                {
+                    string line = reader.ReadLine();
+                }
             }
         }
     }
