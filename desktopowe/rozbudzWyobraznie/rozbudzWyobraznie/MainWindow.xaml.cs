@@ -50,23 +50,27 @@ namespace rozbudzWyobraznie
             var notesPath = Path.Combine(path, fileName);
             string text = saveNoteTextBox.Text;
             File.AppendAllText(notesPath, $"{NewNoteNumber()}.{text}\n");
+            saveNoteTextBox.Text = "";
         }
 
         private void readNote_Click(object sender, RoutedEventArgs e)
         {
-            string fileName = "notes.txt";
-            var path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
-            var notesPath = Path.Combine(path, fileName);
-
-            string noteNum = GetNoteNumber();
-            using(var reader = new StreamReader(notesPath))
+            if(saveNoteTextBox.Text != "")
             {
-                for(int i = 0; i < int.Parse(noteNum); i++)
+                string fileName = "notes.txt";
+                var path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
+                var notesPath = Path.Combine(path, fileName);
+
+                string noteNum = GetNoteNumber();
+                using (var reader = new StreamReader(notesPath))
                 {
-                    string line = reader.ReadLine();
-                    if (line[0].ToString() == noteNum)
+                    for (int i = 0; i < int.Parse(noteNum); i++)
                     {
-                        readNoteTextBox.Text = line;
+                        string line = reader.ReadLine();
+                        if (line[0].ToString() == noteNum)
+                        {
+                            readNoteTextBox.Text = line;
+                        }
                     }
                 }
             }
