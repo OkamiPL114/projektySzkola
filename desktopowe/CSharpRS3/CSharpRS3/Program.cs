@@ -34,7 +34,7 @@ namespace CSharpRS3
         }
         public double ObliczKosztPrzejazdu(double dlugoscTrasy, double cenaPaliwa)
         {
-            return (SrednieSpalanie * dlugoscTrasy) * cenaPaliwa;
+            return Math.Round((ObliczSpalanie(dlugoscTrasy) * dlugoscTrasy) * cenaPaliwa);
         }
         public void WypiszInfo()
         {
@@ -65,6 +65,9 @@ namespace CSharpRS3
             s2.WypiszInfo();
 
             double kosztPrzejazdu = s2.ObliczKosztPrzejazdu(30.5, 4.85);
+            Console.WriteLine($"Koszt przejazdu: {kosztPrzejazdu}");
+
+            Samochod.WypiszIloscSamochodow();
         }
     }
 }
