@@ -50,8 +50,15 @@ namespace rozbudzWyobraznie
 
         private void readNote_Click(object sender, RoutedEventArgs e)
         {
-            string noteNum = GetNoteNumber();
+            string fileName = "notes.txt";
+            var path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
+            var notesPath = Path.Combine(path, fileName);
 
+            string noteNum = GetNoteNumber();
+            using(var reader = new StreamReader(notesPath))
+            {
+
+            }
         }
     }
 }
