@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:rozbudzWyobraznie"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Notatnik" Height="450" Width="800">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.RowSpan="2" Margin="10" VerticalScrollBarVisibility="Auto" x:Name="saveNoteTextBox" TextWrapping="Wrap"/>
+        <TextBox Grid.RowSpan="2" Grid.Column="1" IsEnabled="False" Margin="10" VerticalScrollBarVisibility="Auto" x:Name="readNoteTextBox" TextWrapping="Wrap"/>
+        <Button Content="Zapisz notatkę" FontSize="20" Grid.Row="2" Padding="20" HorizontalAlignment="Center" VerticalAlignment="Center" Click="saveNote_Click"/>
+        <Button Content="Odczytaj ostatnią notatkę" FontSize="20" Grid.Row="2" Grid.Column="1" Padding="20" HorizontalAlignment="Center" VerticalAlignment="Center" Click="readNote_Click"/>
     </Grid>
 </Window>
