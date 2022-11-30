@@ -1,0 +1,15 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\github\projektySzkola\desktopowe\STS__\STS__\obj\Debug\net6.0\STS__.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\github\projektySzkola\desktopowe\STS__\STS__\obj\Debug\net6.0\STS__.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\github\projektySzkola\desktopowe\STS__\STS__\obj\Debug\net6.0\STS__.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\github\projektySzkola\desktopowe\STS__\STS__\obj\Debug\net6.0\STS__.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\github\projektySzkola\desktopowe\STS__\STS__\obj\Debug\net6.0\STS__.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\github\projektySzkola\desktopowe\STS__\STS__\bin\Debug\net6.0\STS__.exe
+C:\Users\galuszka.szymon.ptb_\Desktop\github\projektySzkola\desktopowe\STS__\STS__\bin\Debug\net6.0\STS__.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\github\projektySzkola\desktopowe\STS__\STS__\bin\Debug\net6.0\STS__.runtimeconfig.json
+C:\Users\galuszka.szymon.ptb_\Desktop\github\projektySzkola\desktopowe\STS__\STS__\bin\Debug\net6.0\STS__.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\github\projektySzkola\desktopowe\STS__\STS__\bin\Debug\net6.0\STS__.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\github\projektySzkola\desktopowe\STS__\STS__\obj\Debug\net6.0\STS__.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\github\projektySzkola\desktopowe\STS__\STS__\obj\Debug\net6.0\refint\STS__.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\github\projektySzkola\desktopowe\STS__\STS__\obj\Debug\net6.0\STS__.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\github\projektySzkola\desktopowe\STS__\STS__\obj\Debug\net6.0\STS__.genruntimeconfig.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\github\projektySzkola\desktopowe\STS__\STS__\obj\Debug\net6.0\ref\STS__.dll
