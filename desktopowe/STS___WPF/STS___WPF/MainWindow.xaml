@@ -27,5 +27,6 @@
         </StackPanel>
         <Button HorizontalAlignment="Center" VerticalAlignment="Center" Padding="30, 10" Content="Postaw jako Gracz 1" Click="player1_Click" Grid.Row="1"/>
         <Button HorizontalAlignment="Center" VerticalAlignment="Center" Padding="30, 10" Content="Postaw jako Gracz 2" Click="player2_Click" Grid.Row="1" Grid.Column="1"/>
+        <Label Content="Prawdopodobieństwo przegranej: 0,75" Margin="10" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
     </Grid>
 </Window>
