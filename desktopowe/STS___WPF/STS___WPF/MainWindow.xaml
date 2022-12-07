@@ -16,16 +16,17 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <StackPanel HorizontalAlignment="Center">
-            <Label Content="Gracz 1 posiada 100 zł" FontSize="30"/>
+            <Label Content="Gracz 1 posiada 100 zł" FontSize="30" x:Name="player1MoneyLabel"/>
             <Label Content="Podaj ile chcesz postawić:" FontSize="15" HorizontalAlignment="Center"/>
             <TextBox Margin="20" Padding="3" FontSize="15" x:Name="player1BetTextBox"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Center" Grid.Column="1">
-            <Label Content="Gracz 2 posiada 100 zł" FontSize="30"/>
+            <Label Content="Gracz 2 posiada 100 zł" FontSize="30" x:Name="player2MoneyLabel"/>
             <Label Content="Podaj ile chcesz postawić:" FontSize="15" HorizontalAlignment="Center"/>
             <TextBox Margin="20" Padding="3" FontSize="15" x:Name="player2BetTextBox"/>
         </StackPanel>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Padding="30, 10" Content="Postaw" Grid.Row="1"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Padding="30, 10" Content="Postaw" Grid.Row="1" Grid.Column="1"/>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Padding="30, 10" Content="Postaw jako Gracz 1" Click="player1_Click" Grid.Row="1"/>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Padding="30, 10" Content="Postaw jako Gracz 2" Click="player2_Click" Grid.Row="1" Grid.Column="1"/>
+        <Label Content="Prawdopodobieństwo przegranej: 0,75" Margin="10" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
     </Grid>
 </Window>
