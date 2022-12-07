@@ -1,0 +1,14 @@
+nav {
+    background-color: skyblue;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    background-color: aqua;
+    padding: 3px;
+    margin-right: 10px;
+    color: black;
+}
+* { 
+    background-color: deepskyblue;
+}
