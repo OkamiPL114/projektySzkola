@@ -3,7 +3,38 @@
 
 <main>
     <h1><%= pageTitle%></h1>
-    
+    <div>
+        <h2>Dodaj użytkownika</h2>
+        <form action="/users" method="post">
+            <div class="control">
+                <label for="firstName">Imię</label>
+                <input type="text" name="firstName" id="firstName" required>
+            </div>
+            <div class="control">
+                <label for="lastName">Nazwisko</label>
+                <input type="text" name="lastName" id="lastName" required>
+            </div>
+            <div class="control">
+                <label for="birthDate">Data urodzenia</label>
+                <input type="date" name="birthDate" id="birthDate" required>
+            </div>
+            <div class="control">
+                <label for="active">Konto aktywne</label>
+                <input type="checkbox" name="active" id="active">
+            </div>
+            <button type="submit">Dodaj użytkownika</button>
+        </form>
+    </div>
+    <% if(users === null) {%>
+        <h2>Brak użytkowników w bazie</h2>
+    <%} else {%>
+        <% users.forEach(user => { %>
+            <div class="displayedUser">
+                <p><%= user.firstName%> <%= user.lastName%>, lat <%= new Date().getFullYear() - new Date(user.birthDate).getFullYear()%></p>
+                <p>Dołączył <%= user.joinDate.toDateString()%>, <% if(user.active){ %>konto aktywne<% }else{ %>konto nieaktywne<% } %></p>
+            </div>
+        <% })%>
+    <%}%>
 </main>
     
 <%- include('./includes/footer.ejs') %>
