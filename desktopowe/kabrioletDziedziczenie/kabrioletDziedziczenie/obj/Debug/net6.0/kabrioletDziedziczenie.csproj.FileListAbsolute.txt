@@ -1,0 +1,15 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\kabrioletDziedziczenie\kabrioletDziedziczenie\bin\Debug\net6.0\kabrioletDziedziczenie.exe
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\kabrioletDziedziczenie\kabrioletDziedziczenie\bin\Debug\net6.0\kabrioletDziedziczenie.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\kabrioletDziedziczenie\kabrioletDziedziczenie\bin\Debug\net6.0\kabrioletDziedziczenie.runtimeconfig.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\kabrioletDziedziczenie\kabrioletDziedziczenie\bin\Debug\net6.0\kabrioletDziedziczenie.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\kabrioletDziedziczenie\kabrioletDziedziczenie\bin\Debug\net6.0\kabrioletDziedziczenie.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\kabrioletDziedziczenie\kabrioletDziedziczenie\obj\Debug\net6.0\kabrioletDziedziczenie.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\kabrioletDziedziczenie\kabrioletDziedziczenie\obj\Debug\net6.0\kabrioletDziedziczenie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\kabrioletDziedziczenie\kabrioletDziedziczenie\obj\Debug\net6.0\kabrioletDziedziczenie.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\kabrioletDziedziczenie\kabrioletDziedziczenie\obj\Debug\net6.0\kabrioletDziedziczenie.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\kabrioletDziedziczenie\kabrioletDziedziczenie\obj\Debug\net6.0\kabrioletDziedziczenie.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\kabrioletDziedziczenie\kabrioletDziedziczenie\obj\Debug\net6.0\kabrioletDziedziczenie.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\kabrioletDziedziczenie\kabrioletDziedziczenie\obj\Debug\net6.0\refint\kabrioletDziedziczenie.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\kabrioletDziedziczenie\kabrioletDziedziczenie\obj\Debug\net6.0\kabrioletDziedziczenie.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\kabrioletDziedziczenie\kabrioletDziedziczenie\obj\Debug\net6.0\kabrioletDziedziczenie.genruntimeconfig.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\kabrioletDziedziczenie\kabrioletDziedziczenie\obj\Debug\net6.0\ref\kabrioletDziedziczenie.dll

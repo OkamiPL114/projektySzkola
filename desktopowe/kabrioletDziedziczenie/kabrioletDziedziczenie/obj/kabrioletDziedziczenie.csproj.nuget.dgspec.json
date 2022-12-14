@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\github\\projektySzkola\\desktopowe\\kabrioletDziedziczenie\\kabrioletDziedziczenie\\kabrioletDziedziczenie.csproj": {}
+    "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\desktopowe\\kabrioletDziedziczenie\\kabrioletDziedziczenie\\kabrioletDziedziczenie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\github\\projektySzkola\\desktopowe\\kabrioletDziedziczenie\\kabrioletDziedziczenie\\kabrioletDziedziczenie.csproj": {
+    "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\desktopowe\\kabrioletDziedziczenie\\kabrioletDziedziczenie\\kabrioletDziedziczenie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\github\\projektySzkola\\desktopowe\\kabrioletDziedziczenie\\kabrioletDziedziczenie\\kabrioletDziedziczenie.csproj",
+        "projectUniqueName": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\desktopowe\\kabrioletDziedziczenie\\kabrioletDziedziczenie\\kabrioletDziedziczenie.csproj",
         "projectName": "kabrioletDziedziczenie",
-        "projectPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\github\\projektySzkola\\desktopowe\\kabrioletDziedziczenie\\kabrioletDziedziczenie\\kabrioletDziedziczenie.csproj",
+        "projectPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\desktopowe\\kabrioletDziedziczenie\\kabrioletDziedziczenie\\kabrioletDziedziczenie.csproj",
         "packagesPath": "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\github\\projektySzkola\\desktopowe\\kabrioletDziedziczenie\\kabrioletDziedziczenie\\obj\\",
+        "outputPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\desktopowe\\kabrioletDziedziczenie\\kabrioletDziedziczenie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\galuszka.szymon.ptb_\\AppData\\Roaming\\NuGet\\NuGet.Config",
