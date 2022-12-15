@@ -23,15 +23,15 @@
             <Label Content="Minimalny zakład: 5zł" FontSize="15" FontWeight="Bold"/>
             <StackPanel Orientation="Horizontal">
                 <RadioButton VerticalAlignment="Center" Checked="janekRadioButton_Checked" x:Name="janekCheckBox"/>
-                <Label Content="Janek ma 200zł" FontSize="15"/>
+                <Label Content="Janek ma 200zł" FontSize="15" x:Name="janekMoneyLabel"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <RadioButton VerticalAlignment="Center" Checked="bartekRadioButton_Checked" x:Name="bartekCheckBox"/>
-                <Label Content="Bartek ma 200zł" FontSize="15"/>
+                <Label Content="Bartek ma 200zł" FontSize="15" x:Name="bartekMoneyLabel"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <RadioButton VerticalAlignment="Center" Checked="arekRadioButton_Checked" x:Name="arekCheckBox"/>
-                <Label Content="Arek ma 200zł" FontSize="15"/>
+                <Label Content="Arek ma 200zł" FontSize="15" x:Name="arekMoneyLabel"/>
             </StackPanel>
         </StackPanel>
 

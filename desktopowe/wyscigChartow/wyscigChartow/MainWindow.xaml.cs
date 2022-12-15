@@ -177,37 +177,42 @@ namespace wyscigChartow
                         janekMoney += janekBet;
                         janekBet = 0;
                         arekBetTextBox.Text = $"Janek nie zawarł zakładu";
-
+                        janekMoneyLabel.Content = $"Janek ma {janekMoney}zł";
                     }
                     else
                     {
                         janekMoney -= janekBet;
                         janekBet = 0;
                         arekBetTextBox.Text = $"Janek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Janek ma {janekMoney}zł";
                     }
                     if(bartekBetDog == 1)
                     {
                         bartekMoney += bartekBet;
                         bartekBet = 0;
                         arekBetTextBox.Text = $"Bartek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Bartek ma {bartekMoney}zł";
                     }
                     else
                     {
                         bartekMoney -= bartekBet;
                         bartekBet = 0;
                         arekBetTextBox.Text = $"Bartek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Bartek ma {bartekMoney}zł";
                     }
                     if(arekBetDog == 1)
                     {
                         arekMoney += arekBet;
                         arekBet = 0;
                         arekBetTextBox.Text = $"Arek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Arek ma {arekMoney}zł";
                     }
                     else
                     {
                         arekMoney -= arekBet;
                         arekBet = 0;
                         arekBetTextBox.Text = $"Arek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"arek ma {arekMoney}zł";
                     }
                     MessageBox.Show("Wygrał chart 1!");
                 }
@@ -218,36 +223,42 @@ namespace wyscigChartow
                         janekMoney += janekBet;
                         janekBet = 0;
                         arekBetTextBox.Text = $"Janek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Janek ma {janekMoney}zł";
                     }
                     else
                     {
                         janekMoney -= janekBet;
                         janekBet = 0;
                         arekBetTextBox.Text = $"Janek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Janek ma {janekMoney}zł";
                     }
                     if (bartekBetDog == 2)
                     {
                         bartekMoney += bartekBet;
                         bartekBet = 0;
                         arekBetTextBox.Text = $"Bartek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Bartek ma {bartekMoney}zł";
                     }
                     else
                     {
                         bartekMoney -= bartekBet;
                         bartekBet = 0;
                         arekBetTextBox.Text = $"Bartek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Bartek ma {bartekMoney}zł";
                     }
                     if (arekBetDog == 2)
                     {
                         arekMoney += arekBet;
                         arekBet = 0;
                         arekBetTextBox.Text = $"Arek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Arek ma {arekMoney}zł";
                     }
                     else
                     {
                         arekMoney -= arekBet;
                         arekBet = 0;
                         arekBetTextBox.Text = $"Arek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Arek ma {arekMoney}zł";
                     }
                     MessageBox.Show("Wygrał chart 2!");
                 }
@@ -258,36 +269,42 @@ namespace wyscigChartow
                         janekMoney += janekBet;
                         janekBet = 0;
                         arekBetTextBox.Text = $"Janek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Janek ma {janekMoney}zł";
                     }
                     else
                     {
                         janekMoney -= janekBet;
                         janekBet = 0;
                         arekBetTextBox.Text = $"Janek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Janek ma {janekMoney}zł";
                     }
                     if (bartekBetDog == 3)
                     {
                         bartekMoney += bartekBet;
                         bartekBet = 0;
                         arekBetTextBox.Text = $"Bartek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Bartek ma {bartekMoney}zł";
                     }
                     else
                     {
                         bartekMoney -= bartekBet;
                         bartekBet = 0;
                         arekBetTextBox.Text = $"Bartek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Bartek ma {bartekMoney}zł";
                     }
                     if (arekBetDog == 3)
                     {
                         arekMoney += arekBet;
                         arekBet = 0;
                         arekBetTextBox.Text = $"Arek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Arek ma {arekMoney}zł";
                     }
                     else
                     {
                         arekMoney -= arekBet;
                         arekBet = 0;
                         arekBetTextBox.Text = $"Arek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Arek ma {arekMoney}zł";
                     }
                     MessageBox.Show("Wygrał chart 3!");
                 }
@@ -298,36 +315,42 @@ namespace wyscigChartow
                         janekMoney += janekBet;
                         janekBet = 0;
                         arekBetTextBox.Text = $"Janek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Janek ma {janekMoney}zł";
                     }
                     else
                     {
                         janekMoney -= janekBet;
                         janekBet = 0;
                         arekBetTextBox.Text = $"Janek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Janek ma {janekMoney}zł";
                     }
                     if (bartekBetDog == 4)
                     {
                         bartekMoney += bartekBet;
                         bartekBet = 0;
                         arekBetTextBox.Text = $"Bartek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Bartek ma {bartekMoney}zł";
                     }
                     else
                     {
                         bartekMoney -= bartekBet;
                         bartekBet = 0;
                         arekBetTextBox.Text = $"Bartek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"bartek ma {bartekMoney}zł";
                     }
                     if (arekBetDog == 4)
                     {
                         arekMoney += arekBet;
                         arekBet = 0;
                         arekBetTextBox.Text = $"Arek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Arek ma {arekMoney}zł";
                     }
                     else
                     {
                         arekMoney -= arekBet;
                         arekBet = 0;
                         arekBetTextBox.Text = $"Arek nie zawarł zakładu";
+                        janekMoneyLabel.Content = $"Arek ma {arekMoney}zł";
                     }
                     MessageBox.Show("Wygrał chart 4!");
                 }
