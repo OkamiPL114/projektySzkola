@@ -22,32 +22,33 @@
         <StackPanel Margin="10">
             <Label Content="Minimalny zakład: 5zł" FontSize="15" FontWeight="Bold"/>
             <StackPanel Orientation="Horizontal">
-                <RadioButton VerticalAlignment="Center"/>
+                <RadioButton VerticalAlignment="Center" Checked="janekRadioButton_Checked" x:Name="janekCheckBox"/>
                 <Label Content="Janek ma 200zł" FontSize="15"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <RadioButton VerticalAlignment="Center"/>
+                <RadioButton VerticalAlignment="Center" Checked="bartekRadioButton_Checked" x:Name="bartekCheckBox"/>
                 <Label Content="Bartek ma 200zł" FontSize="15"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <RadioButton VerticalAlignment="Center"/>
+                <RadioButton VerticalAlignment="Center" Checked="arekRadioButton_Checked" x:Name="arekCheckBox"/>
                 <Label Content="Arek ma 200zł" FontSize="15"/>
             </StackPanel>
         </StackPanel>
 
         <StackPanel Margin="10" Grid.Column="1">
             <Label Content="Zakłady" FontWeight="Bold" FontSize="15"/>
-            <TextBox FontSize="15" Margin="5"/>
-            <TextBox FontSize="15" Margin="5"/>
-            <TextBox FontSize="15" Margin="5"/>
+            <TextBox FontSize="14" Margin="5" x:Name="janekBetTextBox" Text="Janek nie zawarł zakładu"/>
+            <TextBox FontSize="14" Margin="5" x:Name="bartekBetTextBox" Text="Bartek nie zawarł zakładu"/>
+            <TextBox FontSize="14" Margin="5" x:Name="arekBetTextBox" Text="Arek nie zawarł zakładu"/>
         </StackPanel>
 
-        <Button Grid.Column="2" Margin="30" Content="Start!" FontSize="40"/>
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal">
-            <Label Content="Janek stawia" FontSize="15"/>
-            <toolkit:IntegerUpDown Value="10" Height="35" VerticalAlignment="Top"/>
+        <Button Grid.Column="2" Margin="30" Content="Start!" FontSize="40" Click="StartBet_Click"/>
+        
+        <StackPanel Visibility="Hidden" x:Name="bettingStackPanel" Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal">
+            <Label Content="Janek stawia" FontSize="15" x:Name="whoBetsLabel"/>
+            <toolkit:IntegerUpDown Minimum="5" Maximum="15" Value="5" Height="35" VerticalAlignment="Top" ValueChanged="betAmountIntegerUpDown_ValueChanged" x:Name="betAmount"/>
             <Label Content="zł na charta nr " FontSize="15"/>
-            <toolkit:IntegerUpDown Value="1" Height="35" VerticalAlignment="Top"/>
+            <toolkit:IntegerUpDown Minimum="1" Maximum="4" Value="1" Height="35" VerticalAlignment="Top" ValueChanged="dogNumberIntegerUpDown_ValueChanged" x:Name="dogNumber"/>
         </StackPanel>
     </Grid>
 </Window>
