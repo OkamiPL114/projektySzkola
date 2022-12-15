@@ -11,14 +11,14 @@ namespace kabrioletDziedziczenie
         protected string marka;
         protected int poj_baku;
         protected int predkosc_max;
-        protected int zuzycia_paliwa;
+        protected int zuzycie_paliwa;
 
         public Samochod(string marka, int poj_baku, int predkosc_max, int zuzycia_paliwa)
         {
             this.marka = marka;
             this.poj_baku = poj_baku;
             this.predkosc_max = predkosc_max;
-            this.zuzycia_paliwa = zuzycia_paliwa;
+            this.zuzycie_paliwa = zuzycia_paliwa;
         }
         public void Jedz(float jakSzybko, float jakDaleko)
         {
@@ -28,7 +28,8 @@ namespace kabrioletDziedziczenie
             }
             else
             {
-                Console.WriteLine($"{marka} pojedzie z prędkością {jakSzybko}, oraz będzie musiało tankować {(int)(jakDaleko / (poj_baku * 100)) / zuzycia_paliwa} razy");
+                double ileRazyTankowac = ((jakDaleko / 100) * zuzycie_paliwa) / poj_baku;
+                Console.WriteLine($"{marka} pojedzie z prędkością {jakSzybko}, oraz będzie musiało tankować {Math.Round(ileRazyTankowac * 10)} razy");
             }
         }
     }
@@ -40,7 +41,7 @@ namespace kabrioletDziedziczenie
             this.marka = marka;
             this.poj_baku = poj_baku;
             this.predkosc_max = predkosc_max;
-            this.zuzycia_paliwa = zuzycia_paliwa;
+            this.zuzycie_paliwa = zuzycia_paliwa;
             this.dach_otwarty = dach_otwarty;
         }
         public void otworz_dach()
@@ -59,13 +60,15 @@ namespace kabrioletDziedziczenie
             }
             else
             {
-                if (dach_otwarty)
+                if (dach_otwarty) //(jakDaleko/100)* zuzycie_paliwa - ile spali;  ile tankowac - ileSpali/poj_baku
                 {
-                    Console.WriteLine($"{marka} pojedzie z prędkością {jakSzybko}, oraz będzie musiało tankować {(int)(jakDaleko / (poj_baku * 100)) / (zuzycia_paliwa*1.15)} razy");
+                    double ileRazyTankowac = ((jakDaleko / 100) * (zuzycie_paliwa*1.15)) / poj_baku;
+                    Console.WriteLine($"{marka} pojedzie z prędkością {jakSzybko}, oraz będzie musiało tankować {Math.Round(ileRazyTankowac*10)} razy");
                 }
                 else
                 {
-                    Console.WriteLine($"Auto pojedzie z prędkością {jakSzybko}, oraz będzie musiało tankować {(int)(jakDaleko / (poj_baku * 100)) / zuzycia_paliwa} razy");
+                    double ileRazyTankowac = ((jakDaleko / 100) * zuzycie_paliwa) / poj_baku;
+                    Console.WriteLine($"{marka} pojedzie z prędkością {jakSzybko}, oraz będzie musiało tankować {Math.Round(ileRazyTankowac * 10)} razy");
                 }
             }
         }
