@@ -83,9 +83,26 @@ namespace ListViewDemo
             usersListView.EndRefresh(); // zakończenie jawne odświeżania
         }
 
-        private void editMenuItem_Clicked(object sender, EventArgs e)
+        private async void editMenuItem_Clicked(object sender, EventArgs e)
         {
+            var menuItem = (MenuItem)sender;
+            var user = (User)menuItem.CommandParameter;
 
+            var change = await DisplayAlert("Edycja użytkownika", $"Czy chcesz edytować użytkownika {user.Name}?", "Tak", "Nie");
+
+            if(!change) return;
+
+            var name = await DisplayPromptAsync("Edycja użytkownika", $"Wpisz imię użytkownika {user.Name}", "Zatwierdź", "Anuluj");
+            if (name == null || name == "")
+                return;
+            
+            var email = await DisplayPromptAsync("Edycja użytkownika", "Wpisz email użytkownika", "Zatwierdź", "Anuluj");
+            if (email == null || email == "")
+                return;
+
+            user.Email = email;
+            user.Name = name;
+            await DisplayAlert("Edycja użytkownika", "Pomyślna edycja danych użytkownika", "OK");
         }
     }
 }
