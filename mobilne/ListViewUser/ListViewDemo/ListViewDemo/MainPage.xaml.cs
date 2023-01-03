@@ -47,5 +47,45 @@ namespace ListViewDemo
 
 
         }
+
+        private async void moreMenuItem_Clicked(object sender, EventArgs e)
+        {
+            var menuItem = (MenuItem)sender;
+            var user = (User) menuItem.CommandParameter; // bieżący użytkownik
+            var userDetails = $"Nazwa : {user.Name}\nEmail: {user.Email}";
+            await DisplayAlert("informacje o użytkowniku", userDetails, "OK");
+        }
+
+        private async void deleteMenuItem_Clicked(object sender, EventArgs e)
+        {
+            var menuItem = (MenuItem)sender;
+            var user = (User)menuItem.CommandParameter;
+
+            var delete = await DisplayAlert($"Usuwanie użytkownika: {user.Name}", "Czy na pewno usunąć użytkownika?", "Tak", "Nie");
+
+            if (!delete) return;
+
+            var isDeleted = users.Remove(user);
+
+            string message = "";
+            if (isDeleted)
+                message = $"Pomyślnie usunięto użytkownika {user.Name}";
+            else
+                message = $"Wystąpił błąd podczas usuwania użytkownika {user.Name}";
+
+            await DisplayAlert("Usuwanie użytkownika", message, "OK");
+        }
+
+        private void usersListView_Refreshing(object sender, EventArgs e)
+        {
+            // operacje zwiąane z odświeżeniem listy
+            usersListView.ItemsSource = users;
+            usersListView.EndRefresh(); // zakończenie jawne odświeżania
+        }
+
+        private void editMenuItem_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

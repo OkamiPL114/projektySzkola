@@ -26,11 +26,29 @@
                 FontSize="20"
                 CornerRadius="20"/>
         
-        <ListView x:Name="usersListView">
+        <ListView x:Name="usersListView"
+                  IsPullToRefreshEnabled="True"
+                  Refreshing="usersListView_Refreshing">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell Text="{Binding Name}"
-                              Detail="{Binding Email}"/>
+                              Detail="{Binding Email}">
+                        <TextCell.ContextActions>
+                            <MenuItem Text="Więcej"
+                                      CommandParameter="{Binding .}"
+                                      x:Name="moreMenuItem"
+                                      Clicked="moreMenuItem_Clicked"/>
+                            <MenuItem Text="Usuń"
+                                      CommandParameter="{Binding .}"
+                                      x:Name="deleteMenuItem"
+                                      Clicked="deleteMenuItem_Clicked"
+                                      IsDestructive="True"/>
+                            <MenuItem Text="Edytuj"
+                                      CommandParameter="{Binding .}"
+                                      x:Name="editMenuItem"
+                                      Clicked="editMenuItem_Clicked"/>
+                        </TextCell.ContextActions>
+                    </TextCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
