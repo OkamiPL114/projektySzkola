@@ -44,8 +44,6 @@ namespace ListViewDemo
             }
 
             users.Add(new User() { Name = enteredName, Email = enteredEmail });
-
-
         }
 
         private async void moreMenuItem_Clicked(object sender, EventArgs e)
@@ -88,21 +86,19 @@ namespace ListViewDemo
             var menuItem = (MenuItem)sender;
             var user = (User)menuItem.CommandParameter;
 
-            var change = await DisplayAlert("Edycja użytkownika", $"Czy chcesz edytować użytkownika {user.Name}?", "Tak", "Nie");
+            var editedIndex = users.IndexOf(user);
 
-            if(!change) return;
-
-            var name = await DisplayPromptAsync("Edycja użytkownika", $"Wpisz imię użytkownika {user.Name}", "Zatwierdź", "Anuluj");
-            if (name == null || name == "")
+            var name = await DisplayPromptAsync("Edycja użytkownika", $"Wpisz imię użytkownika {user.Name}", "Zatwierdź", "Anuluj", $"{user.Name}");
+            if (name == null || name.Trim().Length == 0)
                 return;
-            
-            var email = await DisplayPromptAsync("Edycja użytkownika", "Wpisz email użytkownika", "Zatwierdź", "Anuluj");
-            if (email == null || email == "")
-                return;
-
-            user.Email = email;
             user.Name = name;
-            await DisplayAlert("Edycja użytkownika", "Pomyślna edycja danych użytkownika", "OK");
+
+            var email = await DisplayPromptAsync("Edycja użytkownika", "Wpisz email użytkownika", "Zatwierdź", "Anuluj", $"{user.Email}");
+            if (email == null || email.Trim().Length == 0)
+                return;
+            user.Email = email;
+
+            users[editedIndex] = user;
         }
     }
 }
