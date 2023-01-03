@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListViewDemo.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkGray"
+               CornerRadius="20"
+               Margin="30">
+            <Label Text="Lista użytkowników"
+                   FontSize="30"
+                   HorizontalOptions="Center"
+                   TextColor="White"
+                   />
+        </Frame>
+
+        <BoxView HeightRequest="1" 
+                 Margin="20, 0"
+                 BackgroundColor="#555555"/>
+
+        <Button Text="Dodaj użytkownika" 
+                x:Name="addUser"
+                Clicked="addUser_Clicked"
+                Padding="30"
+                Margin="30, 10"
+                FontSize="20"
+                CornerRadius="20"/>
+        
+        <ListView x:Name="usersListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}"
+                              Detail="{Binding Email}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
