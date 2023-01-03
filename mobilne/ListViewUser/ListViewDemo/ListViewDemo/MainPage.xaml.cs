@@ -18,7 +18,21 @@ namespace ListViewDemo
 
             users = new ObservableCollection<User>()
             {
-                new User(){ Name = "Jan Kowalski", Email="kowalski@test.com"}
+                new User(){ Name = "Jan Kowalski", Email="kowalski@test.com"},
+                new User(){ Name = "Ewa Nowak", Email="nowak@test.com"},
+                new User(){ Name = "Paweł Panowski", Email="panowski@test.com"},
+                new User(){ Name = "Andrzej Barzyk", Email="barzyk@test.com"},
+                new User(){ Name = "Mateusz Czajka", Email="matCzajka@test.com"},
+                new User(){ Name = "Paweł Czajka", Email="pawCzajka@test.com"},
+                new User(){ Name = "Dominik Czech", Email="czech@test.com"},
+                new User(){ Name = "Wiktor Fornalczyk", Email="fornalczyk@test.com"},
+                new User(){ Name = "Wiktor Gajda", Email="panowski@test.com"},
+                new User(){ Name = "Mariusz Dybaś", Email="dybas@test.com"},
+                new User(){ Name = "Michał Dziedzic", Email="dziedzic@test.com"},
+                new User(){ Name = "Dominik Gajewski", Email="domGajewski@test.com"},
+                new User(){ Name = "Radek Gajewski", Email="radGajewski@test.com"},
+                new User(){ Name = "Szymon Gałuszka", Email="galuszka@test.com"},
+                new User(){ Name = "Kacper Kołodziej", Email="kolodziej@test.com"}
             };
            
             usersListView.ItemsSource = users;

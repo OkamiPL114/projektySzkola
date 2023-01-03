@@ -28,7 +28,8 @@
         
         <ListView x:Name="usersListView"
                   IsPullToRefreshEnabled="True"
-                  Refreshing="usersListView_Refreshing">
+                  Refreshing="usersListView_Refreshing"
+                  SelectionMode="None">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell Text="{Binding Name}"
