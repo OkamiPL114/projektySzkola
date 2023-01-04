@@ -1,9 +1,11 @@
 * {
     font-family: Arial;
 }
+
 body {
     margin: 0 10%;
 }
+
 header {
     background-color: #ccc;
     display: flex;
@@ -12,40 +14,49 @@ header {
     align-items: center;
     padding: 10px 20px;
 }
+
 nav {
     background-color: #444;
     padding: 10px;
 }
+
 nav a {
     color: #ccc;
     text-decoration: none;
     font-size: 1.5rem;
     padding: 5px 10px;
 }
+
 nav a:hover {
     background-color: #222;
     color: white;
     padding: 5px 10px;
 }
+
 nav ul li {
     list-style-type: none;
     padding: 0 10px;
 }
+
 nav ul {
     display: flex;
 }
+
 main {
     background-color: #eee;
     padding: 30px;
 }
+
 footer {
     background-color: #444;
     color: white;
     padding: 10px;
 }
+
 hr {
     border: 0.5px solid orange;
 }
+
 form.add {
     width: 30rem;
     border: 3px solid orange;
@@ -54,9 +65,11 @@ form.add {
     padding: 30px 40px;
     margin-bottom: 40px;
 }
+
 .control {
     padding: 10px 0;
 }
+
 button {
     border: 2px solid #333;
     border-radius: 10px;
@@ -69,14 +82,18 @@ button:hover {
     background-color: white;
     cursor: pointer;
 }
+
 table {
     border-collapse: collapse;
     background-color: rgb(220, 251, 220);
 }
-th, td {
+
+th,
+td {
     border: 1px solid #777;
     padding: 10px 20px;
 }
+
 .warning {
     color: red;
 }

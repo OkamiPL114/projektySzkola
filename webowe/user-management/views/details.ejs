@@ -1,0 +1,15 @@
+<%- include('./includes/header.ejs') %> <%- include('./includes/navigation.ejs') %>
+
+<main>
+<h1>
+    <%= pageTitle%>
+</h1>
+    <p>Imię: <%= user.firstname %></p>
+    <p>Nazwisko: <%= user.lastname %></p>
+    <p>Wiek: <%= new Date().getFullYear() - new Date(user.birthdate).getFullYear() %></p>
+    <p>Płeć: <%= user.gender %></p>
+    <p>Data dołączenia: <%= new Date(user.joinDate).toDateString()%></p>
+    <p>Aktywny: <%= user.active ? "tak" : "nie" %></p>
+</main>
+
+<%- include('./includes/footer.ejs') %>

@@ -1,29 +1,30 @@
-<%- include('./includes/header.ejs') %> <%- include('./includes/navigation.ejs')
-%>
+<%- include('./includes/header.ejs') %> <%- include('./includes/navigation.ejs') %>
 
-<main>
-  <h1><%= pageTitle%></h1>
-  <form action="/update" method="post" class ="add">
-    <div class="control">
-      <label for="firstname">Imię</label>
-      <input type="text" name="firstname" id="firstname" value="<%=user.firstname%>" required />
-    </div>
-    <div class="control">
-      <label for="lastname">Nazwisko</label>
-      <input type="text" name="lastname" id="lastname" value="<%=user.lastname%>"required />
-    </div>
-    <div class="control">
-      <label for="birthdate">Data Urodzenia</label>
-      <input type="date" name="birthdate" id="birthdate" value="<%=birthdateStr%>" required />
-    </div>
-    <div class="control">
-      <label for="active">Konto Aktywne</label>
-      <input type="checkbox" name="active" id="active" <%= user.active ? "checked" : "" %> />
-    </div>
-    <input type="hidden" name="userId" value="<%=user.id%>">
-    <button type="submit">Anuluj</button>
-    <button type="submit" value="applyBtn" name="applyBtn">Zatwierdź</button>
-  </form> 
-</main>
+    <main>
+      <h1>
+        <%= pageTitle%>
+      </h1>
+      <form action="/update" method="post" class="add">
+        <div class="control">
+          <label for="firstname">Imię</label>
+          <input type="text" name="firstname" id="firstname" value="<%=user.firstname%>" required />
+        </div>
+        <div class="control">
+          <label for="lastname">Nazwisko</label>
+          <input type="text" name="lastname" id="lastname" value="<%=user.lastname%>" required />
+        </div>
+        <div class="control">
+          <label for="birthdate">Data Urodzenia</label>
+          <input type="date" name="birthdate" id="birthdate" value="<%=birthdateStr%>" required />
+        </div>
+        <div class="control">
+          <label for="active">Konto Aktywne</label>
+          <input type="checkbox" name="active" id="active" <%=user.active ? "checked" : "" %> />
+        </div>
+        <input type="hidden" name="userId" value="<%=user.id%>">
+        <button type="submit">Anuluj</button>
+        <button type="submit" value="applyBtn" name="applyBtn">Zatwierdź</button>
+      </form>
+    </main>
 
-<%- include('./includes/footer.ejs') %>
+    <%- include('./includes/footer.ejs') %>

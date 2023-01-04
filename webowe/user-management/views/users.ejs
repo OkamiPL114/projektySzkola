@@ -1,64 +1,72 @@
-<%- include('./includes/header.ejs') %> <%- include('./includes/navigation.ejs')
-%>
+<%- include('./includes/header.ejs') %> <%- include('./includes/navigation.ejs') %>
 
-<main>
-  <h1><%= pageTitle%></h1>
-  <h2>Dodaj użytkownika</h2>
-  <form action="/users" method="post" class ="add">
-    <div class="control">
-      <label for="firstname">Imię</label>
-      <input type="text" name="firstname" id="firstname" required />
-    </div>
-    <div class="control">
-      <label for="lastname">Nazwisko</label>
-      <input type="text" name="lastname" id="lastname" required />
-    </div>
-    <div class="control">
-      <label for="birthdate">Data Urodzenia</label>
-      <input type="date" name="birthdate" id="birthdate" required />
-    </div>
-    <div class="control">
-      <label for="active">Konto Aktywne</label>
-      <input type="checkbox" name="active" id="active" />
-    </div>
-    <button type="submit">Dodaj użytkownika</button>
-  </form>
+    <main>
+      <h1>
+        <%= pageTitle%>
+      </h1>
+      <h2>Dodaj użytkownika</h2>
+      <form action="/users" method="post" class="add">
+        <div class="control">
+          <label for="firstname">Imię</label>
+          <input type="text" name="firstname" id="firstname" required />
+        </div>
+        <div class="control">
+          <label for="lastname">Nazwisko</label>
+          <input type="text" name="lastname" id="lastname" required />
+        </div>
+        <div class="control">
+          <label for="birthdate">Data Urodzenia</label>
+          <input type="date" name="birthdate" id="birthdate" required />
+        </div>
+        <div class="control">
+          <label for="active">Konto Aktywne</label>
+          <input type="checkbox" name="active" id="active" />
+        </div>
+        <input type="radio" name="gender" value="male" required> Mężczyzna <br>
+        <input type="radio" name="gender" value="female" required> Kobieta <br>
+        <input type="radio" name="gender" value="other" required> Inne <br>
+        <button type="submit">Dodaj użytkownika</button>
+      </form>
 
-  <% if(users.length === 0) { %>
-  <h2>Brak użytkowników w bazie!</h2>
-  <% } else { %>
-  <table>
-    <tr>
-      <th>Imię</th>
-      <th>Nazwisko</th>    
-      <th colspan="3">Operacje</th>
-    </tr>
-    <% users.forEach(user => { %>
-    <tr>
-      <td><%=user.firstname%></td>
-      <td><%=user.lastname%></td>  
-      <td>
-        <form action="/details" method="post">
-          <input type="hidden" name="userId" value="<%=user.id%>" />
-          <button type="submit">Szczegóły</button>
-        </form>
-      </td>      
-      <td>
-        <form action="/edit" method="post">
-          <input type="hidden" name="userId" value="<%=user.id%>" />
-          <button type="submit">Edytuj</button>
-        </form>
-      </td>
-      <td>
-        <form action="/delete" method="post">
-          <input type="hidden" name="userId" value="<%=user.id%>" />
-          <button type="submit" class="warning">Usuń</button>
-        </form>
-      </td>
-    </tr>
-    <% }) %>
-  </table>
-  <% } %>
-</main>
+      <% if(users.length===0) { %>
+        <h2>Brak użytkowników w bazie!</h2>
+        <% } else { %>
+          <table>
+            <tr>
+              <th>Imię</th>
+              <th>Nazwisko</th>
+              <th colspan="3">Operacje</th>
+            </tr>
+            <% users.forEach(user=> { %>
+              <tr>
+                <td>
+                  <%=user.firstname%>
+                </td>
+                <td>
+                  <%=user.lastname%>
+                </td>
+                <td>
+                  <form action="/details" method="post">
+                    <input type="hidden" name="userId" value="<%=user.id%>" />
+                    <button type="submit">Szczegóły</button>
+                  </form>
+                </td>
+                <td>
+                  <form action="/edit" method="post">
+                    <input type="hidden" name="userId" value="<%=user.id%>" />
+                    <button type="submit">Edytuj</button>
+                  </form>
+                </td>
+                <td>
+                  <form action="/delete" method="post">
+                    <input type="hidden" name="userId" value="<%=user.id%>" />
+                    <button type="submit" class="warning">Usuń</button>
+                  </form>
+                </td>
+              </tr>
+              <% }) %>
+          </table>
+          <% } %>
+    </main>
 
-<%- include('./includes/footer.ejs') %>
+    <%- include('./includes/footer.ejs') %>
