@@ -5,7 +5,7 @@
     <h1><%= pageTitle%></h1>
     <div>
         <h2>Dodaj użytkownika</h2>
-        <form action="/users" method="post">
+        <form class="add" action="/users" method="post">
             <div class="control">
                 <label for="firstName">Imię</label>
                 <input type="text" name="firstName" id="firstName" required>
@@ -28,13 +28,29 @@
     <% if(users === null) {%>
         <h2>Brak użytkowników w bazie</h2>
     <%} else {%>
-        <% users.forEach(user => { %>
-            <div class="displayedUser">
-                <p><%= user.firstName%> <%= user.lastName%>, lat <%= new Date().getFullYear() - new Date(user.birthDate).getFullYear()%></p>
-                <p>Dołączył <%= user.joinDate.toDateString()%>, <% if(user.active){ %>konto aktywne<% }else{ %>konto nieaktywne<% } %></p>
-            </div>
-        <% })%>
-    <%}%>
-</main>
+        <table>
+            <tr>
+                <th>Imię i nazwisko</th>
+                <th>Wiek</th>
+                <th>Data dołączenia</th>
+                <th>Aktywny</th>
+            </tr>
+                <% users.forEach(user => { %>
+                <tr>
+                    <td><%= user.firstName%> <%= user.lastName%></td>
+                    <td><%= new Date().getFullYear() - new Date(user.birthDate).getFullYear()%></td>
+                    <td><%= user.joinDate.toDateString()%></td>
+                    <td><%= user.active ? "tak" : "nie" %></td>
+                    <td>
+                        <form action="/delete" method="post">
+                        <input type="hidden" name="userId" value="<%= user.id %>">
+                        <button type="submit">Usuń</button>
+                    </form>
+                    </td>
+                </tr>
+            <% })%>
+        </table>
+        <%}%>
+    </main>
     
 <%- include('./includes/footer.ejs') %>

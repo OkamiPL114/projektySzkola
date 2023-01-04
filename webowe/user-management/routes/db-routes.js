@@ -27,4 +27,15 @@ router.post('/users', async (req, res, next) => {
     res.redirect('/users');
 })
 
+router.post('/delete', async (req, res, next) => {
+    const id = req.body.userId;
+
+    try {
+        await User.findByIdAndDelete(id);
+    } catch (e) {
+        console.log(e.message);
+    }
+    res.redirect('/users');
+})
+
 module.exports = router;
