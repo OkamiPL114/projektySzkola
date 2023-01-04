@@ -47,27 +47,36 @@ hr {
     border: 0.5px solid orange;
 }
 form.add {
+    width: 30rem;
     border: 3px solid orange;
-    background-color: rgb(250, 228, 187);
-    border-radius: 20px;
-    padding: 20px 20px;
-    margin: 20px 0px;
-    width: 400px;
+    border-radius: 30px;
+    background-color: rgb(255, 224, 168);
+    padding: 30px 40px;
+    margin-bottom: 40px;
 }
 .control {
-    margin: 10px 0px;
+    padding: 10px 0;
 }
-.displayedUser {
-    background-color: burlywood;
-    border-radius: 20px;
-    border: 3px solid orange;
-    padding: 10px;
-    margin: 10px 0px;
+button {
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px 20px;
+    font-size: 1rem;
 }
 
-td, th {
-    background-color: lightgoldenrodyellow;
-    text-align: center;
-    border: 1px solid black;
-    padding: 5px;
+button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+table {
+    border-collapse: collapse;
+    background-color: rgb(220, 251, 220);
+}
+th, td {
+    border: 1px solid #777;
+    padding: 10px 20px;
+}
+.warning {
+    color: red;
 }
