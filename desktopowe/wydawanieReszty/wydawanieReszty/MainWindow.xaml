@@ -26,7 +26,7 @@
             </StackPanel>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Center">
-            <ListBox Height="215" Width="233"/>
+            <ListBox Height="215" Width="233" x:Name="outputListBox"/>
         </StackPanel>
     </Grid>
 </Window>
