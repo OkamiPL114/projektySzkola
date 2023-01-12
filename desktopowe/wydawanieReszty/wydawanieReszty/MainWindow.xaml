@@ -18,15 +18,20 @@
         </Grid.RowDefinitions>
         <StackPanel Grid.ColumnSpan="3" HorizontalAlignment="Center">
             <Label Content="Dostępne nominały:" />
-            <Label Content="(500, 200, 100, 50, 20, 10, 5, 2, 1, 0.50, 0.20, 0.10, 0.5, 0.2, 0.1)zł"/>
+            <Label x:Name="nominalsLabel" Content="(500, 200, 100, 50, 20, 10, 5, 2, 1, 0.50, 0.20, 0.10, 0.5, 0.2, 0.1)zł"/>
             <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
                 <Label Content="Podaj kwotę do wybrania:"/>
                 <TextBox x:Name="inputTextBox" MinWidth="100" Margin="10,0,10,0"/>
-                <Button Content="Wypłać" Click="Button_Click" Padding="10,5" Margin="10,0,0,0" Background="White" BorderBrush="Blue"/>
+                <Button Content="Wypłać" Click="giveChange_Click" Padding="10,5" Margin="10,0,0,0" Background="White" BorderBrush="Blue"/>
             </StackPanel>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Center">
             <ListBox Height="215" Width="233" x:Name="outputListBox"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Top">
+            <Label Content="Dodaj nominał:"/>
+            <TextBox MinWidth="100" x:Name="nominalTextBox"/>
+            <Button Click="addNominal_Click" Content="Dodaj" Margin="10,0,0,0" Padding="5"/>
         </StackPanel>
     </Grid>
 </Window>
