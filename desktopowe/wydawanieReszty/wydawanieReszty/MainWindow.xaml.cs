@@ -70,7 +70,7 @@ namespace wydawanieReszty
             }
             tab2[tab2.Length - 1] = double.Parse(nominalTextBox.Text);
             */
-            tab.Append<double>(double.Parse(nominalTextBox.Text));
+            tab.Add(double.Parse(nominalTextBox.Text));
             for(int i = 0; i < tab.Count; i++)
             {
                 for(int j = 0; j < tab.Count; j++)
