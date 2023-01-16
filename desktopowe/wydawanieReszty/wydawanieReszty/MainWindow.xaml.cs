@@ -45,31 +45,6 @@ namespace wydawanieReszty
 
         private void addNominal_Click(object sender, RoutedEventArgs e)
         {
-            //double[] tab2 = new double[tab.Length];
-            /*for(int i = 0; i < tab.Length; i++)
-            {
-                if (double.Parse(nominalTextBox.Text) < tab[i])
-                {
-                    tab2[i] = double.Parse(nominalTextBox.Text);
-                }
-                else
-                {
-                    if(i == 0)
-                    {
-                        tab2[i] = tab[i];
-                    }
-                    else
-                    {
-                        tab2[i] = tab[i-1];
-                    }
-                }
-            }*/
-            /*for(int i = 0; i < tab2.Length; i++)
-            {
-                tab2[i] = tab[i];
-            }
-            tab2[tab2.Length - 1] = double.Parse(nominalTextBox.Text);
-            */
             tab.Add(double.Parse(nominalTextBox.Text));
             for(int i = 0; i < tab.Count; i++)
             {
