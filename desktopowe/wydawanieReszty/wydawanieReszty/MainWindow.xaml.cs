@@ -31,7 +31,9 @@ namespace wydawanieReszty
         {
             outputListBox.Items.Clear();
             double change = double.Parse(inputTextBox.Text);
-            
+            double changeGot = double.Parse(inputTextBox.Text);
+            double sum = 0;
+
             for(int i = 0; i < tab.Count; i++)
             {
                 if (tab[i] <= change)
@@ -39,7 +41,16 @@ namespace wydawanieReszty
                     double amount = Math.Floor(change / tab[i]);
                     change = change - (amount * tab[i]);
                     outputListBox.Items.Add($"{amount} x {tab[i]}zł");
+                    sum += amount * tab[i];
                 }
+            }
+            if(sum == changeGot)
+            {
+                isEqualTextBox.Text = "Wszystko zostało dokładnie policzone";
+            }
+            else
+            {
+                isEqualTextBox.Text = "Coś zostało policzone niepoprawnie";
             }
         }
 
