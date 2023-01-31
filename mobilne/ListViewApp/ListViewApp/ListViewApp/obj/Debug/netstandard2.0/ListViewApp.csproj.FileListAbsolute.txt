@@ -1,0 +1,15 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\ListViewApp\ListViewApp\ListViewApp\bin\Debug\netstandard2.0\ListViewApp.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\ListViewApp\ListViewApp\ListViewApp\bin\Debug\netstandard2.0\ListViewApp.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\ListViewApp\ListViewApp\ListViewApp\bin\Debug\netstandard2.0\ListViewApp.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\ListViewApp\ListViewApp\ListViewApp\obj\Debug\netstandard2.0\ListViewApp.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\ListViewApp\ListViewApp\ListViewApp\obj\Debug\netstandard2.0\ListViewApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\ListViewApp\ListViewApp\ListViewApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\ListViewApp\ListViewApp\ListViewApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\ListViewApp\ListViewApp\ListViewApp\obj\Debug\netstandard2.0\ListViewApp.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\ListViewApp\ListViewApp\ListViewApp\obj\Debug\netstandard2.0\ListViewApp.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\ListViewApp\ListViewApp\ListViewApp\obj\Debug\netstandard2.0\ListViewApp.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\ListViewApp\ListViewApp\ListViewApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\ListViewApp\ListViewApp\ListViewApp\obj\Debug\netstandard2.0\ListViewApp.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\ListViewApp\ListViewApp\ListViewApp\obj\Debug\netstandard2.0\refint\ListViewApp.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\ListViewApp\ListViewApp\ListViewApp\obj\Debug\netstandard2.0\ListViewApp.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\ListViewApp\ListViewApp\ListViewApp\obj\Debug\netstandard2.0\ref\ListViewApp.dll
