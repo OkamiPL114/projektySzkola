@@ -11,5 +11,6 @@ namespace ListViewApp
         public string Location { get; set; }
         public string Country { get; set; }
         public Gender Gender { get; set; }
+        public string Image { get; set; }
     }
 }

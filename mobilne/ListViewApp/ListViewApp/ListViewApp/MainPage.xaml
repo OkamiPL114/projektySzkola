@@ -4,11 +4,22 @@
              x:Class="ListViewApp.MainPage">
 
     <StackLayout>
-        <ListView x:Name="peopleListView">
+        <ListView x:Name="peopleListView" HasUnevenRows="True">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout>
+                                <Image Source="{Binding Image}" WidthRequest="100"/>
+                            </StackLayout>
+                            <StackLayout>
+                                <Label Text="{Binding FirstName}"/>
+                                <Label Text="{Binding LastName}"/>
+                                <Label Text="{Binding Location}"/>
+                                <Label Text="{Binding Country}"/>
+                                <Label Text="{Binding Gender}"/>
+                            </StackLayout>
+                        </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
