@@ -8,7 +8,7 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-
+                        
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
