@@ -6,5 +6,7 @@ a {
     color: black;
 }
 .header {
-    border: 5px solid black;
+    border: 3px solid black;
+    padding: 30px;
+    background-color: aquamarine;
 }
