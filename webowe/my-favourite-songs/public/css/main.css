@@ -1,0 +1,10 @@
+* {
+    font-family: arial;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header {
+    border: 5px solid black;
+}

@@ -11,7 +11,7 @@ const port = 3000;
 const app = express();
 
 // połączenie z bazą danych
-mongoose.connect('mongodb://localhost:27017/usersManagement')
+mongoose.connect('mongodb://localhost:27017/myFavouriteSongs')
 
 // zasoby statyczne
 const publicPath = path.join(__dirname, 'public');
