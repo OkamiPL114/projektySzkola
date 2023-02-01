@@ -6,6 +6,48 @@
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <h1 class="header"><%= pageTitle %></h1>
+    <div class="header">
+        <h1 class="header_h1"><%= pageTitle %></h1>
+    </div>
+    <div class="songs">
+        <% if(songs.length !== 0) {%>
+            <% songs.forEach(songs=> { %>
+                <div class="song_tile">
+                    <img src="/img/solence.png" alt="Solence">
+                </div>
+            <% }) %>
+        <% }else {%>
+            <h3>Brak piosenek w bazie!</h3>
+        <% } %>
+    </div>
+    <form class="add_new_song" action="/" method="post">
+        <p>Wykonawca: <input type="text" name="author"></p><br>
+        <p>Tytuł: <input type="text" name="title"></p><br>
+        <p>Data wydania: <input type="date" name="releaseDate"></p><br>
+        <p>Kraj zespołu: <select name="authorCountry">
+            <option value="poland">Polska</option>
+            <option value="luthuania">Litwa</option>
+            <option value="belarus">Białoruś</option>
+            <option value="ukraine">Ukraina</option>
+            <option value="russia">Rosja</option>
+            <option value="germany">Niemcy</option>
+            <option value="france">Francja</option>
+            <option value="italy">Włochy</option>
+            <option value="theCzechRepublic">Czechy</option>
+            <option value="slovakia">Słowacja</option>
+            <option value="austria">Austria</option>
+            <option value="greatBrittain">Great Brittain</option>
+            <option value="ireland">Irlandia</option>
+            <option value="norway">Norwegia</option>
+            <option value="sweden">Szwecja</option>
+            <option value="finland">Finlandia</option>
+            <option value="usa">USA</option>
+            <option value="canada">Kanada</option>
+            <option value="mexico">Meksyk</option>
+            <option value="brazil">Brazylia</option>
+        </select>
+        </p>
+        <br><button type="submit">Dodaj</button> <button type="reset">Resetuj</button>
+    </form>
 </body>
 </html>

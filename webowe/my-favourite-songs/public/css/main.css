@@ -5,8 +5,18 @@ a {
     text-decoration: none;
     color: black;
 }
+p {
+    margin: auto;
+}
 .header {
     border: 3px solid black;
-    padding: 30px;
     background-color: aquamarine;
+}
+.header_h1 {
+    padding: 30px;
+}
+.add_new_song {
+    border: 3px solid black;
+    padding: 20px;
+    margin-top: 20px;
 }
