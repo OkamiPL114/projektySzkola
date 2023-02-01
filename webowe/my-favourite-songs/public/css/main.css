@@ -15,8 +15,20 @@ p {
 .header_h1 {
     padding: 30px;
 }
+.song_tile {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+.song_img {
+    width: 150px;
+}
 .add_new_song {
     border: 3px solid black;
     padding: 20px;
     margin-top: 20px;
+    clear: both;
 }
