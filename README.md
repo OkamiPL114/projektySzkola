@@ -1,5 +1,3 @@
-![zdjecieRepozytorium](https://user-images.githubusercontent.com/95073438/202557030-62293c73-9cbc-4dfa-9f23-9c5438402cbf.jpg)
-
 <h1>Witaj w moim repozytorium</h1>
 
 Będę tu wrzucał kody z lekcji i z zadań jeśli nie zapomnę. Odpowiednie projekty będą w odpowiednio nazwanych folderach (chyba że coś popsuję)
@@ -19,22 +17,6 @@ Będę tu wrzucał kody z lekcji i z zadań jeśli nie zapomnę. Odpowiednie pro
 <b>"Jestem najnormalniejszy w tej klasie" lub "Jestem normalny"</b> - moje słowa które są w 100% prawdziwe i szczere
 
 <b>Div class footer/stopka</b> - chyba Kufel się wkurzył na Barzyka za nazwanie tak diva, nie wiem
-
-<br><br>
-
-<h3>Moje opisy nauczycieli:</h3>
-
-<b>Andrzej Bażyk</b> - dobrze tłumaczy tylko nie słuchacie, pingwin, mistrz programowania
-
-<b>Andrzej Bosak</b> - Python na nic nam się nie przyda i nie uczył tylko kazał przepisywać
-
-<b>Robert Suski</b> - przyjazny, potrafił wytłumaczyć, szkoda że odszedł
-
-<b>Robert Rączka</b> - mało uczył, chwalił się swoim kompem jakby to był skarb świata
-
-<b>Tomasz Bąk</b> - trzeba się uczyć, ale potrafi wytłumaczyć, Bącur
-
-<b>Damian Bartuś</b> - król złoty który swoją srogością sprawił że wszyscy zdaliśmy INF.03, najlepszy nauczyciel
 
 <br><br>
 
