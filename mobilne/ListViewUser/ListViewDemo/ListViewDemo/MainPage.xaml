@@ -10,8 +10,7 @@
             <Label Text="Lista użytkowników"
                    FontSize="30"
                    HorizontalOptions="Center"
-                   TextColor="White"
-                   />
+                   TextColor="White"/>
         </Frame>
 
         <BoxView HeightRequest="1" 
