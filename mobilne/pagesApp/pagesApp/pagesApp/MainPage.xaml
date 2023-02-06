@@ -10,6 +10,10 @@
         <Button Text="Informacje o programie"
                 x:Name="aboutButton"
                 Clicked="aboutButton_Clicked"/>
+        <Entry x:Name="ageEntry" />
+        <Button x:Name="showBirthYearButton"
+                Text="Oblicz rok urodzenia"
+                Clicked="showBirthYearButton_Clicked"/>
     </StackLayout>
 
 </ContentPage>

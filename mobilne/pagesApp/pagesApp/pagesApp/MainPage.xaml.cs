@@ -19,5 +19,10 @@ namespace pagesApp
         {
             await Navigation.PushAsync(new AboutPage());
         }
+        private async void showBirthYearButton_Clicked(object sender, EventArgs e)
+        {
+            int age = int.Parse(ageEntry.Text);
+            await Navigation.PushModalAsync(new AgePage(age));
+        }
     }
 }

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "NljuPlczlpqs3v1tb9ddQKv+eMp56KijpGoOSD0QcLNsZS2FBAYCuWBY2gaZutnRXQeTmIKTI0l6JiG+zGSxxg==",
+  "dgSpecHash": "iIxpH1nhkNFGH568MXbhsaGuXcBp1Z3p/ztsW7npPfAcs1ra5k7qs4LVF2/nLrSYs8tsT1gmvpUbbCbGVG//lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TEMP\\Desktop\\projektySzkola\\mobilne\\ListViewUser\\ListViewDemo\\ListViewDemo.iOS\\ListViewDemo.iOS.csproj",
+  "projectFilePath": "D:\\Users\\Okami\\Desktop\\Pulpit2.0\\projektySzkola\\mobilne\\ListViewUser\\ListViewDemo\\ListViewDemo.iOS\\ListViewDemo.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\TEMP\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\TEMP\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\TEMP\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\Okami\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Okami\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Okami\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }
