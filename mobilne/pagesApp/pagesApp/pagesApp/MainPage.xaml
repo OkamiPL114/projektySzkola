@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="pagesApp.MainPage">
 
-    <StackLayout>
+    <StackLayout HorizontalOptions="Center"
+                 VerticalOptions="Center">
         <Label Text="Strona główna"/>
         <Button Text="Informacje o programie"
                 x:Name="aboutButton"

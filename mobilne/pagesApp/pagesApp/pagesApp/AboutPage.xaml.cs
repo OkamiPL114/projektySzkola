@@ -17,9 +17,9 @@ namespace pagesApp
             InitializeComponent();
         }
 
-        private void backButton_Clicked(object sender, EventArgs e)
+        private async void backButton_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PopAsync();
         }
     }
 }

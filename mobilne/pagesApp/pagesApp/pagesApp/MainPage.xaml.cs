@@ -15,9 +15,9 @@ namespace pagesApp
             InitializeComponent();
         }
 
-        private void aboutButton_Clicked(object sender, EventArgs e)
+        private async void aboutButton_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new AboutPage());
         }
     }
 }

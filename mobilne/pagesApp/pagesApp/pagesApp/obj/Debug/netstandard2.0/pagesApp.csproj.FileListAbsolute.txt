@@ -1,0 +1,16 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\bin\Debug\netstandard2.0\pagesApp.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\bin\Debug\netstandard2.0\pagesApp.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\bin\Debug\netstandard2.0\pagesApp.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\obj\Debug\netstandard2.0\pagesApp.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\obj\Debug\netstandard2.0\pagesApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\obj\Debug\netstandard2.0\AboutPage.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\obj\Debug\netstandard2.0\pagesApp.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\obj\Debug\netstandard2.0\pagesApp.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\obj\Debug\netstandard2.0\pagesApp.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\obj\Debug\netstandard2.0\pagesApp.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\obj\Debug\netstandard2.0\refint\pagesApp.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\obj\Debug\netstandard2.0\pagesApp.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesApp\pagesApp\pagesApp\obj\Debug\netstandard2.0\ref\pagesApp.dll
