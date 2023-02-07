@@ -24,10 +24,10 @@ namespace ListViewDemo
                 new User(){ Name = "Andrzej Barzyk", Email="barzyk@test.com"},
                 new User(){ Name = "Mateusz Czajka", Email="matCzajka@test.com"},
                 new User(){ Name = "Paweł Czajka", Email="pawCzajka@test.com"},
+                new User(){ Name = "Mariusz Dybaś", Email="dybas@test.com"},
                 new User(){ Name = "Dominik Czech", Email="czech@test.com"},
                 new User(){ Name = "Wiktor Fornalczyk", Email="fornalczyk@test.com"},
-                new User(){ Name = "Wiktor Gajda", Email="panowski@test.com"},
-                new User(){ Name = "Mariusz Dybaś", Email="dybas@test.com"},
+                new User(){ Name = "Wiktor Gajda", Email="gajda@test.com"},
                 new User(){ Name = "Michał Dziedzic", Email="dziedzic@test.com"},
                 new User(){ Name = "Dominik Gajewski", Email="domGajewski@test.com"},
                 new User(){ Name = "Radek Gajewski", Email="radGajewski@test.com"},
@@ -63,7 +63,7 @@ namespace ListViewDemo
         private async void moreMenuItem_Clicked(object sender, EventArgs e)
         {
             var menuItem = (MenuItem)sender;
-            var user = (User) menuItem.CommandParameter; // bieżący użytkownik
+            var user = (User)menuItem.CommandParameter; // bieżący użytkownik
             var userDetails = $"Nazwa : {user.Name}\nEmail: {user.Email}";
             await DisplayAlert("informacje o użytkowniku", userDetails, "OK");
         }
@@ -90,7 +90,7 @@ namespace ListViewDemo
 
         private void usersListView_Refreshing(object sender, EventArgs e)
         {
-            // operacje zwiąane z odświeżeniem listy
+            // operacje związane z odświeżeniem listy
             usersListView.ItemsSource = users;
             usersListView.EndRefresh(); // zakończenie jawne odświeżania
         }
