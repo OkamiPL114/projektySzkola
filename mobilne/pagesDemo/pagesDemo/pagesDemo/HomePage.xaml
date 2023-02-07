@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pagesDemo.HomePage">
+
+    <StackLayout VerticalOptions="Center" 
+                 HorizontalOptions="Center"
+                 Margin="20, 0">
+        <Label Text="Liczba 1"/>
+        <Entry Keyboard="Numeric"
+               x:Name="number1Entry"/>
+
+        <Label Text="Liczba 2"/>
+        <Entry Keyboard="Numeric"
+               x:Name="number2Entry"/>
+
+        <Button Text="Dodaj"
+                x:Name="addButton"
+                Clicked="addButton_Clicked"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,16 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\bin\Debug\netstandard2.0\pagesDemo.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\bin\Debug\netstandard2.0\pagesDemo.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\bin\Debug\netstandard2.0\pagesDemo.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\obj\Debug\netstandard2.0\pagesDemo.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\obj\Debug\netstandard2.0\pagesDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\obj\Debug\netstandard2.0\pagesDemo.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\obj\Debug\netstandard2.0\pagesDemo.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\obj\Debug\netstandard2.0\pagesDemo.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\obj\Debug\netstandard2.0\pagesDemo.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\obj\Debug\netstandard2.0\refint\pagesDemo.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\obj\Debug\netstandard2.0\pagesDemo.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\obj\Debug\netstandard2.0\ref\pagesDemo.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\pagesDemo\pagesDemo\pagesDemo\obj\Debug\netstandard2.0\SumPage.xaml.g.cs
