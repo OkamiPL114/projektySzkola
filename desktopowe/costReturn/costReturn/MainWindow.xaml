@@ -1,0 +1,26 @@
+﻿<Window x:Class="costReturn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:costReturn"
+        mc:Ignorable="d"
+        Title="Zwrot kosztów" Height="200" Width="300">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="5">
+                <Label Content="Początkowy stan licznika: "/>
+                <TextBox Width="150" x:Name="startTextBox"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="5">
+                <Label Content="Końcowy stan licznika: "/>
+                <TextBox Width="150" Margin="15,0,0,0" x:Name="endTextBox"/>
+            </StackPanel>
+            <Label Content="Pieniądze do zwrotu: " x:Name="moneyToReturnLabel" HorizontalAlignment="Center"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Oblicz" x:Name="calculateButton" Click="calculateButton_Click" Margin="10" Padding="5"/>
+                <Button Content="Pokaż odległość" x:Name="showDistanceButton" Click="showDistanceButton_Click" Margin="10" Padding="5"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

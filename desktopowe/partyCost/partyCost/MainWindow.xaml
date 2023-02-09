@@ -1,0 +1,21 @@
+﻿<Window x:Class="partyCost.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:partyCost"
+        mc:Ignorable="d"
+        Title="Koszt za przyjęcie" Height="300" Width="300">
+    <Grid>
+        <StackPanel Margin="10">
+            <Label Content="Ilość ludzi"/>
+            <TextBox Text="5" Width="80" HorizontalAlignment="Left" x:Name="peopleAmountTextBox" TextChanged="peopleAmountTextBox_TextChanged"/>
+            <CheckBox Content="Dekoracje fantazyjne" IsChecked="True" IsThreeState="False" Margin="0,10" x:Name="decorationsCheckBox" Checked="checkBoxes_Checked" Unchecked="checkBoxes_Unchecked"/>
+            <CheckBox Content="Opcja zdrowa" x:Name="healthyCheckBox" IsThreeState="False" IsChecked="False" Checked="checkBoxes_Checked" Unchecked="checkBoxes_Unchecked"/>
+            <StackPanel Orientation="Horizontal" Margin="0,5">
+                <Label Content="Koszt: "/>
+                <TextBox x:Name="costTextBox" IsReadOnly="True" Width="100"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
