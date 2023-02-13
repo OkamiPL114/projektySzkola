@@ -1,0 +1,15 @@
+* {
+    font-family: Arial;
+}
+body {
+    margin: 0 10%;
+}
+
+.containter {
+    border:  1px solid #555;
+    background-color: rgb(228, 210, 246);
+    padding: 10px 20px;
+    margin: 5px 20px;
+    display: inline-block;
+    border-radius: 10px;
+}

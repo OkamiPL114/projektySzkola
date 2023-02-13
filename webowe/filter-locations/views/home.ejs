@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%=pageTitle%></title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <h1><%=pageTitle%></h1>
+    <div>
+        <form action="/add-location" method="post">
+            Miasto <input type="text" name="name"> <br /> <br />
+            Państwo <input type="text" name="country"> <br /> <br />
+            <button type="submit"> Dodaj miejsce</button>
+        </form>
+    </div>
+    <br />
+    <div>
+        <form action="/filter" method="post">
+            <select name="countryListSelect">
+                <% countryList.forEach(country => {   %>
+                <option value="<%= country  %>"><%= country  %></option>
+                <% }); %>
+            </select>
+            <button type="submit">Filtruj</button>
+        </form>
+    </div>
+    <h2><%= selectedCountry %></h2>
+    <div>        
+        <% locations.forEach(location => {   %>
+        <div class="containter">
+            <h2><%= location.name %></h2>
+            <p><%= location.country %></p>
+        </div>
+        <% }); %>
+    </div>
+</body>
+</html>
