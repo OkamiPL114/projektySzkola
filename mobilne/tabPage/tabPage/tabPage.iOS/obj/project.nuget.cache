@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5OHlBcxuELxpmAXdkGY8tWjc3iy1QR5lb98ptzrx6SKcHMz1D2qABZg9tajC/ywMlNT/gbeLnmA+crq6BGZVlA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\tabPage\\tabPage\\tabPage.iOS\\tabPage.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\bin\Debug\netstandard2.0\tabPage.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\bin\Debug\netstandard2.0\tabPage.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\bin\Debug\netstandard2.0\tabPage.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\obj\Debug\netstandard2.0\tabPage.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\obj\Debug\netstandard2.0\tabPage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\obj\Debug\netstandard2.0\tabPage.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\obj\Debug\netstandard2.0\tabPage.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\obj\Debug\netstandard2.0\tabPage.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\obj\Debug\netstandard2.0\tabPage.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\obj\Debug\netstandard2.0\refint\tabPage.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\obj\Debug\netstandard2.0\tabPage.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\obj\Debug\netstandard2.0\ref\tabPage.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\obj\Debug\netstandard2.0\ContactPage.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\tabPage\tabPage\tabPage\obj\Debug\netstandard2.0\IndexPage.xaml.g.cs
