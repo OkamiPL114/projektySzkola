@@ -14,15 +14,9 @@ namespace fuelCalc
         {
             InitializeComponent();
         }
-
-        private void showdPanelSwitch_Toggled(object sender, ToggledEventArgs e)
+        private void buyButton_Clicked(object sender, EventArgs e)
         {
-
-        }
-
-        private void Stepper_ValueChanged(object sender, ValueChangedEventArgs e)
-        {
-
+            Navigation.PushAsync(new SummaryPage(literSlider.Value, priceStepper.Value));
         }
     }
 }

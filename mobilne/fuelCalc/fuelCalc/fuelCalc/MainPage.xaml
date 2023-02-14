@@ -1,22 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="fuelCalc.MainPage">
+             x:Class="fuelCalc.MainPage"
+             NavigationPage.HasNavigationBar="False">
 
-    <StackLayout>
-        <Label Text="Dane do rachunku"/>
+    <StackLayout Margin="10">
+        <Label Text="Dane do rachunku"
+               FontSize="20"
+               TextColor="Black"/>
         <StackLayout Orientation="Horizontal">
-            <Switch x:Name="showPanelSwitch" Toggled="showdPanelSwitch_Toggled" IsToggled="False"/>
-            <Label Text="Pokaż panel"/>
+            <Switch x:Name="showPanelSwitch" IsToggled="False"/>
+            <Label Text="Pokaż panel"
+                   TextColor="Black"/>
         </StackLayout>
         <StackLayout x:Name="panelStackLayout" IsVisible="{Binding Source={x:Reference showPanelSwitch}, Path=IsToggled}">
-            <Label Text="Litry"/>
-            <Slider Maximum="100" Minimum="1" Value="35"/>
+            <Label Text="{Binding Source={x:Reference literSlider}, Path=Value, StringFormat='Litry: {0:F0}l'}"
+                   TextColor="Black"/>
+            <Slider Maximum="100" Minimum="1" Value="35" x:Name="literSlider" MinimumTrackColor="Black" MaximumTrackColor="Gray"/>
             <StackLayout Orientation="Horizontal">
-                <Label Text="{Binding Source={x:Reference priceStepper}, Path=Value, StringFormat='Cena: {0:F1}zł'}"/>
-                <Stepper x:Name="priceStepper" Value="6.5" Increment="0.1"/>
+                <Label VerticalTextAlignment="Center" 
+                       Text="{Binding Source={x:Reference priceStepper}, Path=Value, StringFormat='Cena: {0:F1}zł'}"
+                       TextColor="Black"/>
+                <Stepper x:Name="priceStepper" Maximum="15" Minimum="1" Value="6.5" HorizontalOptions="EndAndExpand" Increment="0.1"/>
             </StackLayout>
-            <Button Text="Kupuję"/>
+            <Button Text="Kupuję" x:Name="buyButton" Clicked="buyButton_Clicked"/>
         </StackLayout>
     </StackLayout>
 </ContentPage>
