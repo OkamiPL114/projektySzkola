@@ -10,7 +10,7 @@ const errorRoutes = require('./routes/error-routes');
 const port = 3000;
 const app = express();
 
-// połączenie z bazą (127.0.0.1 musi być bo błąd)
+// połączenie z bazą (localhost wywala błąd)
 mongoose.connect('mongodb://127.0.0.1:27017/myFavouriteSongs');
 
 // zasoby statyczne
