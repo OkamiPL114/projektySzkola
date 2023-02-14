@@ -1,0 +1,16 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\bin\Debug\netstandard2.0\fuelCalc.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\bin\Debug\netstandard2.0\fuelCalc.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\bin\Debug\netstandard2.0\fuelCalc.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\obj\Debug\netstandard2.0\fuelCalc.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\obj\Debug\netstandard2.0\fuelCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\obj\Debug\netstandard2.0\SummaryPage.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\obj\Debug\netstandard2.0\fuelCalc.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\obj\Debug\netstandard2.0\fuelCalc.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\obj\Debug\netstandard2.0\fuelCalc.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\obj\Debug\netstandard2.0\fuelCalc.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\obj\Debug\netstandard2.0\refint\fuelCalc.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\obj\Debug\netstandard2.0\fuelCalc.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\fuelCalc\fuelCalc\fuelCalc\obj\Debug\netstandard2.0\ref\fuelCalc.dll

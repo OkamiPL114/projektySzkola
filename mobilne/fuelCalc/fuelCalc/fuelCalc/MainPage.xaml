@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fuelCalc.MainPage">
+
+    <StackLayout>
+        <Label Text="Dane do rachunku"/>
+        <StackLayout Orientation="Horizontal">
+            <Switch x:Name="showPanelSwitch" Toggled="showdPanelSwitch_Toggled" IsToggled="False"/>
+            <Label Text="Pokaż panel"/>
+        </StackLayout>
+        <StackLayout x:Name="panelStackLayout" IsVisible="{Binding Source={x:Reference showPanelSwitch}, Path=IsToggled}">
+            <Label Text="Litry"/>
+            <Slider Maximum="100" Minimum="1" Value="35"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding Source={x:Reference priceStepper}, Path=Value, StringFormat='Cena: {0:F1}zł'}"/>
+                <Stepper x:Name="priceStepper" Value="6.5" Increment="0.1"/>
+            </StackLayout>
+            <Button Text="Kupuję"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
