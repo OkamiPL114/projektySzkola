@@ -1,32 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Okami\\Desktop\\Pulpit2.0\\projektySzkola\\desktopowe\\partyCost\\partyCost\\partyCost.csproj": {}
+    "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\desktopowe\\partyCost\\partyCost\\partyCost.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Okami\\Desktop\\Pulpit2.0\\projektySzkola\\desktopowe\\partyCost\\partyCost\\partyCost.csproj": {
+    "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\desktopowe\\partyCost\\partyCost\\partyCost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Okami\\Desktop\\Pulpit2.0\\projektySzkola\\desktopowe\\partyCost\\partyCost\\partyCost.csproj",
+        "projectUniqueName": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\desktopowe\\partyCost\\partyCost\\partyCost.csproj",
         "projectName": "partyCost",
-        "projectPath": "D:\\Users\\Okami\\Desktop\\Pulpit2.0\\projektySzkola\\desktopowe\\partyCost\\partyCost\\partyCost.csproj",
-        "packagesPath": "C:\\Users\\Okami\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Okami\\Desktop\\Pulpit2.0\\projektySzkola\\desktopowe\\partyCost\\partyCost\\obj\\",
+        "projectPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\desktopowe\\partyCost\\partyCost\\partyCost.csproj",
+        "packagesPath": "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\desktopowe\\partyCost\\partyCost\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Okami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\galuszka.szymon.ptb_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,8 +49,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -63,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     }
