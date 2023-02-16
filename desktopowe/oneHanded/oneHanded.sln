@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oneHanded", "oneHanded\oneHanded.csproj", "{0CC86BE2-BE90-4E79-9469-D8154C884528}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CC86BE2-BE90-4E79-9469-D8154C884528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC86BE2-BE90-4E79-9469-D8154C884528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC86BE2-BE90-4E79-9469-D8154C884528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC86BE2-BE90-4E79-9469-D8154C884528}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE8A86E1-FE34-4BB5-B85B-523B3FB5EF3F}
+	EndGlobalSection
+EndGlobal

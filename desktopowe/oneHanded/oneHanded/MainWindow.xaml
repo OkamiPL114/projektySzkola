@@ -1,0 +1,35 @@
+﻿<Window x:Class="oneHanded.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:oneHanded"
+        mc:Ignorable="d"
+        Title="Jednoręki bandyta" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <Label Content="Twoje saldo: 100zł" x:Name="moneyLabel" Margin="20" FontSize="30"/>
+            <Button Content="Zagraj!" Click="Button_Click" Height="50" Width="110" FontSize="20" VerticalAlignment="Bottom"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <Label Content="Zwyciężasz, gdy pokaże się 999." FontSize="15"/>
+            <Label Content="W innym przypadku przegrywasz." FontSize="15"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <TextBox Text="0" x:Name="numberOneTextBox" FontSize="40" Padding="5"/>
+                <TextBox Text="0" x:Name="numberTwoTextBox" FontSize="40" Padding="5"/>
+                <TextBox Text="0" x:Name="numberThreeTextBox" FontSize="40" Padding="5"/>
+            </StackPanel>
+            <Label x:Name="resultLabel" Margin="0 10 0 0" FontSize="15" Content=""/>
+        </StackPanel>
+    </Grid>
+</Window>
