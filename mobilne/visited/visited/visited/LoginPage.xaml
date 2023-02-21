@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="visited.LoginPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <Frame VerticalOptions="FillAndExpand"
+           HorizontalOptions="FillAndExpand"
+           Margin="10, 20"
+           CornerRadius="20">
+        <StackLayout>
+            <Label Text="Odwiedzone miejsca" 
+                   FontSize="30"
+                   TextColor="Black"/>
+            <Label Text="Podaj PIN:"
+                   TextColor="Black"
+                   FontSize="20"
+                   Margin="0, 90, 0, 0"/>
+            <Frame BorderColor="Black"
+                   Padding="10">
+                <Entry Placeholder="PIN"
+                       Keyboard="Numeric"
+                       HorizontalTextAlignment="Center"
+                       IsPassword="True"
+                       MaxLength="4"
+                       x:Name="pinEntry"/>
+            </Frame>
+            <Button Text="Zaloguj się"
+                    Margin="0, 30, 0, 0"
+                    x:Name="loginButton"
+                    Clicked="loginButton_ClickedAsync"/>
+        </StackLayout>
+    </Frame>
+</ContentPage>
