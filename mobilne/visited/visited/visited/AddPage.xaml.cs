@@ -30,6 +30,11 @@ namespace visited
                 ratingStr += "❤";
             }
             LocationsDB.Locations.Add(new Location(){ City = city, Country = country, Price = price, Rating = ratingStr });
+            DisplayAlert("Dodano", "Pomyślnie dodano lokalizację", "OK");
+            cityEntry.Text = "";
+            countryEntry.Text = "";
+            priceEntry.Text = "";
+            ratingSlider.Value= 3;
         }
     }
 }
