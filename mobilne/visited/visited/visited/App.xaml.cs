@@ -12,7 +12,6 @@ namespace visited
 
             MainPage = new NavigationPage(new LoginPage());
         }
-        
         protected override void OnStart()
         {
         }

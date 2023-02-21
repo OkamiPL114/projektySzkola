@@ -2,7 +2,54 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="visited.AddPage">
-    <StackLayout>
-        
+    <StackLayout Margin="20">
+        <Label Text="Miasto:"
+               HorizontalOptions="Center"
+               FontSize="20"
+               TextColor="Black"/>
+        <Frame BorderColor="Black"
+               Padding="10">
+            <Entry Keyboard="Text"
+                   HorizontalTextAlignment="Center"
+                   x:Name="cityEntry"/>
+        </Frame>
+        <Label Text="Kraj:"
+               HorizontalOptions="Center"
+               FontSize="20"
+               TextColor="Black"
+               Margin="0, 20, 0, 0"/>
+        <Frame BorderColor="Black"
+               Padding="10">
+            <Entry Keyboard="Text"
+                   HorizontalTextAlignment="Center"
+                   x:Name="countryEntry"/>
+        </Frame>
+        <Label Text="Cena:"
+               HorizontalOptions="Center"
+               FontSize="20"
+               TextColor="Black"
+               Margin="0, 20, 0, 0"/>
+        <Frame BorderColor="Black"
+               Padding="10">
+            <Entry Keyboard="Numeric"
+                   HorizontalTextAlignment="Center"
+                   x:Name="priceEntry"/>
+        </Frame>
+        <Label Text="{Binding Source={Reference ratingSlider}, Path=Value, StringFormat='Ocena: {0:F0}'}"
+               HorizontalOptions="Center"
+               FontSize="20"
+               TextColor="Black"
+               Margin="0, 20, 0, 0"/>
+        <Slider HorizontalOptions="CenterAndExpand"
+                x:Name="ratingSlider"
+                Maximum="5"
+                Minimum="1"
+                Value="3"
+                MaximumTrackColor="Gray"
+                MinimumTrackColor="Black"
+                WidthRequest="400"/>
+        <Button Text="Dodaj"
+                x:Name="addButton"
+                Clicked="addButton_Clicked"/>
     </StackLayout>
 </ContentPage>

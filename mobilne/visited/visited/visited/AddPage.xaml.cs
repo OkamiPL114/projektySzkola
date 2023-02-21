@@ -16,5 +16,20 @@ namespace visited
         {
             InitializeComponent();
         }
+
+        private void addButton_Clicked(object sender, EventArgs e)
+        {
+            string city = cityEntry.Text;
+            string country = countryEntry.Text;
+            float price = float.Parse(priceEntry.Text);
+            int rating = (int)ratingSlider.Value;
+
+            string ratingStr = "❤";
+            for(int i = 0; i < rating; i++)
+            {
+                ratingStr += "❤";
+            }
+            LocationsDB.Locations.Add(new Location(){ City = city, Country = country, Price = price, Rating = ratingStr });
+        }
     }
 }

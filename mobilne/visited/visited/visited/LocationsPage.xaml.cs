@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Collections.ObjectModel;
 
 namespace visited
 {
@@ -15,6 +16,19 @@ namespace visited
         public LocationsPage()
         {
             InitializeComponent();
+            LocationsDB.Locations.Add(new Location()
+            {
+                City = "Jasło",
+                Country = "Polska",
+                Price = 150F,
+                Rating = "❤❤❤❤"
+            });
+            locationsListView.ItemsSource = LocationsDB.Locations;
+        }
+
+        private void deleteMenuItem_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

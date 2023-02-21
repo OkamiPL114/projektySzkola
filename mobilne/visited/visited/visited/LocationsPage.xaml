@@ -2,7 +2,39 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="visited.LocationsPage">
-    <StackLayout>
-        
-    </StackLayout>
+
+    <ListView x:Name="locationsListView"
+              HasUnevenRows="True"
+              Margin="20">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Frame BorderColor="Black"
+                           Padding="10">
+                        <StackLayout>
+                            <Label Text="{Binding City}"
+                                   FontSize="25"
+                                   TextColor="Black"/>
+                            <Label Text="{Binding Country}"
+                                   FontSize="15"
+                                   TextColor="Black"/>
+                            <Label Text="{Binding Price, StringFormat='{0:F2}zł'}"
+                                   FontSize="15"
+                                   TextColor="Black"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Ocena (od 1 do 5):"
+                                       TextColor="Black"/>
+                                <Label Text="{Binding Rating}"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                    <ViewCell.ContextActions>
+                        <MenuItem Text="Usuń"
+                                  x:Name="deleteMenuItem"
+                                  Clicked="deleteMenuItem_Clicked"/>
+                    </ViewCell.ContextActions>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </ContentPage>

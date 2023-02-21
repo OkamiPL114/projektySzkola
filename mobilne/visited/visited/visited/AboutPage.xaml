@@ -9,7 +9,7 @@
         <Label Text="Opublikowane: 21.2.2023"
                TextColor="BLack"
                FontSize="20"/>        
-        <Label Text="Autor: Szymon Gałuszka (z pomocą StackOverflow)"
+        <Label Text="Autor: Szymon Gałuszka"
                TextColor="BLack"
                FontSize="20"/>
         <Button Text="Wyloguj się"
