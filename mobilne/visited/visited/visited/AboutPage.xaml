@@ -2,11 +2,19 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="visited.AboutPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <StackLayout Margin="20">
+        <Label Text="Odwiedzone miejsca v1.0.0"
+               TextColor="BLack"
+               FontSize="20"/>
+        <Label Text="Opublikowane: 21.2.2023"
+               TextColor="BLack"
+               FontSize="20"/>        
+        <Label Text="Autor: Szymon Gałuszka (z pomocą StackOverflow)"
+               TextColor="BLack"
+               FontSize="20"/>
+        <Button Text="Wyloguj się"
+                x:Name="logoutButton"
+                Clicked="logoutButton_Clicked"
+                Margin="0, 40, 0, 0"/>
+    </StackLayout>
 </ContentPage>

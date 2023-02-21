@@ -24,6 +24,7 @@ namespace visited
             {
                 if(enteredPIN == pin)
                 {
+                    pinEntry.Text = "";
                     await Navigation.PushAsync(new MainPage());
                     return;
                 }

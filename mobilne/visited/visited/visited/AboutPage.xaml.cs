@@ -16,5 +16,10 @@ namespace visited
         {
             InitializeComponent();
         }
+
+        private void logoutButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PopAsync();
+        }
     }
 }
