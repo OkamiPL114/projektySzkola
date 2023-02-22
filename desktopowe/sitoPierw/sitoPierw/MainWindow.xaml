@@ -1,0 +1,24 @@
+﻿<Window x:Class="sitoPierw.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sitoPierw"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="250">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <TextBlock Text="Podaj liczbę, która będzie granicą wygenerowaego ciągu liczb pierwszych:" Margin="10" TextWrapping="WrapWithOverflow"/>
+            <TextBox Width="60" x:Name="limitTextBox"/>
+            <Button Content="Pokaż liczby pierwsze z tego przedziału" Margin="0 15 0 0" x:Name="calcButton" Click="calcButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
