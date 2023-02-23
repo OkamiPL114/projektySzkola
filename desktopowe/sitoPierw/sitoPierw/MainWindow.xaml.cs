@@ -29,24 +29,30 @@ namespace sitoPierw
         {
             int max = int.Parse(limitTextBox.Text);
             bool[] sito = new bool[max];
-            for(int i = 0; i < sito.Length; i++)
+            for(int i = 1; i < max; i++)
             {
                 sito[i] = true;
             }
             sito[0] = false;
-            int j = 0;
-            for(int i = 1; i < sito.Length; i++)
+            for(int i = 1; i < Math.Sqrt(max); i++)
             {
                 if (sito[i])
                 {
-                    j = i;
-                    while(j < max)
+                    for(int j = (i + 1) * (i + 1); j < max+1; j += (i + 1))
                     {
-                        sito[j] = true;
-                        j++;
+                        sito[j-1] = false;
                     }
                 }
             }
+            string primeNums = "";
+            for(int i = 1; i < max; i++)
+            {
+                if (sito[i])
+                {
+                    primeNums += $"{i + 1}, ";
+                }
+            }
+            MessageBox.Show($"Ciąg liczb pierwszych o granicy {max}: {primeNums}");
         }
     }
 }
