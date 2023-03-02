@@ -31,7 +31,10 @@ namespace fibbonaci
         {
             recurTab.Clear();
             int input = int.Parse(inputTextBox.Text);
-            recurFunc(input);
+            for(int i = 1; i <= input; i++)
+            {
+                recurTab.Add(recurFunc(i));
+            }
             recurListBox.ItemsSource = recurTab;
         }
         private int recurFunc(int input)
@@ -42,7 +45,6 @@ namespace fibbonaci
             }
             else
             {
-                // dodawanie do listy
                 return recurFunc(input - 2) + recurFunc(input - 1);
             }
         }
