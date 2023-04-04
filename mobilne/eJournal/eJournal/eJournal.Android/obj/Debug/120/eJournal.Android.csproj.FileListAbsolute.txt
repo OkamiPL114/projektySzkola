@@ -628,3 +628,4 @@ C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\eJournal\eJournal\e
 C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\eJournal\eJournal\eJournal.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\eJournal\eJournal\eJournal.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\eJournal\eJournal\eJournal.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\eJournal\eJournal\eJournal.Android\obj\Debug\120\res\drawable\pfp.png

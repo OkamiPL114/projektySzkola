@@ -19,7 +19,21 @@ namespace eJournal
 
         private async void loginButton_ClickedAsync(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MainPage());
+            var email = emailEntry.Text.Trim();
+            var password = passwordEntry.Text.Trim();
+
+            var allAccounts = Users.accounts.ToList();
+            var user = Users.accounts.Find(x => x.Email == email && x.Password == password);
+
+            if (user != null)
+            {
+                await Navigation.PushAsync(new MainPage());
+            }
+            else
+            {
+                await DisplayAlert("Błąd", "Niepoprawny email lub hasło", "OK");
+            }
+
         }
 
         private async void creatteAccButton_ClickedAsync(object sender, EventArgs e)

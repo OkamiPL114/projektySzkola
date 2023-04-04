@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="eJournal.ProfilePage">
+    <StackLayout>
+        <Frame CornerRadius="200"
+               Padding="-1"
+               Margin="10"
+               Scale="0.5">
+            <Image Source="pfp.png" />
+        </Frame>
+            <Label Text="Jan Nowak"
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   FontSize="20"/>
+        <Button Text="Wyloguj"
+                x:Name="logoutButton"
+                Clicked="logoutButton_ClickedAsync"/>
+    </StackLayout>
+</ContentPage>

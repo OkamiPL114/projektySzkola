@@ -15,3 +15,5 @@ C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\eJournal\eJournal\e
 C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\eJournal\eJournal\eJournal\obj\Debug\netstandard2.0\ref\eJournal.dll
 C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\eJournal\eJournal\eJournal\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
 C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\eJournal\eJournal\eJournal\obj\Debug\netstandard2.0\NewAccount.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\eJournal\eJournal\eJournal\obj\Debug\netstandard2.0\GradesPage.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\eJournal\eJournal\eJournal\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs

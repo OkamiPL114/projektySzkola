@@ -42,7 +42,9 @@ namespace eJournal
                 return;
             }
 
-
+            Users.accounts.Add(new User() { Email = email, Password = password});
+            await DisplayAlert("Sukces!", "Pomyślnie utworzono nowe konto", "OK");
+            await Navigation.PopAsync();
         }
     }
 }
