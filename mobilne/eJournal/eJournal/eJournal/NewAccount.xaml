@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="eJournal.NewAccount"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout VerticalOptions="Center" Margin="20">
+        <Label Text="Tworzenie nowego konta"
+               FontSize="30"
+               TextColor="Black"
+               Margin="0, 0, 0, 20"/>
+        <Entry Keyboard="Email"
+               x:Name="emailEntry"
+               Placeholder="Wprowadź email"/>
+        <Entry IsPassword="True"
+               Placeholder="Wpisz hasło"
+               x:Name="passwordEntry"/>
+        <Entry IsPassword="True"
+               Placeholder="Powtórz hasło"
+               x:Name="reEnterEntry"/>
+        <Button Text="Stwórz nowe konto"
+                x:Name="createButton"
+                Clicked="createButton_Clicked"
+                Margin="10"/>
+        <Button Text="Wróć"
+                x:Name="backButton"
+                Clicked="backButton_Clicked"
+                Margin="10"/>
+    </StackLayout>
+</ContentPage>

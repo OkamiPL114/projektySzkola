@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace eJournal
 {
-    public partial class MainPage : ContentPage
+    public partial class MainPage : TabbedPage
     {
         public MainPage()
         {
