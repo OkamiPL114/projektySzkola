@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FGUbqXocVbGB7W7iHaDCJXdmQPn1Qhhg0S2+Io1mbcnqBodQsKpt8OTWl9D7x7sK1JriceC5mJrZbTX2NKwG4w==",
+  "dgSpecHash": "bXvZnd3TyyvsgwDiTx4jd86o3GFXXlfOKT+cwkankpK+Y2mOlgQqDC6s1/DQfhVm4dgAWVVrgn61UpbokEpYoA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\visited\\visited\\visited.iOS\\visited.iOS.csproj",
+  "projectFilePath": "D:\\Users\\Okami\\Desktop\\Pulpit2.0\\projektySzkola\\mobilne\\visited\\visited\\visited.iOS\\visited.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\Okami\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Okami\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Okami\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }
