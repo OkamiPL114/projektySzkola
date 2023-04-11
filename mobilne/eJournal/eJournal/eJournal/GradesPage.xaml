@@ -13,7 +13,7 @@
                                FontSize="20"
                                TextColor="Black"/>
                         <Label x:Name="gradesLabel"
-                               Text="{Binding Grades}"/>
+                               Text="{Binding GradesStr}"/>
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>

@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "TrvHrr1gz43zqzu1Yb1otcJERW8n90dEHcwhDW9kHlJV8iF5dvru0jHue7OssCMWVYAU9FKzOQagnUNRhfkIvQ==",
+  "dgSpecHash": "kkz0oktJM3Ix54Z03MkMdw8KrskGqWP6MGx03vJbNQU2eOoETqYfYOWcOV5WEs3EHQE4y2aFrvNdRzh031aKPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\eJournal\\eJournal\\eJournal\\eJournal.csproj",
+  "projectFilePath": "D:\\Users\\Okami\\Desktop\\Pulpit2.0\\projektySzkola\\mobilne\\eJournal\\eJournal\\eJournal\\eJournal.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\Okami\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Okami\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Okami\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Okami\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Okami\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }
