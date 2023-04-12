@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Cookies</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body class="<%= siteTheme %>">
+    <h1>Moja strona</h1>
+
+    <form action="/changeTheme" method="post">
+        <button type="submit">Przełącz motyw ciemny/jasny</button>
+    </form>
+    <br>
+    <form action="/deleteCookies" method="post">
+        <button type="submit">Usuń ciasteczka</button>
+    </form>
+</body>
+</html>
