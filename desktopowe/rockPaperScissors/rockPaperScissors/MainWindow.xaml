@@ -1,0 +1,24 @@
+﻿<Window x:Class="rockPaperScissors.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rockPaperScissors"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <StackPanel>
+                <Label Content="Wybierz kamień, papier lub nożyce" FontSize="30" HorizontalAlignment="Center"/>
+                <Label x:Name="selectedLabel" Content="Wybrano: " HorizontalAlignment="Center" FontSize="20" Margin="0, 50, 0, 0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Image x:Name="rockImage" Source="Images/rock.png" Height="150" Width="150" Cursor="Hand" MouseDown="rockImage_MouseDown" />
+                <Image x:Name="paperImage" Source="Images/paper.png" Height="150" Width="150" Cursor="Hand" MouseDown="paperImage_MouseDown" /> <!-- jeśli się zdjęcia nie pokazują to RMB na zdj -> Właściwości -> i na dole opcje "zawartość" i "zawsze kopiuj"-->
+                <Image x:Name="scissorsImage" Source="Images/scissors.png" Height="150" Width="150" Cursor="Hand" MouseDown="scissorsImage_MouseDown" />
+            </StackPanel>
+            <Button Content="Wykonaj ruch" x:Name="moveButton" Click="moveButton_Click" Width="100" Height="50"/>
+            <Label x:Name="resultLabel" Content="12315" HorizontalAlignment="Center" FontSize="20" Margin="0, 20"/>
+        </StackPanel>
+    </Grid>
+</Window>
