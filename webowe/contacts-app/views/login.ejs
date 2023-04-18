@@ -1,0 +1,12 @@
+<%- include('./includes/header.ejs') %>
+</head>
+<body>
+    <h1><%= pageTitle %></h1>
+    <form action="/login" method="post">
+        <input type="email" name="email" placeholder="email"> <br> <br>
+        <input type="password" name="password" placeholder="hasło"> <br> <br>
+        <button type="submit">Zaloguj</button>
+    </form>
+    <p>Nie masz konta? <a href="/signup">Zarejestruj się</a></p>
+
+<%- include('./includes/footer.ejs') %>
