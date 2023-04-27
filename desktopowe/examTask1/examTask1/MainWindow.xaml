@@ -9,7 +9,7 @@
     <Grid Background="LightSteelBlue">
         <StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <GroupBox Header="Dane pracownika" BorderBrush="White" BorderThickness="2" Margin="40">
+                <GroupBox Header="Dane pracownika" BorderBrush="White" BorderThickness="2" Margin="40" Width="300">
                     <StackPanel Orientation="Horizontal">
                         <StackPanel>
                             <Label Content="Imię" Margin="20"/>
@@ -28,7 +28,7 @@
                         </StackPanel>
                     </StackPanel>
                 </GroupBox>
-                <GroupBox Header="Generowanie hasła" BorderBrush="White" BorderThickness="2" Margin="40">
+                <GroupBox Header="Generowanie hasła" BorderBrush="White" BorderThickness="2" Margin="40" Width="300">
                     <StackPanel>
                         <StackPanel Orientation="Horizontal">
                             <Label Content="Ile znaków?" Margin="20"/>
