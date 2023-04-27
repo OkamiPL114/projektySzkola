@@ -33,11 +33,20 @@ namespace examTask1
 
         private void generatePassButton_Click(object sender, RoutedEventArgs e)
         {
+            if(!int.TryParse(numOfLettersTextBox.Text, out int numOfLetters))
+            {
+                MessageBox.Show("Należy podać ilość znaków hasła");
+                return;
+            }
+            if(numOfLetters < 1)
+            {
+                MessageBox.Show("Należy podać wartość większą niż zero");
+                return;
+            }
             password = "";
             bool doBigLetters = (bool)bigLettersCheckBox.IsChecked;
             bool doNumbers = (bool)numbersCheckBox.IsChecked;
             bool doSpecial = (bool)specialCheckBox.IsChecked;
-            int numOfLetters = int.Parse(numOfLettersTextBox.Text);            
             for(int i = 0; i < numOfLetters; i++)
             {
                 if (doBigLetters)
@@ -62,6 +71,18 @@ namespace examTask1
 
         private void confirmButton_Click(object sender, RoutedEventArgs e)
         {
+            string name = nameTextBox.Text.Trim();
+            string surname = surnameTextBox.Text.Trim();
+            if (name == "")
+            {
+                MessageBox.Show("Należy podać imię");
+                return;
+            }
+            if(surname == "")
+            {
+                MessageBox.Show("Należy podać nazwisko");
+                return;
+            }
             string position = "";
             switch (positionComboBox.SelectedIndex)
             {
@@ -69,8 +90,17 @@ namespace examTask1
                 case 1: position = "Starszy programista";break;
                 case 2: position = "Młodszy programista";break;
                 case 3: position = "Tester";break;
+                default: {
+                        MessageBox.Show("Należy podać stanowisko");
+                        return;
+                }
             }
-            MessageBox.Show($"Dane pracownika: {nameTextBox.Text} {surnameTextBox.Text}, {position}, Hasło: {password}");
+            if(password == "")
+            {
+                MessageBox.Show("Należy najpierw wygenerować hasło");
+                return;
+            }
+            MessageBox.Show($"Dane pracownika: {name} {surname}, {position}, Hasło: {password}");
         }
     }
 }
