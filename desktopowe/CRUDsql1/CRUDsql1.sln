@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDsql1", "CRUDsql1\CRUDsql1.csproj", "{BA74825A-62F2-44C5-9043-AE50571E3F97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA74825A-62F2-44C5-9043-AE50571E3F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA74825A-62F2-44C5-9043-AE50571E3F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA74825A-62F2-44C5-9043-AE50571E3F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA74825A-62F2-44C5-9043-AE50571E3F97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1AEA6A8-F03B-4EBD-9C65-6C052A477E80}
+	EndGlobalSection
+EndGlobal
