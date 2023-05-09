@@ -29,5 +29,15 @@ namespace Flyout
             };
             PhotosCarouselView.ItemsSource = photos;
         }
+
+        private void previousButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nextButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
