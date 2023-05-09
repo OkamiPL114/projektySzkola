@@ -32,7 +32,7 @@
         <DataTemplate>
           <ViewCell>
             <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                <Image Source="{Binding Icon}"/>
+                <Image Source="{Binding Icon}" HeightRequest="100"/>
                 <Label VerticalOptions="FillAndExpand" 
                        VerticalTextAlignment="Center" 
                        Text="{Binding Title}" 
