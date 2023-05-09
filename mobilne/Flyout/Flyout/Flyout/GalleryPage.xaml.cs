@@ -18,6 +18,7 @@ namespace Flyout
     public partial class GalleryPage : ContentPage
     {
         List<Photo> photos;
+        int index = 0;
         public GalleryPage()
         {
             InitializeComponent();
@@ -32,12 +33,22 @@ namespace Flyout
 
         private void previousButton_Clicked(object sender, EventArgs e)
         {
-
+            index--;
+            if(index < 0)
+            {
+                index = photos.Count - 1;
+            }
+            PhotosCarouselView.Position = index;
         }
 
         private void nextButton_Clicked(object sender, EventArgs e)
         {
-
+            index++;
+            if (index > photos.Count - 1)
+            {
+                index = 0;
+            }
+            PhotosCarouselView.Position = index;
         }
     }
 }

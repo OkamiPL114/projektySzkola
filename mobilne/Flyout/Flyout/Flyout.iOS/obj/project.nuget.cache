@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WsKB8PurrciL0gNfGcvruOkR2WpB/vb7W6qeL1J+lDi2RPz62Hi9n78RTenHYoQnG4/ZTAWe95/K0D3jow63YA==",
+  "dgSpecHash": "Lmwrj7vH6LTq/PIpoZ8O+45axFkXCOB/hezM9DL9IheNyoMoF0LzOo92n5AcaQQLwX4gtLcTCJbNrz8MtP9Dtg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\Flyout\\Flyout\\Flyout.iOS\\Flyout.iOS.csproj",
+  "projectFilePath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\flyout\\Flyout\\Flyout.iOS\\Flyout.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",

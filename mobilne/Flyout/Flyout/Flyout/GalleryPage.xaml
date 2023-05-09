@@ -17,7 +17,7 @@
                     </DataTemplate>
                 </CarouselView.ItemTemplate>
             </CarouselView>
-            <StackLayout>
+            <StackLayout Orientation="Horizontal">
                 <Button Text="Poprzedni" x:Name="previousButton" Clicked="previousButton_Clicked"/>
                 <Button Text="Następny" x:Name="nextButton" Clicked="nextButton_Clicked"/>
             </StackLayout>

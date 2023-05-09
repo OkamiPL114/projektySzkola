@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1IPueqOU+vPkWDWXWQ2L1LQWroBQTU8NWmj0FqcY45C55cmvkJHaxtbhfESBkiIVuJ3EVUOcDjhaVX9lI6KLEw==",
+  "dgSpecHash": "1a2pC8dIoKTUXWnhsYiH5YIR3+No2sNtn4SoR6v6bNrsTRTRSHfTW25fv6YEEkHawknQBSwPxY85UQPV74rHlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\Flyout\\Flyout\\Flyout.Android\\Flyout.Android.csproj",
+  "projectFilePath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\flyout\\Flyout\\Flyout.Android\\Flyout.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
