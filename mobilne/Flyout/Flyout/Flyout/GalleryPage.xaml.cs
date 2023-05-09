@@ -27,6 +27,7 @@ namespace Flyout
                 new Photo(){ FileName = "gallery.png", Title = "Galeria"},
                 new Photo(){ FileName = "about.png", Title = "Ikonka o mnie"},
             };
+            PhotosCarouselView.ItemsSource = photos;
         }
     }
 }
