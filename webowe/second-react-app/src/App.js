@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
 import Card from "./ui/Card";
+import Form from "./components/Form";
 
 function App() {
 	const headerText = "Witaj w React";
@@ -15,6 +16,7 @@ function App() {
 			<Card>
 				<p>{msg}</p>
 			</Card>
+			<Form/>
 			<Footer/>
 		</>
   	);
