@@ -1,0 +1,15 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\notesExam\notesExam\bin\Debug\net6.0\notesExam.exe
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\notesExam\notesExam\bin\Debug\net6.0\notesExam.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\notesExam\notesExam\bin\Debug\net6.0\notesExam.runtimeconfig.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\notesExam\notesExam\bin\Debug\net6.0\notesExam.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\notesExam\notesExam\bin\Debug\net6.0\notesExam.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\notesExam\notesExam\obj\Debug\net6.0\notesExam.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\notesExam\notesExam\obj\Debug\net6.0\notesExam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\notesExam\notesExam\obj\Debug\net6.0\notesExam.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\notesExam\notesExam\obj\Debug\net6.0\notesExam.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\notesExam\notesExam\obj\Debug\net6.0\notesExam.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\notesExam\notesExam\obj\Debug\net6.0\notesExam.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\notesExam\notesExam\obj\Debug\net6.0\refint\notesExam.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\notesExam\notesExam\obj\Debug\net6.0\notesExam.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\notesExam\notesExam\obj\Debug\net6.0\notesExam.genruntimeconfig.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\notesExam\notesExam\obj\Debug\net6.0\ref\notesExam.dll
