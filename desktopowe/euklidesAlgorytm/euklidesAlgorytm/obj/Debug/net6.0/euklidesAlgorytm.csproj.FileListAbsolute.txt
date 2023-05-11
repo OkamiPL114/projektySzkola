@@ -1,0 +1,15 @@
+C:\Users\galuszka.szymon.ptb_\source\repos\euklidesAlgorytm\euklidesAlgorytm\bin\Debug\net6.0\euklidesAlgorytm.exe
+C:\Users\galuszka.szymon.ptb_\source\repos\euklidesAlgorytm\euklidesAlgorytm\bin\Debug\net6.0\euklidesAlgorytm.deps.json
+C:\Users\galuszka.szymon.ptb_\source\repos\euklidesAlgorytm\euklidesAlgorytm\bin\Debug\net6.0\euklidesAlgorytm.runtimeconfig.json
+C:\Users\galuszka.szymon.ptb_\source\repos\euklidesAlgorytm\euklidesAlgorytm\bin\Debug\net6.0\euklidesAlgorytm.dll
+C:\Users\galuszka.szymon.ptb_\source\repos\euklidesAlgorytm\euklidesAlgorytm\bin\Debug\net6.0\euklidesAlgorytm.pdb
+C:\Users\galuszka.szymon.ptb_\source\repos\euklidesAlgorytm\euklidesAlgorytm\obj\Debug\net6.0\euklidesAlgorytm.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\source\repos\euklidesAlgorytm\euklidesAlgorytm\obj\Debug\net6.0\euklidesAlgorytm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\source\repos\euklidesAlgorytm\euklidesAlgorytm\obj\Debug\net6.0\euklidesAlgorytm.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\source\repos\euklidesAlgorytm\euklidesAlgorytm\obj\Debug\net6.0\euklidesAlgorytm.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\source\repos\euklidesAlgorytm\euklidesAlgorytm\obj\Debug\net6.0\euklidesAlgorytm.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\source\repos\euklidesAlgorytm\euklidesAlgorytm\obj\Debug\net6.0\euklidesAlgorytm.dll
+C:\Users\galuszka.szymon.ptb_\source\repos\euklidesAlgorytm\euklidesAlgorytm\obj\Debug\net6.0\refint\euklidesAlgorytm.dll
+C:\Users\galuszka.szymon.ptb_\source\repos\euklidesAlgorytm\euklidesAlgorytm\obj\Debug\net6.0\euklidesAlgorytm.pdb
+C:\Users\galuszka.szymon.ptb_\source\repos\euklidesAlgorytm\euklidesAlgorytm\obj\Debug\net6.0\euklidesAlgorytm.genruntimeconfig.cache
+C:\Users\galuszka.szymon.ptb_\source\repos\euklidesAlgorytm\euklidesAlgorytm\obj\Debug\net6.0\ref\euklidesAlgorytm.dll
