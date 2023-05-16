@@ -2,7 +2,7 @@ import { useState } from "react"; //useState - hook stanu
 import "./Counter.css"
 
 function Counter() {
-    const [count,setCount] = useState(0); //0 - wartość początkowa stanu                                  
+    const [count, setCount] = useState(0); //0 - wartość początkowa stanu                                  
     function decreaseClickHandler() {
         setCount(previousCount => { return previousCount - 1});
     }
