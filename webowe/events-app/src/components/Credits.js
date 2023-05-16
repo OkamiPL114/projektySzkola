@@ -2,10 +2,10 @@ import "./Credits.css";
 
 function Credits(){
     return(
-        <>
-            <p>Szymon Gałuszka</p>
+        <div className="credits">
+            <h2>Szymon Gałuszka</h2>
             <p>klasa 4PTb</p>
-        </>
+        </div>
     )
 }
 

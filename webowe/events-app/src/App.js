@@ -17,11 +17,7 @@ function App() {
     }
 
     function showCreditsHandler() {
-        if(!showCredits){
-            setShowCredits(true);
-        }else {
-            setShowCredits(false);
-        }
+        setShowCredits(prevState => !prevState);
     }
 
     return (
