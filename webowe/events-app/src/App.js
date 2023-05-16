@@ -1,12 +1,14 @@
 import React from "react";
 import EventsTest from "./components/EventsTest";
+import Counter from "./components/Counter";
 
 function App() {
     return (
-        <React.Fragment>
+        <>
             <h1>Test</h1>
-            <EventsTest />
-        </React.Fragment>
+            {/* <EventsTest /> */}
+            <Counter/>
+        </>
     )
 }
 
