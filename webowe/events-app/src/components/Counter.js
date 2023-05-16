@@ -4,10 +4,10 @@ import "./Counter.css"
 function Counter() {
     const [count,setCount] = useState(0); //0 - wartość początkowa stanu                                  
     function decreaseClickHandler() {
-        setCount(count-1);
+        setCount(previousCount => { return previousCount - 1});
     }
     function increaseClickHandler() {
-        setCount(count+1);
+        setCount(prevCount => prevCount + 1);
     }
 
     return (
