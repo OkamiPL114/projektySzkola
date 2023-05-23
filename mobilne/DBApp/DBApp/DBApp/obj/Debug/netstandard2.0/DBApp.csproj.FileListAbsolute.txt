@@ -1,0 +1,15 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\bin\Debug\netstandard2.0\DBApp.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\bin\Debug\netstandard2.0\DBApp.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\bin\Debug\netstandard2.0\DBApp.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\DBApp.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\DBApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\DBApp.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\DBApp.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\DBApp.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\DBApp.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\refint\DBApp.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\DBApp.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\ref\DBApp.dll

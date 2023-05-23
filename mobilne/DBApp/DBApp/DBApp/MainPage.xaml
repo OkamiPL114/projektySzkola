@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DBApp.MainPage">
+    
+    <!-- style lokalne, w App.xaml style globalne -->
+    <ContentPage.Resources>
+        <Style TargetType="Label" x:Key="headerLabel">
+            <Setter Property="FontSize" Value="26"/>
+            <Setter Property="TextColor" Value="Black"/>
+        </Style>
+    </ContentPage.Resources>
+    
+    <StackLayout>
+        <Frame BackgroundColor="{StaticResource mainColor}" Padding="24" CornerRadius="0">
+            <Label Text="Kontakty" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <ListView x:Name="contactsListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="Email" Style="{StaticResource headerLabel}"/>
+                            <Label Text="Imię i nazwisko" Style="{StaticResource headerLabel}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
