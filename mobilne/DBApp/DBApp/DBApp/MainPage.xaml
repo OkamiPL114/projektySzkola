@@ -10,18 +10,25 @@
             <Setter Property="TextColor" Value="Black"/>
         </Style>
     </ContentPage.Resources>
+
+    <!-- przyciski na pasku -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Nowy"
+                     IconImageSource="add.png"
+                     Clicked="addToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
     
     <StackLayout>
         <Frame BackgroundColor="{StaticResource mainColor}" Padding="24" CornerRadius="0">
             <Label Text="Kontakty" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
-        <ListView x:Name="contactsListView">
+        <ListView x:Name="contactsListView" HasUnevenRows="True" Margin="10, 0">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout>
-                            <Label Text="Email" Style="{StaticResource headerLabel}"/>
-                            <Label Text="Imię i nazwisko" Style="{StaticResource headerLabel}"/>
+                            <Label Text="{Binding Email}" Style="{StaticResource headerLabel}"/>
+                            <Label Text="{Binding Name}"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
