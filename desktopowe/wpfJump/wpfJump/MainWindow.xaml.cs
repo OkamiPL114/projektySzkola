@@ -33,7 +33,7 @@ namespace wpfJump
             string temp = "";
             int x = 0;
             int[] tabA = new int[n];
-            for(int i = 0; i <= tabCandidate.Length; i++)
+            for(int i = 0; i < tabCandidate.Length; i++)
             {
                 if(tabCandidate[i] != ',')
                 {
@@ -53,7 +53,7 @@ namespace wpfJump
 
             //wypełnianie pól
             tabB[0] = true;
-            for(int k = 1; k <= n; k++)
+            for(int k = 1; k < n; k++)
             {
                 for(int i = s; i >= tabA[k]; i--)
                 {
@@ -74,7 +74,7 @@ namespace wpfJump
                     resultLabel.Content += "X";
                 }else
                 {
-                    resultLabel.Content += " ";
+                    resultLabel.Content += "0";
                 }
                 resultLabel.Content += "   ";
             }
