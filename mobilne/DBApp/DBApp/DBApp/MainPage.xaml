@@ -19,15 +19,28 @@
     </ContentPage.ToolbarItems>
     
     <StackLayout>
-        <Frame BackgroundColor="{StaticResource mainColor}" Padding="24" CornerRadius="0">
-            <Label Text="Kontakty" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <Frame BackgroundColor="{StaticResource mainColor}" 
+               Padding="24" 
+               CornerRadius="0">
+            <Label Text="Kontakty" 
+                   HorizontalTextAlignment="Center" 
+                   TextColor="White" 
+                   FontSize="36"/>
         </Frame>
-        <ListView x:Name="contactsListView" HasUnevenRows="True" Margin="10, 0">
+        <ListView x:Name="contactsListView" 
+                  HasUnevenRows="True" 
+                  Margin="10, 0">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="Usuń" 
+                                      CommandParameter="{Binding .}" 
+                                      IsDestructive="True" x:Name="deleteMenuItem"  Clicked="deleteMenuItem_Clicked"/>
+                        </ViewCell.ContextActions>
                         <StackLayout>
-                            <Label Text="{Binding Email}" Style="{StaticResource headerLabel}"/>
+                            <Label Text="{Binding Email}" 
+                                   Style="{StaticResource headerLabel}"/>
                             <Label Text="{Binding Name}"/>
                         </StackLayout>
                     </ViewCell>

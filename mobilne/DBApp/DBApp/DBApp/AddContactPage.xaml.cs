@@ -25,11 +25,11 @@ namespace DBApp
             var name = nameEntry.Text;
             Contact newContact = new Contact() { Email = email, Name = name};
 
-            using (var connection = new SQLiteConnection(App.GetDbPath()))
-            {
-                connection.CreateTable<Contact>();
-                connection.Insert(newContact);
-            }
+            //zapis do bazy
+            var connection = new SQLiteAsyncConnection(App.GetDbPath());
+            await connection.CreateTableAsync<Contact>();
+            await connection.InsertAsync(newContact);
+            await connection.CloseAsync();
 
             await Navigation.PopModalAsync();
         }

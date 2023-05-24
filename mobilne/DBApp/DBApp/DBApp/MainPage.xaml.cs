@@ -17,28 +17,50 @@ namespace DBApp
         public MainPage()
         {
             InitializeComponent();
-            readDatabase();
-            contactsListView.ItemsSource = contacts;
+        }
+
+        protected override async void OnAppearing() //uruchamia się podczas wyświetlania strony
+        {
+            base.OnAppearing();
+            await readDatabase();
         }
 
         private async void addToolbarItem_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new AddContactPage());
-            readDatabase();
         }
-        private void readDatabase()
+        private async Task readDatabase()
         {
             List<Contact> contactsList = new List<Contact>();
-            using (var connection = new SQLiteConnection(App.GetDbPath()))
+            var connection = new SQLiteAsyncConnection(App.GetDbPath());
+            
+            await connection.CreateTableAsync<Contact>();
+            
+            contactsList = await connection.Table<Contact>().ToListAsync();
+
+            await connection.CloseAsync();
+
+            contactsListView.ItemsSource = contactsList;
+        }
+
+        private async void deleteMenuItem_Clicked(object sender, EventArgs e)
+        {
+            var menuItem = sender as MenuItem;
+            var contactToDelete = menuItem.CommandParameter as Contact;
+            var confirm = await DisplayAlert("Usuwanie", $"Czy na pewno chcesz usunąć kontakt: {contactToDelete.Email}?", "Tak", "Nie");
+            if (!confirm)
             {
-                connection.CreateTable<Contact>();
-                contactsList = connection.Table<Contact>().ToList();
-            };
-            contacts.Clear();
-            foreach (var contact in contactsList)
-            {
-                contacts.Add(contact);
+                return;
             }
+            var connection = new SQLiteAsyncConnection(App.GetDbPath());
+
+            await connection.CreateTableAsync<Contact>();
+
+            await connection.DeleteAsync(contactToDelete);
+
+            await connection.CloseAsync();
+
+            await readDatabase();
         }
     }
 }
