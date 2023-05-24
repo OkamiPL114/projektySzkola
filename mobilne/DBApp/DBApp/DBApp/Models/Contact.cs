@@ -5,7 +5,7 @@ using SQLite; //!!!!!!!!!!!!
 
 namespace DBApp.Models
 {
-    internal class Contact
+    public class Contact
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }

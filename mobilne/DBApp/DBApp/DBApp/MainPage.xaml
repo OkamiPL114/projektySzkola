@@ -36,7 +36,13 @@
                         <ViewCell.ContextActions>
                             <MenuItem Text="Usuń" 
                                       CommandParameter="{Binding .}" 
-                                      IsDestructive="True" x:Name="deleteMenuItem"  Clicked="deleteMenuItem_Clicked"/>
+                                      IsDestructive="True" 
+                                      x:Name="deleteMenuItem"  
+                                      Clicked="deleteMenuItem_Clicked"/>
+                            <MenuItem Text="Edytuj"
+                                      CommandParameter="{Binding .}"
+                                      x:Name="editMenuItem"
+                                      Clicked="editMenuItem_Clicked"/>
                         </ViewCell.ContextActions>
                         <StackLayout>
                             <Label Text="{Binding Email}" 

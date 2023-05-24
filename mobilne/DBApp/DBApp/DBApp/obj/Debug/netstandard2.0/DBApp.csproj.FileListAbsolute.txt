@@ -14,3 +14,4 @@ C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\o
 C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\DBApp.pdb
 C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\ref\DBApp.dll
 C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\AddContactPage.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\DBApp\DBApp\DBApp\obj\Debug\netstandard2.0\EditContactPage.xaml.g.cs

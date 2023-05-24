@@ -13,7 +13,6 @@ namespace DBApp
 {
     public partial class MainPage : ContentPage
     {
-        private ObservableCollection<Contact> contacts;
         public MainPage()
         {
             InitializeComponent();
@@ -61,6 +60,13 @@ namespace DBApp
             await connection.CloseAsync();
 
             await readDatabase();
+        }
+
+        protected void editMenuItem_Clicked(object sender, EventArgs e)
+        {
+            var menuItem = sender as MenuItem;
+            var contactToEdit = menuItem.CommandParameter as Contact;
+            Navigation.PushModalAsync(new EditContactPage(contactToEdit));
         }
     }
 }
