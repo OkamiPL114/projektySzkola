@@ -28,7 +28,7 @@ namespace wpfJump
         private void execButton_Click(object sender, RoutedEventArgs e)
         {
             int s = int.Parse(sTextBox.Text);
-            int n = int.Parse(nTextBox.Text) - 1;
+            int n = int.Parse(nTextBox.Text);
             string tabCandidate = $"{tabTextBox.Text},";
             string temp = "";
             int x = 0;
@@ -65,18 +65,18 @@ namespace wpfJump
             }
 
             //generowanie graficzne planszy
-            resultLabel.Content = "";
+            resultTextBlock.Text = "";
             for(int i = 0; i < tabB.Length; i++)
             {
-                resultLabel.Content += $"B{i} | ";
+                resultTextBlock.Text += $"B{i} | ";
                 if (tabB[i])
                 {
-                    resultLabel.Content += "X";
+                    resultTextBlock.Text += "X";
                 }else
                 {
-                    resultLabel.Content += "0";
+                    resultTextBlock.Text += "0";
                 }
-                resultLabel.Content += "   ";
+                resultTextBlock.Text += "   ";
             }
         }
     }

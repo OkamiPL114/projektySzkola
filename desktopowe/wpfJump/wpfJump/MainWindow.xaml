@@ -5,23 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpfJump"
         mc:Ignorable="d"
-        Title="WPF Jump" Height="450" Width="800">
+        Title="WPF Jump" Height="400" Width="400">
     <Grid>
-        <StackPanel Margin="40" HorizontalAlignment="Center">
+        <StackPanel Margin="10" HorizontalAlignment="Center">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Label Content="Podaj s:"/>
-                <TextBox Height="16" Width="50" Margin="0, 6" VerticalAlignment="Top" x:Name="sTextBox"/>
+                <TextBox Height="20" FontSize="15" Width="50" x:Name="sTextBox"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Label Content="Podaj n:"/>
-                <TextBox Height="16" Width="50" Margin="0, 6" VerticalAlignment="Top" x:Name="nTextBox"/>
+                <TextBox Height="20" FontSize="15" Width="50" x:Name="nTextBox"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <Label Content="Podaj tablicę A (oddziel liczby przecinkiem):"/>
-                <TextBox Height="16" Width="150" Margin="0, 6" VerticalAlignment="Top" x:Name="tabTextBox"/>
+                <TextBox Height="20" FontSize="15" Width="120" x:Name="tabTextBox"/>
             </StackPanel>
-            <Button Content="Wykonaj" Width="200" HorizontalAlignment="Center"  x:Name="execButton" Click="execButton_Click"/>
-            <Label Margin="50" FontSize="30" x:Name="resultLabel"/>
+            <Button Content="Wykonaj" Width="200" Margin="0, 10" HorizontalAlignment="Center" x:Name="execButton" Click="execButton_Click"/>
+            <TextBlock Text="" Margin="0, 40, 0, 0" FontSize="20" TextWrapping="WrapWithOverflow" Width="320" x:Name="resultTextBlock"/>
         </StackPanel>
     </Grid>
 </Window>
