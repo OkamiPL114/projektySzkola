@@ -1,0 +1,15 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ciagLiczbKonsola\ciagLiczbKonsola\bin\Debug\net6.0\ciagLiczbKonsola.exe
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ciagLiczbKonsola\ciagLiczbKonsola\bin\Debug\net6.0\ciagLiczbKonsola.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ciagLiczbKonsola\ciagLiczbKonsola\bin\Debug\net6.0\ciagLiczbKonsola.runtimeconfig.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ciagLiczbKonsola\ciagLiczbKonsola\bin\Debug\net6.0\ciagLiczbKonsola.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ciagLiczbKonsola\ciagLiczbKonsola\bin\Debug\net6.0\ciagLiczbKonsola.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ciagLiczbKonsola\ciagLiczbKonsola\obj\Debug\net6.0\ciagLiczbKonsola.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ciagLiczbKonsola\ciagLiczbKonsola\obj\Debug\net6.0\ciagLiczbKonsola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ciagLiczbKonsola\ciagLiczbKonsola\obj\Debug\net6.0\ciagLiczbKonsola.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ciagLiczbKonsola\ciagLiczbKonsola\obj\Debug\net6.0\ciagLiczbKonsola.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ciagLiczbKonsola\ciagLiczbKonsola\obj\Debug\net6.0\ciagLiczbKonsola.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ciagLiczbKonsola\ciagLiczbKonsola\obj\Debug\net6.0\ciagLiczbKonsola.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ciagLiczbKonsola\ciagLiczbKonsola\obj\Debug\net6.0\refint\ciagLiczbKonsola.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ciagLiczbKonsola\ciagLiczbKonsola\obj\Debug\net6.0\ciagLiczbKonsola.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ciagLiczbKonsola\ciagLiczbKonsola\obj\Debug\net6.0\ciagLiczbKonsola.genruntimeconfig.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ciagLiczbKonsola\ciagLiczbKonsola\obj\Debug\net6.0\ref\ciagLiczbKonsola.dll
