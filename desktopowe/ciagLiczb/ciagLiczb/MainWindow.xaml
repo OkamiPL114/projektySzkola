@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ciagLiczb"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="400" Width="400">
     <Grid>
-
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label Content="Podaj ciąg liczb do opisania (liczby oddziel przecinkami) :"/>
+            <TextBox Margin="10" x:Name="tabTextBox" Height="25" FontSize="18"/>
+            <Button Content="Opisz" Margin="10" Padding="0, 10" x:Name="execButton" Click="execButton_Click"/>
+            <TextBlock Text="" TextWrapping="WrapWithOverflow" x:Name="resultTextBlock" MaxWidth="305"/>
+        </StackPanel>
     </Grid>
 </Window>
