@@ -72,7 +72,7 @@ namespace DBApp
         private async void emailSearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
             SearchBar searchBar = sender as SearchBar;
-            var searchEmail = searchBar.Text;
+            var searchEmail = searchBar.Text.ToLower();
             if(searchEmail != "")
             {
                 List<Contact> contacts = new List<Contact>();
@@ -86,7 +86,7 @@ namespace DBApp
 
                 List<Contact> filteredContacts = new List<Contact>();
 
-                filteredContacts = contacts.Where(contact => contact.Email.StartsWith(searchEmail)).ToList();
+                filteredContacts = contacts.Where(contact => contact.Email.ToLower().Contains(searchEmail)).ToList();
 
                 contactsListView.ItemsSource = filteredContacts;
             }
