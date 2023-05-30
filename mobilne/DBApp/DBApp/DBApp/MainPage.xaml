@@ -27,6 +27,15 @@
                    TextColor="White" 
                    FontSize="36"/>
         </Frame>
+        <SearchBar Placeholder="Wpisz email..."
+                   CancelButtonColor="Black"
+                   PlaceholderColor="DarkGray"
+                   TextColor="Black"
+                   TextTransform="Lowercase"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Medium"
+                   x:Name="emailSearchBar"
+                   TextChanged="emailSearchBar_TextChanged"/>
         <ListView x:Name="contactsListView" 
                   HasUnevenRows="True" 
                   Margin="10, 0">
