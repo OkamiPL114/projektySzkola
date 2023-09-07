@@ -1,0 +1,33 @@
+﻿<Window x:Class="interfejsLogowania.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:interfejsLogowania"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid>
+        <StackPanel Margin="20">
+            <Label Content="Imię:"/>
+            <TextBox x:Name="nameTextBox"/>
+            <Label Content="Nazwisko:"/>
+            <TextBox x:Name="surnameTextBox"/>
+            <Label Content="Stanowisko:"/>
+            <ComboBox x:Name="positionComboBox">
+                <ComboBoxItem Content="Pracownik"/>
+                <ComboBoxItem Content="Uczeń"/>
+                <ComboBoxItem Content="Zarządzający"/>
+                <ComboBoxItem Content="Przedstawiciel"/>
+            </ComboBox>
+            <Label Content="Logowanie"/>
+            <Label Content="Hasło:"/>
+            <PasswordBox x:Name="passPasswordBox"/>
+            <Button Content="Zaloguj" HorizontalAlignment="Right" Padding="3" Margin="5" x:Name="loginButton" Click="loginButton_Click"/>
+            
+            <Label Content="Historia logowania"/>
+            <ListBox Height="90" x:Name="historyListBox">
+
+            </ListBox>
+        </StackPanel>
+    </Grid>
+</Window>
