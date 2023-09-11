@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="powtorka.EquationPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="StackLayout">
+                
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout Margin="20">
+        <Frame BackgroundColor="{Binding Source={StaticResource mainColor}}">
+            <Label Text="Równanie kwadratowe"
+                   Style="{Binding Source={StaticResource headerFont}}"
+                   TextColor="White"/>
+        </Frame>
+        <StackLayout>
+            <Label Text="a:"/>
+            <Entry Keyboard="Numeric"
+                   x:Name="aEntry"/>
+            <Label Text="b:"/>
+            <Entry Keyboard="Numeric"
+                   x:Name="bEntry"/>
+            <Label Text="c:"/>
+            <Entry Keyboard="Numeric"
+                   x:Name="cEntry"/>
+            
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="powtorka.MainPage">
+
+    <StackLayout VerticalOptions="Center"
+                 Margin="20, 0">
+        <Frame BackgroundColor="{Binding Source={StaticResource mainColor}}">
+            <Label Text="Matma"
+                   Style="{Binding Source={StaticResource headerFont}}"
+                   TextColor="White"/>
+        </Frame>
+        <Button Text="R. kwadratowe" 
+                Style="{Binding Source={StaticResource standardButton}}"
+                x:Name="equationButton"
+                Clicked="equationButton_Clicked"/>
+        <Button Text="O programie"
+                Style="{Binding Source={StaticResource standardButton}}"
+                x:Name="aboutButton"
+                Clicked="aboutButton_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
