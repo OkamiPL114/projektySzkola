@@ -1,0 +1,7 @@
+.card {
+    margin: 6px 10px;
+    padding: 10px 20px;
+    border: 3px solid #777;
+    background: rgb(255, 140, 255);
+    display: inline-block;
+}
