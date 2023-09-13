@@ -25,7 +25,12 @@
             <Label Text="c:"/>
             <Entry Keyboard="Numeric"
                    x:Name="cEntry"/>
-            
+            <Button Text="Oblicz" 
+                    Margin="40"
+                    x:Name="calcButton"
+                    Clicked="calcButton_Clicked"/>
+            <Entry IsReadOnly="True"
+                   x:Name="resultEntry"/>
         </StackLayout>
     </StackLayout>
 </ContentPage>
