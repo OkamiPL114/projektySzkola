@@ -1,0 +1,38 @@
+﻿<Window x:Class="odchylenieStandardowe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:odchylenieStandardowe"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="LightGray">
+        <StackPanel>
+            <GroupBox Header="Dane Wejściowe" Margin="20">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Rozmiar tablicy:"/>
+                        <TextBox Width="100" Margin="5" x:Name="sizeTextBox"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Elementy tablicy:"/>
+                        <TextBox Width="100" Margin="5" x:Name="elementsTextBox"/>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <Button Content="Oblicz" HorizontalAlignment="Center" Padding="70 15" x:Name="calcButton" Click="calcButton_Click"/>
+            <GroupBox Header="Wyniki" Margin="20">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Odchylenie standardowe"/>
+                        <TextBox Width="100" Margin="5" IsReadOnly="True" x:Name="odchylenieTextBox"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Średnia arytmetyczna"/>
+                        <TextBox Width="100" Margin="5" IsReadOnly="True" x:Name="sredniaTextBox"/>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+    </Grid>
+</Window>
