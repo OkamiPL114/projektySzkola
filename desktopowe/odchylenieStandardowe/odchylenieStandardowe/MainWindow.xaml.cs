@@ -32,7 +32,7 @@ namespace odchylenieStandardowe
             string[] tab2 = elementsTextBox.Text.Split(' ');
             for(int i = 0; i < tab2.Length; i++) 
             {
-                tab[i] = double.Parse(tab2[i]);
+                 tab[i] = double.Parse(tab2[i]);
             }
             sredniaTextBox.Text = CalculateAverage(tab, size).ToString();
             odchylenieTextBox.Text = CalculateStandardDeviation(tab, size).ToString();
@@ -40,13 +40,8 @@ namespace odchylenieStandardowe
 
         private double CalculateStandardDeviation(double[] numbers, int size)
         {
-            double srednia = 0;
+            double srednia = CalculateAverage(numbers, size);
             double sum2 = 0;
-            foreach (double number in numbers)
-            {
-                srednia += number;
-            }
-            srednia /= size;
             for (int i = 0; i < size; i++)
             {
                 numbers[i] -= srednia;
