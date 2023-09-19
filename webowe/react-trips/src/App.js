@@ -8,8 +8,9 @@ function App() {
 	function addHandler(newTrip){
 		setTrips(prevTrips => [...prevTrips, {id: crypto.randomUUID(), ...newTrip}]);
 	}
-	function deleteHandler(newTrip){
-		setTrips(prevTrips => prevTrips)
+	function deleteHandler(idToDelete){
+		const newTrips = trips.filter(trip => trip.id !== idToDelete);
+		setTrips(newTrips);
 	}
 	return (
 		<>

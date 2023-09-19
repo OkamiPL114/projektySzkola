@@ -1,3 +1,4 @@
+import React, {useState} from "react";
 import "./Trip.css";
 
 function Trip(props){
@@ -6,6 +7,10 @@ function Trip(props){
         heartsRating += "❤";
     }
 
+    function deleteHandler(event){
+        event.preventDefault();
+        props.onDelete(props.trip.id);
+    }
     return(
         <div className="trip">
             <h2>{props.trip.location}</h2>
@@ -15,7 +20,7 @@ function Trip(props){
             <br/>
             <p>Ocena: <span className="redColor">{heartsRating}</span></p>
             {heartsRating = ""}
-            <form onSubmit={props.onDelete}>
+            <form onSubmit={deleteHandler}>
                 <input type="hidden" value={props.trip.id}/>
                 <button type="submit">Usuń</button>
             </form>
