@@ -1,0 +1,14 @@
+C:\Users\ckz1j\projektySzkola\desktopowe\zadanie1oraz2\zadanie1oraz2\obj\Debug\net6.0\zadanie1oraz2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckz1j\projektySzkola\desktopowe\zadanie1oraz2\zadanie1oraz2\obj\Debug\net6.0\zadanie1oraz2.AssemblyInfoInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\zadanie1oraz2\zadanie1oraz2\obj\Debug\net6.0\zadanie1oraz2.AssemblyInfo.cs
+C:\Users\ckz1j\projektySzkola\desktopowe\zadanie1oraz2\zadanie1oraz2\obj\Debug\net6.0\zadanie1oraz2.csproj.CoreCompileInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\zadanie1oraz2\zadanie1oraz2\bin\Debug\net6.0\zadanie1oraz2.exe
+C:\Users\ckz1j\projektySzkola\desktopowe\zadanie1oraz2\zadanie1oraz2\bin\Debug\net6.0\zadanie1oraz2.deps.json
+C:\Users\ckz1j\projektySzkola\desktopowe\zadanie1oraz2\zadanie1oraz2\bin\Debug\net6.0\zadanie1oraz2.runtimeconfig.json
+C:\Users\ckz1j\projektySzkola\desktopowe\zadanie1oraz2\zadanie1oraz2\bin\Debug\net6.0\zadanie1oraz2.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\zadanie1oraz2\zadanie1oraz2\bin\Debug\net6.0\zadanie1oraz2.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\zadanie1oraz2\zadanie1oraz2\obj\Debug\net6.0\zadanie1oraz2.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\zadanie1oraz2\zadanie1oraz2\obj\Debug\net6.0\refint\zadanie1oraz2.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\zadanie1oraz2\zadanie1oraz2\obj\Debug\net6.0\zadanie1oraz2.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\zadanie1oraz2\zadanie1oraz2\obj\Debug\net6.0\zadanie1oraz2.genruntimeconfig.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\zadanie1oraz2\zadanie1oraz2\obj\Debug\net6.0\ref\zadanie1oraz2.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "zadanie1oraz2/1.0.0": {
+        "runtime": {
+          "zadanie1oraz2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "zadanie1oraz2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
