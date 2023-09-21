@@ -1,0 +1,32 @@
+﻿<Window x:Class="percentage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:percentage"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <Grid>
+        <GroupBox Header="Dane Wejściowe" Margin="20">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Podstawa: "/>
+                    <TextBox x:Name="podstawaTextBox" Width="50" Margin="5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Procent: "/>
+                    <TextBox x:Name="procentTextBox" Width="50" Margin="5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Oblicz" Margin="40 10 50 10" Padding="5" x:Name="obliczButton" Click="obliczButton_Click" Width="70"/>
+                    <CheckBox Content="Zapisuj wyniki do listy" x:Name="zapisujCheckBox" Margin="0 15 0 0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Wynik: "/>
+                    <TextBox x:Name="wynikTextBox" Width="50" Margin="5" IsReadOnly="True"/>
+                </StackPanel>
+                <ListBox Height="60" Margin="5" x:Name="listaListBox"/>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>
