@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DBpowtorka.AddEmployeePage"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout>
+        <Frame Margin="20">
+            <Label Text="Nowy pracownik" 
+                   HorizontalTextAlignment="Center"
+                   Style="{Binding Source={StaticResource headerLabel}}"/>
+        </Frame>
+        <StackLayout Margin="16, 32">
+            <Label Text="Imię:"/>
+            <Entry x:Name="firstNameEntry" 
+                   Keyboard="Text"/>
+            
+            <Label Text="Nazwisko:"/>
+            <Entry x:Name="lastNameEntry" 
+                   Keyboard="Text"/>
+            
+            <Label Text="Wynagrodzenie (brutto):"/>
+            <Entry x:Name="salaryEntry" 
+                   Keyboard="Numeric"/>
+
+            <Button Text="Dodaj" 
+                    x:Name="addButton" 
+                    Clicked="addButton_Clicked"/>
+            <Button Text="Anuluj" 
+                    x:Name="cancelButton" 
+                    Clicked="cancelButton_Clicked"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

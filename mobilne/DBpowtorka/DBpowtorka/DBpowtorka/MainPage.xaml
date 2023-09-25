@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DBpowtorka.MainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Dodaj" Clicked="addEmployeeToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <Frame Margin="20">
+            <Label Text="Pracownicy" 
+                   HorizontalTextAlignment="Center"
+                   Style="{Binding Source={StaticResource headerLabel}}"/>
+        </Frame>
+        <ListView x:Name="employeesListView"
+                  HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal" Margin="5, 0">
+                                <Label Text="{Binding FirstName}" 
+                                       x:Name="firstNameLabel"
+                                       FontSize="20"/>
+                                <Label Text="{Binding LastName}" 
+                                       x:Name="lastNameLabel"
+                                       FontSize="20"/>
+                            </StackLayout>
+                            <Label Text="{Binding Salary, StringFormat='{0:F2} zł'}"
+                                   x:Name="salaryLabel"
+                                   FontSize="15"
+                                   Margin="5, 0"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

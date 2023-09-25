@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DBpowtorka.App">
+    <Application.Resources>
+        <Color x:Key="mainColor">palegreen</Color>
+        <Color x:Key="secondaryColor">#14291a</Color>
+        <Style TargetType="Frame">
+            <Setter Property="Padding" Value="10, 20"/>
+            <Setter Property="BackgroundColor" Value="{Binding Source={StaticResource mainColor}}"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="Black"/>
+        </Style>
+        <Style TargetType="Label" x:Key="headerLabel">
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+    </Application.Resources>
+</Application>

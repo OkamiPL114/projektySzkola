@@ -1,0 +1,16 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\bin\Debug\netstandard2.0\DBpowtorka.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\bin\Debug\netstandard2.0\DBpowtorka.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\bin\Debug\netstandard2.0\DBpowtorka.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\obj\Debug\netstandard2.0\DBpowtorka.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\obj\Debug\netstandard2.0\DBpowtorka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\obj\Debug\netstandard2.0\DBpowtorka.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\obj\Debug\netstandard2.0\DBpowtorka.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\obj\Debug\netstandard2.0\DBpowtorka.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\obj\Debug\netstandard2.0\DBpowtorka.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\obj\Debug\netstandard2.0\refint\DBpowtorka.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\obj\Debug\netstandard2.0\DBpowtorka.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\obj\Debug\netstandard2.0\ref\DBpowtorka.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\DBpowtorka\DBpowtorka\DBpowtorka\obj\Debug\netstandard2.0\AddEmployeePage.xaml.g.cs
