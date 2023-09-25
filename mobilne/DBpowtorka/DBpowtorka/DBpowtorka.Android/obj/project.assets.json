@@ -3666,11 +3666,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka.Android\\DBpowtorka.Android.csproj",
+      "projectUniqueName": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka.Android\\DBpowtorka.Android.csproj",
       "projectName": "DBpowtorka.Android",
-      "projectPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka.Android\\DBpowtorka.Android.csproj",
+      "projectPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka.Android\\DBpowtorka.Android.csproj",
       "packagesPath": "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka.Android\\obj\\",
+      "outputPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3691,8 +3691,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka\\DBpowtorka.csproj": {
-              "projectPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka\\DBpowtorka.csproj"
+            "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka\\DBpowtorka.csproj": {
+              "projectPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka\\DBpowtorka.csproj"
             }
           }
         }

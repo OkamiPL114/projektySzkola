@@ -1593,11 +1593,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka.iOS\\DBpowtorka.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka.iOS\\DBpowtorka.iOS.csproj",
       "projectName": "DBpowtorka.iOS",
-      "projectPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka.iOS\\DBpowtorka.iOS.csproj",
+      "projectPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka.iOS\\DBpowtorka.iOS.csproj",
       "packagesPath": "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka.iOS\\obj\\",
+      "outputPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1618,8 +1618,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka\\DBpowtorka.csproj": {
-              "projectPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka\\DBpowtorka.csproj"
+            "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka\\DBpowtorka.csproj": {
+              "projectPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka\\DBpowtorka.csproj"
             }
           }
         }

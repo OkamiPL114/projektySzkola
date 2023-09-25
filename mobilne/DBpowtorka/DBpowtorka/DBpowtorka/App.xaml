@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DBpowtorka.App">
     <Application.Resources>
-        <Color x:Key="mainColor">palegreen</Color>
-        <Color x:Key="secondaryColor">#14291a</Color>
+        <Color x:Key="mainColor">Red</Color>
+        <Color x:Key="secondaryColor">LightGreen</Color>
         <Style TargetType="Frame">
             <Setter Property="Padding" Value="10, 20"/>
             <Setter Property="BackgroundColor" Value="{Binding Source={StaticResource mainColor}}"/>

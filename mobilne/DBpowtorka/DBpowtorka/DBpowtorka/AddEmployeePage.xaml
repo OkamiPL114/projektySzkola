@@ -24,10 +24,14 @@
 
             <Button Text="Dodaj" 
                     x:Name="addButton" 
-                    Clicked="addButton_Clicked"/>
+                    Clicked="addButton_Clicked"
+                    BackgroundColor="{Binding Source={StaticResource secondaryColor}}"
+                    Margin="10"/>
             <Button Text="Anuluj" 
                     x:Name="cancelButton" 
-                    Clicked="cancelButton_Clicked"/>
+                    Clicked="cancelButton_Clicked"
+                    BackgroundColor="{Binding Source={StaticResource secondaryColor}}"
+                    Margin="10"/>
         </StackLayout>
     </StackLayout>
 </ContentPage>

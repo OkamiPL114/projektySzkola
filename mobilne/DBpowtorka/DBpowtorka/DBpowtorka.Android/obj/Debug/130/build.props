@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638312245464923022
+_nugetassetstimestamp=638312285163255152
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\galuszka.szymon.ptb_\desktop\dbpowtorka\dbpowtorka\dbpowtorka.android\dbpowtorka.android.csproj
+projectfullpath=c:\users\galuszka.szymon.ptb_\desktop\projektyszkola\mobilne\dbpowtorka\dbpowtorka\dbpowtorka.android\dbpowtorka.android.csproj

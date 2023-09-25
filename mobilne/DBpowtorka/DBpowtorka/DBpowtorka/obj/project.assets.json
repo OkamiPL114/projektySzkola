@@ -869,11 +869,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka\\DBpowtorka.csproj",
+      "projectUniqueName": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka\\DBpowtorka.csproj",
       "projectName": "DBpowtorka",
-      "projectPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka\\DBpowtorka.csproj",
+      "projectPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka\\DBpowtorka.csproj",
       "packagesPath": "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka\\obj\\",
+      "outputPath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

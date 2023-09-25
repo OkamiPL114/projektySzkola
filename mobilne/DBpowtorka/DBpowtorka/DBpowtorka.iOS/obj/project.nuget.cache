@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s0ZkA/F3b26jVO+15aS2RXWw0jQ14JNYDTdxTuU/RwH2rezQVAMgZujpKcMPeW0qL5O7DOSUdPFr9dfBQaDJnw==",
+  "dgSpecHash": "vHAn5HJ3MEKLml8OxkpicsQdnHY/2Lwhw12Z/iRO2BZ3MSVKqdEljfw9EsT9UbKzqCXs4up54ox5G01SX9/QXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka.iOS\\DBpowtorka.iOS.csproj",
+  "projectFilePath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka.iOS\\DBpowtorka.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",

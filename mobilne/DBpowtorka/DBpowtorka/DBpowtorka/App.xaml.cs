@@ -12,7 +12,14 @@ namespace DBpowtorka
 
             MainPage = new NavigationPage(new MainPage());
         }
+        public static string GetDBPath()
+        {
+            var personalPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
+            var dbName = "employees.db";
+            var dbPath = System.IO.Path.Combine(personalPath, dbName);
 
+            return dbPath;
+        }
         protected override void OnStart()
         {
         }

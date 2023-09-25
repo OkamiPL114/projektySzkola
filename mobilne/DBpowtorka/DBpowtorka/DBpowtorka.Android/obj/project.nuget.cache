@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KTwqINxzI6SOifhpUBzC0CrPAC0v7UaH0ooo/0IR7C1VPWu4ICIZeXwXGYcF9pXwof8B+g+V2242PgwEuTKdjQ==",
+  "dgSpecHash": "fYExmnJvplR3uto/wqrxKhqly4syGy8toqKqwcj09fVkLDVR5v0bxsZ+GFMMzpWzDY/BNkGwhEGVqCZPC3l64g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka.Android\\DBpowtorka.Android.csproj",
+  "projectFilePath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka.Android\\DBpowtorka.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",

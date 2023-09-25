@@ -16,6 +16,17 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="Usuń"
+                                      x:Name="deleteMenuItem"
+                                      CommandParameter="{Binding .}"
+                                      IsDestructive="True"
+                                      Clicked="deleteMenuItem_Clicked"/>
+                            <MenuItem Text="Edytuj"
+                                      x:Name="editMenuItem"
+                                      CommandParameter="{Binding .}"
+                                      Clicked="editMenuItem_Clicked"/>
+                        </ViewCell.ContextActions>
                         <StackLayout>
                             <StackLayout Orientation="Horizontal" Margin="5, 0">
                                 <Label Text="{Binding FirstName}" 

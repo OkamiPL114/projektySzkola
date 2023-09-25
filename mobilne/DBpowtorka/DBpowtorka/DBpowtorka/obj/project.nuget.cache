@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N5HwWI+Eo8ipIsdPvyqCUMq1yXj+qp9W6hE5HI+fRRVJvrGaA7V2CSvuvgvz8yDn2q+Gn2o5esEO8vS3zGrufA==",
+  "dgSpecHash": "1NvHGH6f+XK6p3snDjVA3wwofJCgorb2p3S80gStcap5KDsz4VX9Z4fvwE62DCAEF327T5eWpmcPqVhKForKkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\DBpowtorka\\DBpowtorka\\DBpowtorka\\DBpowtorka.csproj",
+  "projectFilePath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\mobilne\\DBpowtorka\\DBpowtorka\\DBpowtorka\\DBpowtorka.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
