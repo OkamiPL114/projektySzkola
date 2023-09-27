@@ -29,6 +29,7 @@ namespace DBpowtorka
         {
             var conn = new SQLiteAsyncConnection(App.GetDBPath());
             await conn.CreateTableAsync<Employee>();
+
             employeesListView.ItemsSource = await conn.Table<Employee>().ToListAsync();
             await conn.CloseAsync();
         }
@@ -50,9 +51,31 @@ namespace DBpowtorka
             refreshDb();
         }
 
-        private void editMenuItem_Clicked(object sender, EventArgs e)
+        private async void editMenuItem_Clicked(object sender, EventArgs e)
         {
+            var menuItem = sender as MenuItem;
+            var employeeToEdit = menuItem.CommandParameter as Employee;
+            await Navigation.PushModalAsync(new EditPage(employeeToEdit));
+        }
 
+        private async void salarySearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var conn = new SQLiteAsyncConnection(App.GetDBPath());
+            await conn.CreateTableAsync<Employee>();
+
+            if(salarySearchBar.Text.Length > 0)
+            {
+                float.TryParse(salarySearchBar.Text, out float salary);
+
+                var list = await conn.Table<Employee>().ToListAsync();
+                var filteredList = list.Where(x => x.Salary >= salary);
+                employeesListView.ItemsSource = filteredList;
+            }
+            else
+            {
+                employeesListView.ItemsSource = await conn.Table<Employee>().ToListAsync();
+            }
+            await conn.CloseAsync();
         }
     }
 }

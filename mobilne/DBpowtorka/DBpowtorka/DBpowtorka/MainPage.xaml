@@ -11,6 +11,9 @@
                    HorizontalTextAlignment="Center"
                    Style="{Binding Source={StaticResource headerLabel}}"/>
         </Frame>
+        <SearchBar Placeholder="Minimalne wynagrodzenie"
+                   x:Name="salarySearchBar"
+                   TextChanged="salarySearchBar_TextChanged"/>
         <ListView x:Name="employeesListView"
                   HasUnevenRows="True">
             <ListView.ItemTemplate>

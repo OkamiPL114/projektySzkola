@@ -5,7 +5,7 @@ using SQLite;
 
 namespace DBpowtorka
 {
-    class Employee
+    public class Employee
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DBpowtorka.EditPage">
+    <StackLayout>
+        <Frame Margin="20">
+            <Label Text="Edytuj pracownika" 
+                   HorizontalTextAlignment="Center"
+                   Style="{Binding Source={StaticResource headerLabel}}"/>
+        </Frame>
+        <StackLayout Margin="16, 32">
+            <Label Text="Imię:"/>
+            <Entry x:Name="firstNameEntry" 
+                   Keyboard="Text"/>
+
+            <Label Text="Nazwisko:"/>
+            <Entry x:Name="lastNameEntry" 
+                   Keyboard="Text"/>
+
+            <Label Text="Wynagrodzenie (brutto):"/>
+            <Entry x:Name="salaryEntry" 
+                   Keyboard="Numeric"/>
+
+            <Button Text="Potwierdź edycję" 
+                    x:Name="confirmButton" 
+                    Clicked="confirmButton_Clicked"
+                    BackgroundColor="{Binding Source={StaticResource secondaryColor}}"
+                    Margin="10"/>
+            <Button Text="Anuluj"
+                    x:Name="cancelButton" 
+                    Clicked="cancelButton_Clicked"
+                    BackgroundColor="{Binding Source={StaticResource secondaryColor}}"
+                    Margin="10"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
