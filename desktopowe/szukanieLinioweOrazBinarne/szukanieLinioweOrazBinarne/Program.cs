@@ -18,33 +18,33 @@
         static private int[] linearFind(int[] tab, int searched)
         {
             int tries = 1;
-            int[] tab2 = new int[2];
+            int[] resultTab = new int[2];
             for(int i = 0; i < tab.Length;i++)
             {
                 if (tab[i] == searched)
                 {
-                    tab2[0] = i;
-                    tab2[1] = tries;
-                    return tab2;
+                    resultTab[0] = i;
+                    resultTab[1] = tries;
+                    return resultTab;
                 }
                 tries++;
             }
-            tab2[0] = -1;
-            return tab2;
+            resultTab[0] = -1;
+            return resultTab;
         }
         private static int[] binearFind(int[] tab, int searched)
         {
             int tries = 1;
-            int[] tab2 = new int[2];
+            int[] resultTab = new int[2];
             int left = 0, right = tab.Length - 1;
             while(left <= right)
             {
                 int middle = left + (right - left) / 2;
                 if (tab[middle] == searched)
                 {
-                    tab2[0] = middle;
-                    tab2[1] = tries;
-                    return tab2;
+                    resultTab[0] = middle;
+                    resultTab[1] = tries;
+                    return resultTab;
                 }
                 if (tab[middle] > searched)
                 {
@@ -56,11 +56,39 @@
                 }
                 tries++;
             }
-            tab2[0] = -1;
-            return tab2;
+            resultTab[0] = -1;
+            return resultTab;
         }
         static void Main(string[] args)
         {
+            Console.Write("Podaj elementy tablicy (oddziel je spacją): ");
+            string tabCandidate = Console.ReadLine();
+            int[] tab;
+            if (tabCandidate[tabCandidate.Length - 1] != ' ')
+            {
+                tabCandidate += ' ';
+                tab = new int[tabCandidate.Length - 1 / 2];
+            }
+            else
+            {
+                tab = new int[tabCandidate.Length / 2];
+            }
+            int j = 0;
+            string possibleTab = "";
+            for(int i = 0; i < tabCandidate.Length; i++)
+            {
+                if (tabCandidate[i] == ' ')
+                {
+                    tab[j] = int.Parse(possibleTab);
+                    j++;
+                    possibleTab = "";
+                }
+                else
+                {
+                    possibleTab += tabCandidate[i];
+                }
+            }
+            /*
             Console.Write("Podaj ilość liczb: ");
             int.TryParse(Console.ReadLine(), out int count);
             int[] tab = new int[count];
@@ -68,7 +96,7 @@
             {
                 Console.Write($"Podaj {i} element tablicy: ");
                 tab[i] = int.Parse(Console.ReadLine());
-            }
+            }*/
             Console.WriteLine();
             Console.Write("Tablica przed sortowaniem: ");
             foreach (int i in tab)
@@ -90,20 +118,20 @@
             int.TryParse(Console.ReadLine(), out int searched);
             
             Console.WriteLine();
-            int[] tab2 = linearFind(tab, searched);
-            if (tab2[0] > -1)
+            int[] findResult = linearFind(tab, searched);
+            if (findResult[0] > -1)
             {
-                Console.WriteLine($"Liczba {searched} jest w tablicy pod indeksem {tab2[0]}. Liczba prób: {tab2[1]}");
+                Console.WriteLine($"Liczba {searched} jest w tablicy pod indeksem {findResult[0]}. Liczba prób: {findResult[1]}");
             }
             else
             {
                 Console.WriteLine($"Liczby {searched} nie ma w tablicy");
             }
 
-            tab2 = binearFind(tab, searched);
+            findResult = binearFind(tab, searched);
             if (binearFind(tab, searched)[0] > -1)
             {
-                Console.WriteLine($"Liczba {searched} jest w tablicy pod indeksem {tab2[0]}. Liczba prób: {tab2[1]}");
+                Console.WriteLine($"Liczba {searched} jest w tablicy pod indeksem {findResult[0]}. Liczba prób: {findResult[1]}");
             }
             else
             {
