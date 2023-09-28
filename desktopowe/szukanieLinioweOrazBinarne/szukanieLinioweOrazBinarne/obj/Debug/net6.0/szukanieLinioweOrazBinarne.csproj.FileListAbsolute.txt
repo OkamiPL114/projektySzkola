@@ -1,0 +1,14 @@
+C:\Users\ckz1j\projektySzkola\desktopowe\szukanieLinioweOrazBinarne\szukanieLinioweOrazBinarne\bin\Debug\net6.0\szukanieLinioweOrazBinarne.exe
+C:\Users\ckz1j\projektySzkola\desktopowe\szukanieLinioweOrazBinarne\szukanieLinioweOrazBinarne\bin\Debug\net6.0\szukanieLinioweOrazBinarne.deps.json
+C:\Users\ckz1j\projektySzkola\desktopowe\szukanieLinioweOrazBinarne\szukanieLinioweOrazBinarne\bin\Debug\net6.0\szukanieLinioweOrazBinarne.runtimeconfig.json
+C:\Users\ckz1j\projektySzkola\desktopowe\szukanieLinioweOrazBinarne\szukanieLinioweOrazBinarne\bin\Debug\net6.0\szukanieLinioweOrazBinarne.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\szukanieLinioweOrazBinarne\szukanieLinioweOrazBinarne\bin\Debug\net6.0\szukanieLinioweOrazBinarne.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\szukanieLinioweOrazBinarne\szukanieLinioweOrazBinarne\obj\Debug\net6.0\szukanieLinioweOrazBinarne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckz1j\projektySzkola\desktopowe\szukanieLinioweOrazBinarne\szukanieLinioweOrazBinarne\obj\Debug\net6.0\szukanieLinioweOrazBinarne.AssemblyInfoInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\szukanieLinioweOrazBinarne\szukanieLinioweOrazBinarne\obj\Debug\net6.0\szukanieLinioweOrazBinarne.AssemblyInfo.cs
+C:\Users\ckz1j\projektySzkola\desktopowe\szukanieLinioweOrazBinarne\szukanieLinioweOrazBinarne\obj\Debug\net6.0\szukanieLinioweOrazBinarne.csproj.CoreCompileInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\szukanieLinioweOrazBinarne\szukanieLinioweOrazBinarne\obj\Debug\net6.0\szukanieLinioweOrazBinarne.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\szukanieLinioweOrazBinarne\szukanieLinioweOrazBinarne\obj\Debug\net6.0\refint\szukanieLinioweOrazBinarne.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\szukanieLinioweOrazBinarne\szukanieLinioweOrazBinarne\obj\Debug\net6.0\szukanieLinioweOrazBinarne.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\szukanieLinioweOrazBinarne\szukanieLinioweOrazBinarne\obj\Debug\net6.0\szukanieLinioweOrazBinarne.genruntimeconfig.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\szukanieLinioweOrazBinarne\szukanieLinioweOrazBinarne\obj\Debug\net6.0\ref\szukanieLinioweOrazBinarne.dll
