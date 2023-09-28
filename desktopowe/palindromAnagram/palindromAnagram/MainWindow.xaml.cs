@@ -27,12 +27,24 @@ namespace palindromAnagram
 
         private void palindromButton_Click(object sender, RoutedEventArgs e)
         {
-            string palindrom = firstTextBox.Text;
-            int start = 0;
-            int end = palindrom.Length - 1;
-            for(int i = 0; i <= palindrom.Length / 2; i++)
+            // usunięcie znaków specjalnych + spacji z wyrazu
+            string palCand = firstTextBox.Text;
+            palCand = palCand.ToLower().Trim();
+            string pal = "";
+            for(int i = 0; i < palCand.Length; i++)
             {
-                if (palindrom[start] != palindrom[end])
+                if (palCand[i] != ' ' && palCand[i] != ',' && palCand[i] != '.' && palCand[i] != '-' && palCand[i] != '_')
+                {
+                    pal += palCand[i];
+                }
+            }
+
+            // faktyczne sprawdzenie czy wyraz jest palindromem
+            int start = 0;
+            int end = pal.Length - 1;
+            for(int i = 0; i <= pal.Length / 2; i++)
+            {
+                if (pal[start] != pal[end])
                 {
                     MessageBox.Show("Pierwsze słowo nie jest palindromem");
                     return;
