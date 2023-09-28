@@ -61,34 +61,7 @@
         }
         static void Main(string[] args)
         {
-            Console.Write("Podaj elementy tablicy (oddziel je spacją): ");
-            string tabCandidate = Console.ReadLine();
-            int[] tab;
-            if (tabCandidate[tabCandidate.Length - 1] != ' ')
-            {
-                tabCandidate += ' ';
-                tab = new int[tabCandidate.Length - 1 / 2];
-            }
-            else
-            {
-                tab = new int[tabCandidate.Length / 2];
-            }
-            int j = 0;
-            string possibleTab = "";
-            for(int i = 0; i < tabCandidate.Length; i++)
-            {
-                if (tabCandidate[i] == ' ')
-                {
-                    tab[j] = int.Parse(possibleTab);
-                    j++;
-                    possibleTab = "";
-                }
-                else
-                {
-                    possibleTab += tabCandidate[i];
-                }
-            }
-            /*
+            
             Console.Write("Podaj ilość liczb: ");
             int.TryParse(Console.ReadLine(), out int count);
             int[] tab = new int[count];
@@ -96,7 +69,7 @@
             {
                 Console.Write($"Podaj {i} element tablicy: ");
                 tab[i] = int.Parse(Console.ReadLine());
-            }*/
+            }
             Console.WriteLine();
             Console.Write("Tablica przed sortowaniem: ");
             foreach (int i in tab)
