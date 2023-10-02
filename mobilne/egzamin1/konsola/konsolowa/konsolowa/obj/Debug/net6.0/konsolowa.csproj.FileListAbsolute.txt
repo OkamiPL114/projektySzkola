@@ -1,0 +1,15 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\egzamin1\konsola\konsolowa\konsolowa\bin\Debug\net6.0\konsolowa.exe
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\egzamin1\konsola\konsolowa\konsolowa\bin\Debug\net6.0\konsolowa.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\egzamin1\konsola\konsolowa\konsolowa\bin\Debug\net6.0\konsolowa.runtimeconfig.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\egzamin1\konsola\konsolowa\konsolowa\bin\Debug\net6.0\konsolowa.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\egzamin1\konsola\konsolowa\konsolowa\bin\Debug\net6.0\konsolowa.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\egzamin1\konsola\konsolowa\konsolowa\obj\Debug\net6.0\konsolowa.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\egzamin1\konsola\konsolowa\konsolowa\obj\Debug\net6.0\konsolowa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\egzamin1\konsola\konsolowa\konsolowa\obj\Debug\net6.0\konsolowa.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\egzamin1\konsola\konsolowa\konsolowa\obj\Debug\net6.0\konsolowa.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\egzamin1\konsola\konsolowa\konsolowa\obj\Debug\net6.0\konsolowa.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\egzamin1\konsola\konsolowa\konsolowa\obj\Debug\net6.0\konsolowa.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\egzamin1\konsola\konsolowa\konsolowa\obj\Debug\net6.0\refint\konsolowa.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\egzamin1\konsola\konsolowa\konsolowa\obj\Debug\net6.0\konsolowa.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\egzamin1\konsola\konsolowa\konsolowa\obj\Debug\net6.0\konsolowa.genruntimeconfig.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\mobilne\egzamin1\konsola\konsolowa\konsolowa\obj\Debug\net6.0\ref\konsolowa.dll
