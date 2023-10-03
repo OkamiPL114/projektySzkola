@@ -27,9 +27,9 @@ export default function AddUser(props){
         <>
             <h2>Nowy użytkownik</h2>
             <form onSubmit={submitHandler}>
-                Imię: <input type="text" value={firstName} onChange={firstNameHandler}/> <br/>
-                Nazwisko: <input type="text" value={lastName} onChange={lastNameHandler}/> <br/>
-                Email: <input type="email" value={email} onChange={emailHandler}/> <br/>
+                Imię: <input type="text" value={firstName} onChange={firstNameHandler}/> <br/> <br/>
+                Nazwisko: <input type="text" value={lastName} onChange={lastNameHandler}/> <br/> <br/>
+                Email: <input type="email" value={email} onChange={emailHandler}/> <br/> <br/>
                 <button type="submit">Dodaj</button> <br/>
             </form>
         </>

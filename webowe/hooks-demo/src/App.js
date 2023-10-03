@@ -23,9 +23,9 @@ function App() {
 			lastName: "Zelewski",
 			email: "pawel.zalewski@gmail.com"
 		}
-	]
+	];
 
-	const [users, setUsers] = useState([defaultUsers]);
+	const [users, setUsers] = useState(defaultUsers);
 	const [enteredEmail, setEnteredEmail] = useState("");
 	const [filteredUsers, setFilteredUsers] = useState(defaultUsers);
     
