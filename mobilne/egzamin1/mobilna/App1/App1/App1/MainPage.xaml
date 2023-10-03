@@ -21,11 +21,7 @@
                       SeparatorVisibility="Default">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell>
-                            <StackLayout>
-                                <Label Text="{Binding .}"/>
-                            </StackLayout>
-                        </ViewCell>
+                        <TextCell Text="{Binding .}"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
