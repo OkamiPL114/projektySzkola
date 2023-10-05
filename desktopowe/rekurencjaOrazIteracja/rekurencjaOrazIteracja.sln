@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rekurencjaOrazIteracja", "rekurencjaOrazIteracja\rekurencjaOrazIteracja.csproj", "{DDAED6F8-4044-45AE-9481-E6E2C134F4EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDAED6F8-4044-45AE-9481-E6E2C134F4EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDAED6F8-4044-45AE-9481-E6E2C134F4EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDAED6F8-4044-45AE-9481-E6E2C134F4EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDAED6F8-4044-45AE-9481-E6E2C134F4EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07F9EF27-3F7A-4DFA-A8CC-C5A2B36F5117}
+	EndGlobalSection
+EndGlobal
