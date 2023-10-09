@@ -1,0 +1,17 @@
+* {
+    font-family: sans-serif;
+}
+.user {
+    border-radius: 32px;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+}
+.red {
+    border: 3px solid red; 
+    background-color: lightcoral;
+}
+.green {
+    border: 3px solid green; 
+    background-color: lightgreen;
+}

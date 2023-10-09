@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "email": "jkowalski@test.com",
+        "status": true,
+        "age": 19
+    },
+    {
+        "id": "2",
+        "email": "anowak@test.com",
+        "status": false,
+        "age": 20
+    },
+    {
+        "id": "3",
+        "email": "ejodlowski@test.com",
+        "status": true,
+        "age": 13
+    },
+    {
+        "id": "4",
+        "email": "bmalinowski@test.com",
+        "status": false,
+        "age": 15
+    }
+]
