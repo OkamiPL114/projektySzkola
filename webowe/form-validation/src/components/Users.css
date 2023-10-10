@@ -1,0 +1,12 @@
+.user {
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+.valid {
+    border-color: green;
+}
+.invalid {
+    border-color: lightcoral;
+}

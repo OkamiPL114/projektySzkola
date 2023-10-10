@@ -1,0 +1,9 @@
+.userForm {
+    width: fit-content;
+}
+.valid {
+    border-color: green;
+}
+.invalid {
+    border-color: lightcoral;
+}
