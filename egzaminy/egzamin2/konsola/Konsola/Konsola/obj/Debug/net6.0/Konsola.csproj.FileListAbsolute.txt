@@ -1,0 +1,15 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin2\konsola\Konsola\Konsola\bin\Debug\net6.0\Konsola.exe
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin2\konsola\Konsola\Konsola\bin\Debug\net6.0\Konsola.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin2\konsola\Konsola\Konsola\bin\Debug\net6.0\Konsola.runtimeconfig.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin2\konsola\Konsola\Konsola\bin\Debug\net6.0\Konsola.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin2\konsola\Konsola\Konsola\bin\Debug\net6.0\Konsola.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin2\konsola\Konsola\Konsola\obj\Debug\net6.0\Konsola.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin2\konsola\Konsola\Konsola\obj\Debug\net6.0\Konsola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin2\konsola\Konsola\Konsola\obj\Debug\net6.0\Konsola.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin2\konsola\Konsola\Konsola\obj\Debug\net6.0\Konsola.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin2\konsola\Konsola\Konsola\obj\Debug\net6.0\Konsola.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin2\konsola\Konsola\Konsola\obj\Debug\net6.0\Konsola.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin2\konsola\Konsola\Konsola\obj\Debug\net6.0\refint\Konsola.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin2\konsola\Konsola\Konsola\obj\Debug\net6.0\Konsola.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin2\konsola\Konsola\Konsola\obj\Debug\net6.0\Konsola.genruntimeconfig.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin2\konsola\Konsola\Konsola\obj\Debug\net6.0\ref\Konsola.dll
