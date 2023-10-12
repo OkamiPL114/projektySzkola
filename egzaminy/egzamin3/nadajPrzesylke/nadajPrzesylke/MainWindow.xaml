@@ -1,0 +1,27 @@
+﻿<Window x:Class="nadajPrzesylke.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nadajPrzesylke"
+        mc:Ignorable="d"
+        Title="Nadaj przesyłkę" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <StackPanel>
+                <GroupBox Header="Rodzaj przesyłki">
+                    <StackPanel>
+                        <RadioButton Content="Pocztówka" Margin="5"/>
+                        <RadioButton Content="List" Margin="5"/>
+                        <RadioButton Content="Paczka" Margin="5"/>
+                    </StackPanel>
+                </GroupBox>
+                <Button Content="Sprawdź cenę"/>
+            </StackPanel>
+            
+            <StackPanel>
+                
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
