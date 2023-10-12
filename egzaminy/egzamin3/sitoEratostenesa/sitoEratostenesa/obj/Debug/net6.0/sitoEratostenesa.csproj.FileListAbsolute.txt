@@ -1,0 +1,14 @@
+C:\Users\ckz1j\projektySzkola\egzaminy\egzamin3\sitoEratostenesa\sitoEratostenesa\bin\Debug\net6.0\sitoEratostenesa.exe
+C:\Users\ckz1j\projektySzkola\egzaminy\egzamin3\sitoEratostenesa\sitoEratostenesa\bin\Debug\net6.0\sitoEratostenesa.deps.json
+C:\Users\ckz1j\projektySzkola\egzaminy\egzamin3\sitoEratostenesa\sitoEratostenesa\bin\Debug\net6.0\sitoEratostenesa.runtimeconfig.json
+C:\Users\ckz1j\projektySzkola\egzaminy\egzamin3\sitoEratostenesa\sitoEratostenesa\bin\Debug\net6.0\sitoEratostenesa.dll
+C:\Users\ckz1j\projektySzkola\egzaminy\egzamin3\sitoEratostenesa\sitoEratostenesa\bin\Debug\net6.0\sitoEratostenesa.pdb
+C:\Users\ckz1j\projektySzkola\egzaminy\egzamin3\sitoEratostenesa\sitoEratostenesa\obj\Debug\net6.0\sitoEratostenesa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckz1j\projektySzkola\egzaminy\egzamin3\sitoEratostenesa\sitoEratostenesa\obj\Debug\net6.0\sitoEratostenesa.AssemblyInfoInputs.cache
+C:\Users\ckz1j\projektySzkola\egzaminy\egzamin3\sitoEratostenesa\sitoEratostenesa\obj\Debug\net6.0\sitoEratostenesa.AssemblyInfo.cs
+C:\Users\ckz1j\projektySzkola\egzaminy\egzamin3\sitoEratostenesa\sitoEratostenesa\obj\Debug\net6.0\sitoEratostenesa.csproj.CoreCompileInputs.cache
+C:\Users\ckz1j\projektySzkola\egzaminy\egzamin3\sitoEratostenesa\sitoEratostenesa\obj\Debug\net6.0\sitoEratostenesa.dll
+C:\Users\ckz1j\projektySzkola\egzaminy\egzamin3\sitoEratostenesa\sitoEratostenesa\obj\Debug\net6.0\refint\sitoEratostenesa.dll
+C:\Users\ckz1j\projektySzkola\egzaminy\egzamin3\sitoEratostenesa\sitoEratostenesa\obj\Debug\net6.0\sitoEratostenesa.pdb
+C:\Users\ckz1j\projektySzkola\egzaminy\egzamin3\sitoEratostenesa\sitoEratostenesa\obj\Debug\net6.0\sitoEratostenesa.genruntimeconfig.cache
+C:\Users\ckz1j\projektySzkola\egzaminy\egzamin3\sitoEratostenesa\sitoEratostenesa\obj\Debug\net6.0\ref\sitoEratostenesa.dll
