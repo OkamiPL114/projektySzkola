@@ -5,23 +5,42 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:nadajPrzesylke"
         mc:Ignorable="d"
-        Title="Nadaj przesyłkę" Height="450" Width="800">
+        Title="Nadaj przesyłkę" Height="350" Width="600">
     <Grid>
-        <StackPanel Orientation="Horizontal" Margin="10">
-            <StackPanel>
-                <GroupBox Header="Rodzaj przesyłki">
-                    <StackPanel>
-                        <RadioButton Content="Pocztówka" Margin="5"/>
-                        <RadioButton Content="List" Margin="5"/>
-                        <RadioButton Content="Paczka" Margin="5"/>
-                    </StackPanel>
-                </GroupBox>
-                <Button Content="Sprawdź cenę"/>
-            </StackPanel>
-            
-            <StackPanel>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
+                <StackPanel>
+                    <GroupBox Header="Rodzaj przesyłki" Margin="0 0 0 10">
+                        <StackPanel Margin="5">
+                            <RadioButton Content="Pocztówka" Margin="5" IsChecked="True" x:Name="postcardRadioButton"/>
+                            <RadioButton Content="List" Margin="5" x:Name="letterRadioButton"/>
+                            <RadioButton Content="Paczka" Margin="5" x:Name="packageRadioButton"/>
+                        </StackPanel>
+                    </GroupBox>
                 
+                    <Button Content="Sprawdź cenę" Padding="5" Width="200" x:Name="checkPrice" Click="checkPrice_Click"/>
+                
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="images/postcard.png" Height="100" x:Name="iconImage"/>
+                        <Label Content="Cena: 1 zł" x:Name="priceLabel" VerticalAlignment="Center" Margin="10" FontSize="30"/>
+                    </StackPanel>
+                </StackPanel>
+            
+                <StackPanel Margin="20 0 0 0">
+                    <GroupBox Header="Dane adresowe" Height="250">
+                        <StackPanel Margin="5" VerticalAlignment="Center">
+                            <Label Content="Ulica z numerem"/>
+                            <TextBox Margin="0 5 0 0" Width="200"/>
+                            <Label Content="Kod pocztowy" Margin="0 10 0 0"/>
+                            <TextBox Margin="0 5 0 0" Width="100" HorizontalAlignment="Left" x:Name="postcodeTextBox"/>
+                            <Label Content="Miasto" Margin="0 10 0 0"/>
+                            <TextBox Margin="0 5 0 0"/>
+                        </StackPanel>
+                    </GroupBox>
+                </StackPanel>
+
             </StackPanel>
+            <Button Content="Zatwierdź" Padding="5" Width="400" x:Name="confirmButton" Click="confirmButton_Click"/>
         </StackPanel>
     </Grid>
 </Window>
