@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        main {
+            height: 300px;
+            background-color: lightcoral;
+        }
+        img {
+            width: 60px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            background-color: #eee;
+            padding: 6px;
+        }
+        .navbar {
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            height: 300px;
+        }
+        nav {
+            width: 100%;
+            background-color: lightgreen;
+            display: flex;
+            gap: 10px;
+            justify-content: end;
+            align-items: center;
+            justify-items: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"><img src="js.png" alt="logo js"/></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            <a href="#">Kontakt</a>
+            <a href="#">O nas</a>
+        </nav>
+    </div>
+    <main>tresc</main>
+    <footer class="footer">stopka</footer>
+</body>
+</html>
