@@ -1,0 +1,14 @@
+C:\Users\ckz1j\projektySzkola\desktopowe\filmy\filmy\bin\Debug\net6.0\filmy.exe
+C:\Users\ckz1j\projektySzkola\desktopowe\filmy\filmy\bin\Debug\net6.0\filmy.deps.json
+C:\Users\ckz1j\projektySzkola\desktopowe\filmy\filmy\bin\Debug\net6.0\filmy.runtimeconfig.json
+C:\Users\ckz1j\projektySzkola\desktopowe\filmy\filmy\bin\Debug\net6.0\filmy.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\filmy\filmy\bin\Debug\net6.0\filmy.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\filmy\filmy\obj\Debug\net6.0\filmy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckz1j\projektySzkola\desktopowe\filmy\filmy\obj\Debug\net6.0\filmy.AssemblyInfoInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\filmy\filmy\obj\Debug\net6.0\filmy.AssemblyInfo.cs
+C:\Users\ckz1j\projektySzkola\desktopowe\filmy\filmy\obj\Debug\net6.0\filmy.csproj.CoreCompileInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\filmy\filmy\obj\Debug\net6.0\filmy.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\filmy\filmy\obj\Debug\net6.0\refint\filmy.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\filmy\filmy\obj\Debug\net6.0\filmy.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\filmy\filmy\obj\Debug\net6.0\filmy.genruntimeconfig.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\filmy\filmy\obj\Debug\net6.0\ref\filmy.dll
