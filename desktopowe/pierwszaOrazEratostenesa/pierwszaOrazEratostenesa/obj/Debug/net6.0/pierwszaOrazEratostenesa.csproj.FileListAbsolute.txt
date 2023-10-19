@@ -1,0 +1,14 @@
+C:\Users\ckz1j\projektySzkola\desktopowe\pierwszaOrazEratostenesa\pierwszaOrazEratostenesa\bin\Debug\net6.0\pierwszaOrazEratostenesa.exe
+C:\Users\ckz1j\projektySzkola\desktopowe\pierwszaOrazEratostenesa\pierwszaOrazEratostenesa\bin\Debug\net6.0\pierwszaOrazEratostenesa.deps.json
+C:\Users\ckz1j\projektySzkola\desktopowe\pierwszaOrazEratostenesa\pierwszaOrazEratostenesa\bin\Debug\net6.0\pierwszaOrazEratostenesa.runtimeconfig.json
+C:\Users\ckz1j\projektySzkola\desktopowe\pierwszaOrazEratostenesa\pierwszaOrazEratostenesa\bin\Debug\net6.0\pierwszaOrazEratostenesa.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\pierwszaOrazEratostenesa\pierwszaOrazEratostenesa\bin\Debug\net6.0\pierwszaOrazEratostenesa.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\pierwszaOrazEratostenesa\pierwszaOrazEratostenesa\obj\Debug\net6.0\pierwszaOrazEratostenesa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckz1j\projektySzkola\desktopowe\pierwszaOrazEratostenesa\pierwszaOrazEratostenesa\obj\Debug\net6.0\pierwszaOrazEratostenesa.AssemblyInfoInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\pierwszaOrazEratostenesa\pierwszaOrazEratostenesa\obj\Debug\net6.0\pierwszaOrazEratostenesa.AssemblyInfo.cs
+C:\Users\ckz1j\projektySzkola\desktopowe\pierwszaOrazEratostenesa\pierwszaOrazEratostenesa\obj\Debug\net6.0\pierwszaOrazEratostenesa.csproj.CoreCompileInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\pierwszaOrazEratostenesa\pierwszaOrazEratostenesa\obj\Debug\net6.0\pierwszaOrazEratostenesa.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\pierwszaOrazEratostenesa\pierwszaOrazEratostenesa\obj\Debug\net6.0\refint\pierwszaOrazEratostenesa.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\pierwszaOrazEratostenesa\pierwszaOrazEratostenesa\obj\Debug\net6.0\pierwszaOrazEratostenesa.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\pierwszaOrazEratostenesa\pierwszaOrazEratostenesa\obj\Debug\net6.0\pierwszaOrazEratostenesa.genruntimeconfig.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\pierwszaOrazEratostenesa\pierwszaOrazEratostenesa\obj\Debug\net6.0\ref\pierwszaOrazEratostenesa.dll
