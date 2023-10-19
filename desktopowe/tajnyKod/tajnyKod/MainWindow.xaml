@@ -1,0 +1,36 @@
+﻿<Window x:Class="tajnyKod.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tajnyKod"
+        mc:Ignorable="d"
+        Title="Tajny kod" Height="400" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label Content="Podaj imię: "/>
+                <TextBox x:Name="nameTextBox" Width="70" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label Content="Podaj nazwisko: "/>
+                <TextBox x:Name="surnameTextBox" Width="100" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label Content="Podaj kod: "/>
+                <PasswordBox MaxLength="4" x:Name="codePasswordBox" Width="50" VerticalAlignment="Center"/>
+            </StackPanel>
+            <Button Content="Sprawdź dane" x:Name="validateButton" Click="validateButton_Click"/>
+        </StackPanel>
+        <Image Source="/images/bmw.jpg" Visibility="Hidden" Width="300" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" x:Name="pictureImage"/>
+    </Grid>
+</Window>
