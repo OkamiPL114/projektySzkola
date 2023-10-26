@@ -64,13 +64,14 @@ namespace wynajemAuta
             int cena = 0;
             switch (klasa)
             {
-                case 0: cena = $"{dni * 100}"; break;
-                case 1: cena= $"{dni * 200}"; break;
-                case 2: cena= $"{dni * 300}"; break;
+                case 0: cena = dni * 100; break;
+                case 1: cena = dni * 200; break;
+                case 2: cena = dni * 300; break;
             }
+            cenaTextBox.Text = $"{cena}";
             int rabat = random.Next(5, 21);
             rabatTextBox.Text = $"{rabat} %";
-            kosztTextBox.Text = $"{}";
+            kosztTextBox.Text = $"{cena - ((rabat * cena) / 100)}";
         }
     }
 }
