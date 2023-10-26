@@ -1,0 +1,14 @@
+C:\Users\ckz1j\projektySzkola\desktopowe\findLeader\findLeader\bin\Debug\net6.0\findLeader.exe
+C:\Users\ckz1j\projektySzkola\desktopowe\findLeader\findLeader\bin\Debug\net6.0\findLeader.deps.json
+C:\Users\ckz1j\projektySzkola\desktopowe\findLeader\findLeader\bin\Debug\net6.0\findLeader.runtimeconfig.json
+C:\Users\ckz1j\projektySzkola\desktopowe\findLeader\findLeader\bin\Debug\net6.0\findLeader.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\findLeader\findLeader\bin\Debug\net6.0\findLeader.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\findLeader\findLeader\obj\Debug\net6.0\findLeader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckz1j\projektySzkola\desktopowe\findLeader\findLeader\obj\Debug\net6.0\findLeader.AssemblyInfoInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\findLeader\findLeader\obj\Debug\net6.0\findLeader.AssemblyInfo.cs
+C:\Users\ckz1j\projektySzkola\desktopowe\findLeader\findLeader\obj\Debug\net6.0\findLeader.csproj.CoreCompileInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\findLeader\findLeader\obj\Debug\net6.0\findLeader.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\findLeader\findLeader\obj\Debug\net6.0\refint\findLeader.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\findLeader\findLeader\obj\Debug\net6.0\findLeader.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\findLeader\findLeader\obj\Debug\net6.0\findLeader.genruntimeconfig.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\findLeader\findLeader\obj\Debug\net6.0\ref\findLeader.dll
