@@ -1,0 +1,21 @@
+﻿<Window x:Class="decimalToBinary.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:decimalToBinary"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="400">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel>
+                <Label Content="Podaj liczbę w systemie dziesiętnym:"/>
+                <Label Content="Podana liczba w systemie binarnym:"/>
+            </StackPanel>
+            <StackPanel>
+                <TextBox Width="100" x:Name="decimalTextBox" Margin="0, 5, 0, 0" TextChanged="decimalTextBox_TextChanged"/>
+                <TextBox Width="150" IsReadOnly="True" x:Name="binaryTextBox" Margin="0, 7, 0, 0"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
