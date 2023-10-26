@@ -1,0 +1,54 @@
+﻿<Window x:Class="wynajemAuta.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wynajemAuta"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="650">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <GroupBox Header="Dane samochodu">
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel>
+                            <Label Content="Wprowadź nazwę samochodu:" Margin="0, 0, 10, 5"/>
+                            <Label Content="Wybierz klasę samochodu:" Margin="0, 0, 10, 5"/>
+                            <Label Content="Ustaw liczbę dni wynajmu: 1" Margin="0, 0, 10, 5" x:Name="dniWynajmuLabel"/>
+                        </StackPanel>
+                        <StackPanel>
+                            <TextBox Width="150" Margin="0, 5, 0, 5" x:Name="markaTextBox"/>
+                            <ComboBox Margin="0, 5, 0, 5" SelectedIndex="1" x:Name="klasaComboBox">
+                                <ComboBoxItem Content="Ekonomiczny"/>
+                                <ComboBoxItem Content="Średni"/>
+                                <ComboBoxItem Content="Luksusowy"/>
+                            </ComboBox>
+                            <Slider Maximum="30" Minimum="1" Margin="0, 6, 0, 0" x:Name="dniSlider" ValueChanged="dniSlider_ValueChanged" TickFrequency="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True"/>
+                        </StackPanel>
+
+                    </StackPanel>
+                </GroupBox>
+
+                <GroupBox Header="Koszty wynajmu">
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel>
+                            <Label Content="Nazwa i klasa samochodu:"/>
+                            <Label Content="Liczba dni wynajmu:"/>
+                            <Label Content="Cena:"/>
+                            <Label Content="Rabat:"/>
+                            <Label Content="Koszt ostateczny:"/>
+                        </StackPanel>
+                        <StackPanel>
+                            <TextBox IsReadOnly="True" x:Name="nazwaTextBox" Width="100" Margin="0, 5, 0, 5"/>
+                            <TextBox IsReadOnly="True" x:Name="liczbaDniTextBox" Width="100" Margin="0, 2, 0, 5"/>
+                            <TextBox IsReadOnly="True" x:Name="cenaTextBox" Width="100" Margin="0, 4, 0, 5"/>
+                            <TextBox IsReadOnly="True" x:Name="rabatTextBox" Width="100" Margin="0, 2, 0, 5"/>
+                            <TextBox IsReadOnly="True" x:Name="kosztTextBox" Width="100" Margin="0, 4, 0, 5"/>
+                        </StackPanel>
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+            <Button Content="Zatwierdź" Padding="10" Width="100" Margin="10" x:Name="zatwierdzButton" Click="zatwierdzButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
