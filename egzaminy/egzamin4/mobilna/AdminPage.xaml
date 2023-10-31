@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobilna.AdminPage">
+    <StackLayout>
+        <Label Text="Witaj w panelu administracyjnym" HorizontalOptions="Center"/>
+        <Label Text="Dodaj nowego użytkownika"/>
+        
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Imie" VerticalOptions="Center"/>
+            <Entry Text="" HorizontalOptions="FillAndExpand" x:Name="nameEntry"/>
+        </StackLayout>
+        
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Nazwisko" VerticalOptions="Center"/>
+            <Entry Text="" HorizontalOptions="FillAndExpand" x:Name="surnameEntry"/>
+        </StackLayout>
+        
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Hasło" VerticalOptions="Center"/>
+            <Entry Text="" HorizontalOptions="FillAndExpand" x:Name="passwordEntry"/>
+        </StackLayout>
+        
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Data urodzenia" VerticalOptions="Center"/>
+            <DatePicker Format="dd/MM/yyyy" x:Name="birthdayDatePicker"/>
+        </StackLayout>
+        
+        <StackLayout Orientation="Horizontal">
+            <CheckBox x:Name="statuteCheckBox"/>
+            <Label Text="Akceptuję regulamin"/>
+        </StackLayout>
+        
+        <Button Text="Pokaż regulamin" x:Name="statuteButton" Clicked="statuteButton_Clicked"/>
+        <Label Text="Regulamin korzystania z aplikacji" IsVisible="False" x:Name="statuteLabel"/>
+        <Button Text="Dodaj użytkownika" x:Name="addUserButton" Clicked="addUserButton_Clicked"/>
+    </StackLayout>
+</ContentPage>
