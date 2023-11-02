@@ -1,0 +1,14 @@
+C:\Users\ckz1j\projektySzkola\desktopowe\czynnikiPierwsze\czynnikiPierwsze\bin\Debug\net6.0\czynnikiPierwsze.exe
+C:\Users\ckz1j\projektySzkola\desktopowe\czynnikiPierwsze\czynnikiPierwsze\bin\Debug\net6.0\czynnikiPierwsze.deps.json
+C:\Users\ckz1j\projektySzkola\desktopowe\czynnikiPierwsze\czynnikiPierwsze\bin\Debug\net6.0\czynnikiPierwsze.runtimeconfig.json
+C:\Users\ckz1j\projektySzkola\desktopowe\czynnikiPierwsze\czynnikiPierwsze\bin\Debug\net6.0\czynnikiPierwsze.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\czynnikiPierwsze\czynnikiPierwsze\bin\Debug\net6.0\czynnikiPierwsze.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\czynnikiPierwsze\czynnikiPierwsze\obj\Debug\net6.0\czynnikiPierwsze.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckz1j\projektySzkola\desktopowe\czynnikiPierwsze\czynnikiPierwsze\obj\Debug\net6.0\czynnikiPierwsze.AssemblyInfoInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\czynnikiPierwsze\czynnikiPierwsze\obj\Debug\net6.0\czynnikiPierwsze.AssemblyInfo.cs
+C:\Users\ckz1j\projektySzkola\desktopowe\czynnikiPierwsze\czynnikiPierwsze\obj\Debug\net6.0\czynnikiPierwsze.csproj.CoreCompileInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\czynnikiPierwsze\czynnikiPierwsze\obj\Debug\net6.0\czynnikiPierwsze.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\czynnikiPierwsze\czynnikiPierwsze\obj\Debug\net6.0\refint\czynnikiPierwsze.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\czynnikiPierwsze\czynnikiPierwsze\obj\Debug\net6.0\czynnikiPierwsze.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\czynnikiPierwsze\czynnikiPierwsze\obj\Debug\net6.0\czynnikiPierwsze.genruntimeconfig.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\czynnikiPierwsze\czynnikiPierwsze\obj\Debug\net6.0\ref\czynnikiPierwsze.dll
