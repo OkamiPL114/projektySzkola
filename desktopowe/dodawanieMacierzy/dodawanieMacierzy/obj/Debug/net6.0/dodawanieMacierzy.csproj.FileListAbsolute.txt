@@ -1,0 +1,14 @@
+C:\Users\ckz1j\projektySzkola\desktopowe\dodawanieMacierzy\dodawanieMacierzy\bin\Debug\net6.0\dodawanieMacierzy.exe
+C:\Users\ckz1j\projektySzkola\desktopowe\dodawanieMacierzy\dodawanieMacierzy\bin\Debug\net6.0\dodawanieMacierzy.deps.json
+C:\Users\ckz1j\projektySzkola\desktopowe\dodawanieMacierzy\dodawanieMacierzy\bin\Debug\net6.0\dodawanieMacierzy.runtimeconfig.json
+C:\Users\ckz1j\projektySzkola\desktopowe\dodawanieMacierzy\dodawanieMacierzy\bin\Debug\net6.0\dodawanieMacierzy.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\dodawanieMacierzy\dodawanieMacierzy\bin\Debug\net6.0\dodawanieMacierzy.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\dodawanieMacierzy\dodawanieMacierzy\obj\Debug\net6.0\dodawanieMacierzy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckz1j\projektySzkola\desktopowe\dodawanieMacierzy\dodawanieMacierzy\obj\Debug\net6.0\dodawanieMacierzy.AssemblyInfoInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\dodawanieMacierzy\dodawanieMacierzy\obj\Debug\net6.0\dodawanieMacierzy.AssemblyInfo.cs
+C:\Users\ckz1j\projektySzkola\desktopowe\dodawanieMacierzy\dodawanieMacierzy\obj\Debug\net6.0\dodawanieMacierzy.csproj.CoreCompileInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\dodawanieMacierzy\dodawanieMacierzy\obj\Debug\net6.0\dodawanieMacierzy.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\dodawanieMacierzy\dodawanieMacierzy\obj\Debug\net6.0\refint\dodawanieMacierzy.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\dodawanieMacierzy\dodawanieMacierzy\obj\Debug\net6.0\dodawanieMacierzy.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\dodawanieMacierzy\dodawanieMacierzy\obj\Debug\net6.0\dodawanieMacierzy.genruntimeconfig.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\dodawanieMacierzy\dodawanieMacierzy\obj\Debug\net6.0\ref\dodawanieMacierzy.dll

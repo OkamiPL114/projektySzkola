@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dodawanieMacierzy", "dodawanieMacierzy\dodawanieMacierzy.csproj", "{5F82642C-3F0E-4A7D-B83B-B0655A5EE7EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F82642C-3F0E-4A7D-B83B-B0655A5EE7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F82642C-3F0E-4A7D-B83B-B0655A5EE7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F82642C-3F0E-4A7D-B83B-B0655A5EE7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F82642C-3F0E-4A7D-B83B-B0655A5EE7EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B134C500-06BC-41BE-80C3-2DCEC0570AF8}
+	EndGlobalSection
+EndGlobal
