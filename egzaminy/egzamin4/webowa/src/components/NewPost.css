@@ -1,0 +1,21 @@
+.newPost {
+    background-color: bisque;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1em;
+}
+.cardImg {
+    width: 200px;
+}
+.card {
+    padding: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.controls {
+    display: flex;
+    margin: auto;
+}
