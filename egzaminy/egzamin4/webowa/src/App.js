@@ -5,8 +5,15 @@ import Posts from './components/Posts';
 
 function App() {
 	const [isNewPostVisible, setIsNewPostVisible] = useState(false);
-	function showNewPost(){
+	const [posts, setPosts] = useState([]);
+
+	function showNewPost(event){
+		event.preventDefault();
 		setIsNewPostVisible(!isNewPostVisible);
+	}
+	function addNewPost(newPost){
+		setPosts(prevPosts => [...prevPosts, newPost]);
+		console.log(posts);
 	}
 	return (
 		<>
@@ -18,8 +25,8 @@ function App() {
 					</form>
 				</div>
 			</div>
-			<NewPost/>
-			<Posts/>
+			<NewPost isVisible={isNewPostVisible} addNewPost={addNewPost}/>
+			<Posts posts={posts}/>
 		</>
 	);
 }

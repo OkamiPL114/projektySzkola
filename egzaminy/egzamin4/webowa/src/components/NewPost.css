@@ -1,5 +1,26 @@
 .newPost {
+    display: flex;
     background-color: bisque;
+}
+.visible {
+    display: block;
+}
+.invisible {
+    display: none;
+}
+.addNewPost {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.description {
+    align-self: center;
+}
+.author {
+    text-align: center;
+}
+.selectedImage {
+    width: 190px;
 }
 .cards {
     display: flex;
@@ -7,15 +28,11 @@
     flex-direction: row;
     gap: 1em;
 }
-.cardImg {
-    width: 200px;
-}
 .card {
     padding: 10px;
     text-align: center;
     background-color: blanchedalmond;
 }
-.controls {
-    display: flex;
-    margin: auto;
+.cardImg {
+    width: 200px;
 }
