@@ -9,7 +9,7 @@ export default function NewPost(props){
 
     function selectImage(event){
         event.preventDefault();
-        let arg = event.target.getAttribute('data-arg'); /* pobierz index z data-arg */
+        let arg = event.target.getAttribute('data-arg'); /* tak nie można!!!!!!!!!!!!!!!!! */
         setSelectedImage(parseInt(arg) + 1);
     }
 
@@ -59,7 +59,7 @@ export default function NewPost(props){
                         <div key={index} id={`photo${index}`} className="card">
                             <img src={photo.adres} className="cardImg" alt="zdjęcie"/>
                             <p>{photo.tytul}</p>
-                            <button onClick={selectImage} data-arg={index}>Wybierz</button> {/* data-arg pozwala na przechowanie indexu */}
+                            <button onClick={selectImage} data-arg={index}>Wybierz</button> {/* zrób to na formularzach!!!!!!!!! */}
                         </div>
                     ))}
                 </div>

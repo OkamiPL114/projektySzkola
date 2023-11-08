@@ -1,3 +1,23 @@
 .post {
-    background-color: blanchedalmond;
+    background-color: moccasin;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.postImage {
+    width: 210px;
+    border-radius: 20px;
+}
+.postLeft {
+}
+.postMiddle {
+    padding: 0px 50px 0px 50px;
+}
+.postMiddleText {
+    overflow-wrap: normal;
+}
+.postRight {
+    text-align: end;
 }
