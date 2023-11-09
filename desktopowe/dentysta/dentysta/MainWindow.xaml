@@ -1,0 +1,52 @@
+﻿<Window x:Class="dentysta.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dentysta"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="500">
+    <Grid>
+        <StackPanel>
+            <Label Content="Dental Payment System" FontWeight="Bold" HorizontalAlignment="Center" FontSize="30"/>
+            <StackPanel Orientation="Horizontal">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel>
+                            <Label Content="Name of Patient: " FontWeight="Bold" HorizontalAlignment="Center"/>
+                            <Label Content="Address:" FontWeight="Bold" HorizontalAlignment="Center"/>
+                        </StackPanel>
+
+                        <StackPanel>
+                            <TextBox Width="150" Margin="0, 2, 0, 0" x:Name="nameTextBox"/>
+                            <TextBox Width="150" Margin="0, 9, 0, 0" x:Name="addressTextBox"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0, 20, 0, 0">
+                        <RadioButton Content="Senior" Margin="10, 0, 0, 0" x:Name="seniorRadioButton"/>
+                        <RadioButton Content="Kids and Youth" Margin="20, 0, 0, 0" x:Name="kAyRadioButton"/>
+                        <RadioButton Content="Adult" Margin="20, 0, 0, 0" x:Name="adultRadioButton"/>
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel Margin="60, 0, 0, 0">
+                    <Label Content="Dental Services Available" FontWeight="Bold" FontStyle="Italic"/>
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel>
+                            <CheckBox Content="Flossing" FontWeight="Bold" Margin="0, 6, 0, 0" x:Name="flossingCheckBox"/>
+                            <CheckBox Content="Filling" FontWeight="Bold" Margin="0, 10, 0, 0" x:Name="fillingCheckBox"/>
+                            <CheckBox Content="Root Canal" FontWeight="Bold" Margin="0, 10, 0, 0" x:Name="rootCanalCheckBox"/>
+                        </StackPanel>
+                        <StackPanel Margin="10, 0, 0, 0">
+                            <Label Content="$20.00"/>
+                            <Label Content="$75.00"/>
+                            <Label Content="$150.00"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+            <Button Content="Calculate" HorizontalAlignment="Right" Padding="10, 5" Margin="0, 10, 20, 0" x:Name="calculateButton" Click="calculateButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
