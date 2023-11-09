@@ -1,0 +1,14 @@
+C:\Users\ckz1j\projektySzkola\desktopowe\dopelnienieLiczby\dopelnienieLiczby\bin\Debug\net6.0\dopelnienieLiczby.exe
+C:\Users\ckz1j\projektySzkola\desktopowe\dopelnienieLiczby\dopelnienieLiczby\bin\Debug\net6.0\dopelnienieLiczby.deps.json
+C:\Users\ckz1j\projektySzkola\desktopowe\dopelnienieLiczby\dopelnienieLiczby\bin\Debug\net6.0\dopelnienieLiczby.runtimeconfig.json
+C:\Users\ckz1j\projektySzkola\desktopowe\dopelnienieLiczby\dopelnienieLiczby\bin\Debug\net6.0\dopelnienieLiczby.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\dopelnienieLiczby\dopelnienieLiczby\bin\Debug\net6.0\dopelnienieLiczby.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\dopelnienieLiczby\dopelnienieLiczby\obj\Debug\net6.0\dopelnienieLiczby.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckz1j\projektySzkola\desktopowe\dopelnienieLiczby\dopelnienieLiczby\obj\Debug\net6.0\dopelnienieLiczby.AssemblyInfoInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\dopelnienieLiczby\dopelnienieLiczby\obj\Debug\net6.0\dopelnienieLiczby.AssemblyInfo.cs
+C:\Users\ckz1j\projektySzkola\desktopowe\dopelnienieLiczby\dopelnienieLiczby\obj\Debug\net6.0\dopelnienieLiczby.csproj.CoreCompileInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\dopelnienieLiczby\dopelnienieLiczby\obj\Debug\net6.0\dopelnienieLiczby.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\dopelnienieLiczby\dopelnienieLiczby\obj\Debug\net6.0\refint\dopelnienieLiczby.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\dopelnienieLiczby\dopelnienieLiczby\obj\Debug\net6.0\dopelnienieLiczby.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\dopelnienieLiczby\dopelnienieLiczby\obj\Debug\net6.0\dopelnienieLiczby.genruntimeconfig.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\dopelnienieLiczby\dopelnienieLiczby\obj\Debug\net6.0\ref\dopelnienieLiczby.dll
