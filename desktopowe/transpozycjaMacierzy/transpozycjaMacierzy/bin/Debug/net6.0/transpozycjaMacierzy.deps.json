@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "transpozycjaMacierzy/1.0.0": {
+        "runtime": {
+          "transpozycjaMacierzy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "transpozycjaMacierzy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

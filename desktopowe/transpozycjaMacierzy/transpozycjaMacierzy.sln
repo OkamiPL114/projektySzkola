@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "transpozycjaMacierzy", "transpozycjaMacierzy\transpozycjaMacierzy.csproj", "{92B31BB6-6029-4FA8-AA57-8617818DE905}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92B31BB6-6029-4FA8-AA57-8617818DE905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B31BB6-6029-4FA8-AA57-8617818DE905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B31BB6-6029-4FA8-AA57-8617818DE905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B31BB6-6029-4FA8-AA57-8617818DE905}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4908B6A9-29FD-4620-9FB9-B86AA3BC4421}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+C:\Users\ckz1j\projektySzkola\desktopowe\transpozycjaMacierzy\transpozycjaMacierzy\bin\Debug\net6.0\transpozycjaMacierzy.exe
+C:\Users\ckz1j\projektySzkola\desktopowe\transpozycjaMacierzy\transpozycjaMacierzy\bin\Debug\net6.0\transpozycjaMacierzy.deps.json
+C:\Users\ckz1j\projektySzkola\desktopowe\transpozycjaMacierzy\transpozycjaMacierzy\bin\Debug\net6.0\transpozycjaMacierzy.runtimeconfig.json
+C:\Users\ckz1j\projektySzkola\desktopowe\transpozycjaMacierzy\transpozycjaMacierzy\bin\Debug\net6.0\transpozycjaMacierzy.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\transpozycjaMacierzy\transpozycjaMacierzy\bin\Debug\net6.0\transpozycjaMacierzy.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\transpozycjaMacierzy\transpozycjaMacierzy\obj\Debug\net6.0\transpozycjaMacierzy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckz1j\projektySzkola\desktopowe\transpozycjaMacierzy\transpozycjaMacierzy\obj\Debug\net6.0\transpozycjaMacierzy.AssemblyInfoInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\transpozycjaMacierzy\transpozycjaMacierzy\obj\Debug\net6.0\transpozycjaMacierzy.AssemblyInfo.cs
+C:\Users\ckz1j\projektySzkola\desktopowe\transpozycjaMacierzy\transpozycjaMacierzy\obj\Debug\net6.0\transpozycjaMacierzy.csproj.CoreCompileInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\transpozycjaMacierzy\transpozycjaMacierzy\obj\Debug\net6.0\transpozycjaMacierzy.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\transpozycjaMacierzy\transpozycjaMacierzy\obj\Debug\net6.0\refint\transpozycjaMacierzy.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\transpozycjaMacierzy\transpozycjaMacierzy\obj\Debug\net6.0\transpozycjaMacierzy.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\transpozycjaMacierzy\transpozycjaMacierzy\obj\Debug\net6.0\transpozycjaMacierzy.genruntimeconfig.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\transpozycjaMacierzy\transpozycjaMacierzy\obj\Debug\net6.0\ref\transpozycjaMacierzy.dll
