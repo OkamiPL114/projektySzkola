@@ -1,0 +1,14 @@
+C:\Users\ckz1j\projektySzkola\desktopowe\liczbaArmstronga\liczbaArmstronga\bin\Debug\net6.0\liczbaArmstronga.exe
+C:\Users\ckz1j\projektySzkola\desktopowe\liczbaArmstronga\liczbaArmstronga\bin\Debug\net6.0\liczbaArmstronga.deps.json
+C:\Users\ckz1j\projektySzkola\desktopowe\liczbaArmstronga\liczbaArmstronga\bin\Debug\net6.0\liczbaArmstronga.runtimeconfig.json
+C:\Users\ckz1j\projektySzkola\desktopowe\liczbaArmstronga\liczbaArmstronga\bin\Debug\net6.0\liczbaArmstronga.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\liczbaArmstronga\liczbaArmstronga\bin\Debug\net6.0\liczbaArmstronga.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\liczbaArmstronga\liczbaArmstronga\obj\Debug\net6.0\liczbaArmstronga.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckz1j\projektySzkola\desktopowe\liczbaArmstronga\liczbaArmstronga\obj\Debug\net6.0\liczbaArmstronga.AssemblyInfoInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\liczbaArmstronga\liczbaArmstronga\obj\Debug\net6.0\liczbaArmstronga.AssemblyInfo.cs
+C:\Users\ckz1j\projektySzkola\desktopowe\liczbaArmstronga\liczbaArmstronga\obj\Debug\net6.0\liczbaArmstronga.csproj.CoreCompileInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\liczbaArmstronga\liczbaArmstronga\obj\Debug\net6.0\liczbaArmstronga.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\liczbaArmstronga\liczbaArmstronga\obj\Debug\net6.0\refint\liczbaArmstronga.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\liczbaArmstronga\liczbaArmstronga\obj\Debug\net6.0\liczbaArmstronga.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\liczbaArmstronga\liczbaArmstronga\obj\Debug\net6.0\liczbaArmstronga.genruntimeconfig.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\liczbaArmstronga\liczbaArmstronga\obj\Debug\net6.0\ref\liczbaArmstronga.dll
