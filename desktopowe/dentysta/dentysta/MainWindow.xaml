@@ -8,7 +8,7 @@
         Title="MainWindow" Height="250" Width="500">
     <Grid>
         <StackPanel>
-            <Label Content="Dental Payment System" FontWeight="Bold" HorizontalAlignment="Center" FontSize="30"/>
+            <TextBlock Text="Dental Payment System" TextDecorations="Underline" FontWeight="Bold" HorizontalAlignment="Center" FontSize="30"/>
             <StackPanel Orientation="Horizontal">
                 <StackPanel>
                     <StackPanel Orientation="Horizontal">
