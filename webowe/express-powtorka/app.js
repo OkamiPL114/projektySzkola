@@ -4,6 +4,8 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 
+const subsPath = path.join(__dirname, "subscribers.json");
+
 // folder public
 const publicPath = path.join(__dirname, "public");
 app.use(express.static(publicPath));
@@ -52,14 +54,34 @@ app.get('/calc', (req, res) => {
 })
 
 app.get('/subs', (req, res) => {
+    const subs = getSubscribers(subsPath); // tablica
     res.render('subscribers', {
-        pageTitle: "Subskrybenci"
+        pageTitle: "Subskrybenci",
+        subscribers: subs
     });
 })
 
 app.post('/subs', (req, res) => {
-    const subsPath = path.join(__dirname, "subscribers.json");
+    const subs = getSubscribers(subsPath); // tablica
     
+    subs.push({
+        firstName: req.body.firstName,
+        lastName: req.body.lastName,
+        email: req.body.email
+    });
+    
+    saveSubscribers(subsPath, subs);
+    res.redirect("/subs");
 })
+function getSubscribers(path) {
+    if(fs.existsSync(path)) {
+        let dataJson = fs.readFileSync(path);
+        return JSON.parse(dataJson);
+    }
+    return [];
+}
+function saveSubscribers(path, data) {
+    fs.writeFileSync(path, JSON.stringify(data));
+}
 
 app.listen(3000);

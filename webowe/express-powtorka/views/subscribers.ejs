@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="./css/main.css"/>
 </head>
 <body>
     <div>
@@ -11,11 +12,20 @@
         <a href="/calc">Kalkulator</a>
         <a href="/subs">Subskrybenci</a>
     </div>
-    <form action="/subscribers" method="post">
+    <form action="/subs" method="post">
         Imię <input type="text" name="firstName"/> <br/>
         Nazwisko <input type="text" name="lastName"/> <br/>
         Email <input type="email" name="email"/> <br/> <br/>
         <button type="submit">Dodaj</button>
     </form>
+    <% if(subscribers.length > 0) { %>
+        <ul>
+            <% subscribers.forEach(user => { %>
+                <li><%= `${user.firstName} ${user.lastName} (${user.email})` %></li>
+            <% }); %>
+        </ul>
+    <% } else { %>
+        <h3>Brak subskrybentów</h3>    
+    <% } %>
 </body>
 </html>
