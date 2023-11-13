@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= pageTitle %></title>
+</head>
+<body>
+    <div>
+        <a href="/">Strona główna</a>
+        <a href="/calc">Kalkulator</a>
+        <a href="/subs">Subskrybenci</a>
+    </div>
+    <form action="/calc" method="get">
+        Liczba 1 <input type="number" name="number1"/> <br/>
+        Liczba 2 <input type="number" name="number2"/> <br/>
+        <select name="sign">
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select> <br/>
+        <button type="submit">Oblicz</button>
+    </form>
+    <% if(result) { %>
+    <p><%= result %></p>
+    <% } %>
+</body>
+</html>
