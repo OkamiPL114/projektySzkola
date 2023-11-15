@@ -84,4 +84,20 @@ function saveSubscribers(path, data) {
     fs.writeFileSync(path, JSON.stringify(data));
 }
 
+app.get('/countries', (req, res) => {
+    res.render("countries", {
+        pageTitle: "Kraje"
+    });
+})
+
+app.post('/countries', (req, res) => {
+    let newCountry = {
+        name: req.body.name,
+        capital: req.body.capital,
+        population: req.body.population,
+        continent: req.body.continent,
+        has10Milion: req.body.has10Milion === "on" ? true : false
+    }
+})
+
 app.listen(3000);

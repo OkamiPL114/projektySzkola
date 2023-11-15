@@ -7,11 +7,7 @@
     <link rel="stylesheet" href="./css/main.css"/>
 </head>
 <body>
-    <div>
-        <a href="/">Strona główna</a>
-        <a href="/calc">Kalkulator</a>
-        <a href="/subs">Subskrybenci</a>
-    </div>
+    <%- include("./includes/nav.ejs") %>
     <form action="/subs" method="post">
         Imię <input type="text" name="firstName"/> <br/>
         Nazwisko <input type="text" name="lastName"/> <br/>

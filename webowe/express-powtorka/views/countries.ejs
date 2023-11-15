@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="./css/main.css"/>
+</head>
+<body>
+    <%- include("./includes/nav.ejs") %>
+    <form action="/countries" method="pots">
+        <p>Nazwa kraju: <input type="text" name="name" required></p>
+        <p>Stolica: <input type="text" name="capital" required></p>
+        <p>Ludność: <input type="number" name="population" required></p>
+        <p> Kontynent
+            <select name="continent">
+                <option value="europe">Europa</option>
+                <option value="asia">Azja</option>
+                <option value="africa">Afryka</option>
+                <option value="northAmerica">Ameryka Pół.</option>
+                <option value="southAmerica">Ameryka Poł</option>
+                <option value="australia">Australia</option>
+            </select>
+        </p>
+        <p><input type="checkbox" name="has10Milion">Czy ma więcej niż 10 milionów ludności?</p>
+        <p><button type="submit">Dodaj</button></p>
+    </form>
+</body>
+</html>
