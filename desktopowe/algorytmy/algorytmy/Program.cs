@@ -1,4 +1,6 @@
-﻿namespace algorytmy
+﻿using System.Runtime.CompilerServices;
+
+namespace algorytmy
 {
     internal class Program
     {
@@ -35,13 +37,55 @@
 
         private static void transpozycjaMacierzy()
         {
-            throw new NotImplementedException();
+            Console.Write($"Podaj liczbę wierszy macierzy: ");
+            int rows = int.Parse(Console.ReadLine());
+            Console.Write($"Podaj liczbę kolumn macierzy: ");
+            int cols = int.Parse(Console.ReadLine());
+
+            int[,] arr = new int[rows, cols];
+            for(int i = 0; i < rows; i++)
+            {
+                for(int j = 0; j < cols; j++)
+                {
+                    Console.Write($"Podaj [{i + 1},{j + 1}] element macierzy: ");
+                    arr[i,j] = int.Parse(Console.ReadLine());
+                }
+            }
+            Console.WriteLine("Macierz przed transpozycją: ");
+            for (int i = 0; i < rows; i++)
+            {
+                for(int j = 0; j < cols; j++)
+                {
+                    Console.Write($"{arr[i, j]} ");
+                }
+                Console.WriteLine();
+            }
+
+            int[,] arr2 = new int[cols, rows];
+            for(int i = 0; i < cols; i++)
+            {
+                for(int j = 0; j < rows; j++)
+                {
+                    arr2[j, i] = arr[i, j];
+                }
+            }
+
+            Console.WriteLine("Macierz po transpozycji: ");
+            for (int i = 0; i < cols; i++)
+            {
+                for (int j = 0; j < rows; j++)
+                {
+                    Console.Write($"{arr2[i, j]} ");
+                }
+                Console.WriteLine();
+            }
         }
 
         private static void silnia()
         {
-            Console.WriteLine("Podaj liczbę do obliczenia silnii: ");
+            Console.Write("Podaj liczbę do obliczenia silnii: ");
             int factorialNum = int.Parse(Console.ReadLine());
+            Console.WriteLine();
 
             Console.Write($"Silnia liczby {factorialNum} iteracyjnie: ");
             int factorial = 1;
@@ -50,6 +94,14 @@
                 factorial *= i;
             }
             Console.WriteLine(factorial);
+
+            Console.WriteLine($"Silnia liczby {factorialNum} rekurencyjnie: {silniaRek(factorialNum)}");
+
+        }
+        private static int silniaRek(int n)
+        {
+            if (n == 1) return 1;
+            return n * silniaRek(n - 1);
         }
 
         private static void minOrazMax()
