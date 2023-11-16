@@ -1,0 +1,14 @@
+C:\Users\ckz1j\projektySzkola\desktopowe\algorytmy\algorytmy\bin\Debug\net6.0\algorytmy.exe
+C:\Users\ckz1j\projektySzkola\desktopowe\algorytmy\algorytmy\bin\Debug\net6.0\algorytmy.deps.json
+C:\Users\ckz1j\projektySzkola\desktopowe\algorytmy\algorytmy\bin\Debug\net6.0\algorytmy.runtimeconfig.json
+C:\Users\ckz1j\projektySzkola\desktopowe\algorytmy\algorytmy\bin\Debug\net6.0\algorytmy.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\algorytmy\algorytmy\bin\Debug\net6.0\algorytmy.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\algorytmy\algorytmy\obj\Debug\net6.0\algorytmy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckz1j\projektySzkola\desktopowe\algorytmy\algorytmy\obj\Debug\net6.0\algorytmy.AssemblyInfoInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\algorytmy\algorytmy\obj\Debug\net6.0\algorytmy.AssemblyInfo.cs
+C:\Users\ckz1j\projektySzkola\desktopowe\algorytmy\algorytmy\obj\Debug\net6.0\algorytmy.csproj.CoreCompileInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\algorytmy\algorytmy\obj\Debug\net6.0\algorytmy.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\algorytmy\algorytmy\obj\Debug\net6.0\refint\algorytmy.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\algorytmy\algorytmy\obj\Debug\net6.0\algorytmy.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\algorytmy\algorytmy\obj\Debug\net6.0\algorytmy.genruntimeconfig.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\algorytmy\algorytmy\obj\Debug\net6.0\ref\algorytmy.dll
