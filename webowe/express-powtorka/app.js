@@ -5,6 +5,13 @@ const bodyParser = require('body-parser');
 const fs = require('fs');
 
 const subsPath = path.join(__dirname, "subscribers.json");
+const countriesPath = path.join(__dirname, "countries.json");
+
+// mongoose 
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://127.0.0.1:27017/test')
+  .then(() => console.log('Connected!'));
+const Book = require("./models/Book");
 
 // folder public
 const publicPath = path.join(__dirname, "public");
@@ -70,7 +77,7 @@ app.post('/subs', (req, res) => {
         email: req.body.email
     });
     
-    saveSubscribers(subsPath, subs);
+    saveToFile(subsPath, subs);
     res.redirect("/subs");
 })
 function getSubscribers(path) {
@@ -80,17 +87,29 @@ function getSubscribers(path) {
     }
     return [];
 }
-function saveSubscribers(path, data) {
+
+function getDataFromFile(path) {
+    if(fs.existsSync(path)) {
+        let dataJson = fs.readFileSync(path);
+        return JSON.parse(dataJson);
+    }
+    return [];
+}
+
+function saveToFile(path, data) {
     fs.writeFileSync(path, JSON.stringify(data));
 }
 
 app.get('/countries', (req, res) => {
     res.render("countries", {
-        pageTitle: "Kraje"
+        pageTitle: "Kraje",
+        countries: getDataFromFile(countriesPath)
     });
 })
 
 app.post('/countries', (req, res) => {
+    let countries = getDataFromFile(countriesPath);
+
     let newCountry = {
         name: req.body.name,
         capital: req.body.capital,
@@ -98,6 +117,41 @@ app.post('/countries', (req, res) => {
         continent: req.body.continent,
         has10Milion: req.body.has10Milion === "on" ? true : false
     }
+    countries = [...countries, newCountry];
+
+    saveToFile(countriesPath, countries);
+
+    res.redirect("/countries");
 })
 
-app.listen(3000);
+app.get('/books', async (req, res) => {
+    let Books = [];
+    try {
+        Books = await Book.find();
+    } catch (error) {
+        console.log(e.message);
+    }
+    
+    res.render('books', {
+        pageTitle: "Książki",
+        books: Books
+    });
+})
+
+app.post('/books', async (req, res) => {
+    const newBook = {
+        title: req.body.title,
+        author: req.body.author,
+        price: req.body.price
+    };
+    try {
+        await new Book(newBook).save();
+    } catch (error) {
+        console.log(e.message);
+    }
+    res.redirect('/books');
+})
+
+app.listen(3000, () => {
+    console.log("Server is running on port 3000");
+});

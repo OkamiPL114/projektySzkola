@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="./css/main.css"/>
+</head>
+<body>
+    <h1><%= pageTitle %></h1>
+    <%- include("./includes/nav.ejs") %>
+    <form action="/books" method="post">
+        <p>Tytuł: <input type="text" name="title"></p>
+        <p>Autor: <input type="text" name="author"></p>
+        <p>Cena: <input type="number" step="0.01" name="price">zł</p>
+        <p><button type="submit">Dodaj</button></p>
+    </form>
+    <div class="books">
+        <% if(books.length > 0){ %>
+            <div class="cards">
+                <% books.forEach((book) => { %>
+                    <div class="card">
+                        <p class="title">"<%= book.title %>"</p>
+                        <p><%= book.author %></p>
+                        <p class="price"><%= book.price %>zł</p>
+                    </div>
+                <% }); %>
+            </div>
+        <% } else { %>
+            <h2>Brak książek w bazie</h2>
+        <% } %>
+    </div>
+</body>
+</html>

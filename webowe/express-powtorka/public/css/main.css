@@ -4,3 +4,28 @@
 body {
     background-color: aqua;
 }
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: 3px solid teal;
+    border-radius: 0.5rem;
+    background-color: #cbf1f1;
+    width: fit-content;
+}
+.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(1, 28, 28);
+}
+.price {
+    background-color: rgb(1, 28, 28);
+    color: white;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    text-align: center;
+}

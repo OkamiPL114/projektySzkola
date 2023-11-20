@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= pageTitle %></title>
     <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="stylesheet" href="./css/countries.css"/>
 </head>
 <body>
     <%- include("./includes/nav.ejs") %>
-    <form action="/countries" method="pots">
+    <form action="/countries" method="post">
         <p>Nazwa kraju: <input type="text" name="name" required></p>
         <p>Stolica: <input type="text" name="capital" required></p>
         <p>Ludność: <input type="number" name="population" required></p>
@@ -25,5 +26,31 @@
         <p><input type="checkbox" name="has10Milion">Czy ma więcej niż 10 milionów ludności?</p>
         <p><button type="submit">Dodaj</button></p>
     </form>
+    <div>
+        <% if(countries.length> 0) { %>
+            <table>
+                <tr>
+                    <th>Lp.</th>
+                    <th>Nazwa</th>
+                    <th>Stolica</th>
+                    <th>Ludność (mln)</th>
+                    <th>Duży kraj</th>
+                    <th>Kontynent</th>
+                </tr>
+            <% countries.forEach((country, index) => { %>
+                <tr>
+                    <td><%= index + 1 %></td>
+                    <td><%= country.name %></td>
+                    <td><%= country.capital %></td>
+                    <td><%= (country.population / 1000000).toFixed(1) %></td>
+                    <td><%= country.has10M ? "tak" : "nie" %></td>
+                    <td><%= country.continent %></td>
+                </tr>
+            <% }) %> 
+            </table>
+        <% } else { %>
+            <h2>Brak danych!</h2>
+        <% } %>
+      </div>
 </body>
 </html>
