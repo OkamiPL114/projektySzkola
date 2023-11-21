@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobilna.UczenPage">
+    <StackLayout>
+        <Label Text="Szczegóły ucznia" HorizontalOptions="Center"/>
+        <Label Text="Imie" TextColor="Red" HorizontalOptions="Center"/>
+        <Label x:Name="imieLabel" TextColor="Blue" HorizontalOptions="Center"/>
+
+        <Label Text="Nazwisko" TextColor="Red" HorizontalOptions="Center"/>
+        <Label x:Name="nazwiskoLabel" TextColor="Blue" HorizontalOptions="Center"/>
+
+        <Label Text="Klasa" TextColor="Red" HorizontalOptions="Center"/>
+        <Label x:Name="klasaLabel" TextColor="Blue" HorizontalOptions="Center"/>
+
+        <Label Text="Miasto" TextColor="Red" HorizontalOptions="Center"/>
+        <Label x:Name="miastoLabel" TextColor="Blue" HorizontalOptions="Center"/>
+    </StackLayout>
+</ContentPage>

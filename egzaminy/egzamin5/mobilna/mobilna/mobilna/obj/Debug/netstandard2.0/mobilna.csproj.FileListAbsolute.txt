@@ -1,0 +1,16 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\bin\Debug\netstandard2.0\mobilna.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\bin\Debug\netstandard2.0\mobilna.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\bin\Debug\netstandard2.0\mobilna.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\obj\Debug\netstandard2.0\mobilna.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\obj\Debug\netstandard2.0\mobilna.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\obj\Debug\netstandard2.0\mobilna.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\obj\Debug\netstandard2.0\mobilna.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\obj\Debug\netstandard2.0\mobilna.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\obj\Debug\netstandard2.0\mobilna.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\obj\Debug\netstandard2.0\refint\mobilna.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\obj\Debug\netstandard2.0\mobilna.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\obj\Debug\netstandard2.0\ref\mobilna.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\egzaminy\egzamin5\mobilna\mobilna\mobilna\mobilna\obj\Debug\netstandard2.0\UczenPage.xaml.g.cs

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/Iv10KZBjVoU8YgwrYBgj8S7+vq4R87Zq23EiXVuW9ZXDGHODULW6y0TeKhDtOMmsGRY1wUW5WODyLE3Ncm4gw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\galuszka.szymon.ptb_\\Desktop\\projektySzkola\\egzaminy\\egzamin5\\mobilna\\mobilna\\mobilna\\mobilna.iOS\\mobilna.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\galuszka.szymon.ptb_\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
