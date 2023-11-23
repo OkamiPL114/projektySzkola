@@ -1,0 +1,14 @@
+C:\Users\ckz1j\projektySzkola\desktopowe\szyfrSkokowy\szyfrSkokowy\bin\Debug\net6.0\szyfrSkokowy.exe
+C:\Users\ckz1j\projektySzkola\desktopowe\szyfrSkokowy\szyfrSkokowy\bin\Debug\net6.0\szyfrSkokowy.deps.json
+C:\Users\ckz1j\projektySzkola\desktopowe\szyfrSkokowy\szyfrSkokowy\bin\Debug\net6.0\szyfrSkokowy.runtimeconfig.json
+C:\Users\ckz1j\projektySzkola\desktopowe\szyfrSkokowy\szyfrSkokowy\bin\Debug\net6.0\szyfrSkokowy.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\szyfrSkokowy\szyfrSkokowy\bin\Debug\net6.0\szyfrSkokowy.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\szyfrSkokowy\szyfrSkokowy\obj\Debug\net6.0\szyfrSkokowy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckz1j\projektySzkola\desktopowe\szyfrSkokowy\szyfrSkokowy\obj\Debug\net6.0\szyfrSkokowy.AssemblyInfoInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\szyfrSkokowy\szyfrSkokowy\obj\Debug\net6.0\szyfrSkokowy.AssemblyInfo.cs
+C:\Users\ckz1j\projektySzkola\desktopowe\szyfrSkokowy\szyfrSkokowy\obj\Debug\net6.0\szyfrSkokowy.csproj.CoreCompileInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\szyfrSkokowy\szyfrSkokowy\obj\Debug\net6.0\szyfrSkokowy.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\szyfrSkokowy\szyfrSkokowy\obj\Debug\net6.0\refint\szyfrSkokowy.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\szyfrSkokowy\szyfrSkokowy\obj\Debug\net6.0\szyfrSkokowy.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\szyfrSkokowy\szyfrSkokowy\obj\Debug\net6.0\szyfrSkokowy.genruntimeconfig.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\szyfrSkokowy\szyfrSkokowy\obj\Debug\net6.0\ref\szyfrSkokowy.dll
