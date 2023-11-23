@@ -1,0 +1,15 @@
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ocenySzkolne\ocenySzkolne\bin\Debug\net6.0\ocenySzkolne.exe
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ocenySzkolne\ocenySzkolne\bin\Debug\net6.0\ocenySzkolne.deps.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ocenySzkolne\ocenySzkolne\bin\Debug\net6.0\ocenySzkolne.runtimeconfig.json
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ocenySzkolne\ocenySzkolne\bin\Debug\net6.0\ocenySzkolne.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ocenySzkolne\ocenySzkolne\bin\Debug\net6.0\ocenySzkolne.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ocenySzkolne\ocenySzkolne\obj\Debug\net6.0\ocenySzkolne.csproj.AssemblyReference.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ocenySzkolne\ocenySzkolne\obj\Debug\net6.0\ocenySzkolne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ocenySzkolne\ocenySzkolne\obj\Debug\net6.0\ocenySzkolne.AssemblyInfoInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ocenySzkolne\ocenySzkolne\obj\Debug\net6.0\ocenySzkolne.AssemblyInfo.cs
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ocenySzkolne\ocenySzkolne\obj\Debug\net6.0\ocenySzkolne.csproj.CoreCompileInputs.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ocenySzkolne\ocenySzkolne\obj\Debug\net6.0\ocenySzkolne.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ocenySzkolne\ocenySzkolne\obj\Debug\net6.0\refint\ocenySzkolne.dll
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ocenySzkolne\ocenySzkolne\obj\Debug\net6.0\ocenySzkolne.pdb
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ocenySzkolne\ocenySzkolne\obj\Debug\net6.0\ocenySzkolne.genruntimeconfig.cache
+C:\Users\galuszka.szymon.ptb_\Desktop\projektySzkola\desktopowe\ocenySzkolne\ocenySzkolne\obj\Debug\net6.0\ref\ocenySzkolne.dll
