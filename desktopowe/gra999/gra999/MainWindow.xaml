@@ -9,12 +9,14 @@
     <Grid>
         <StackPanel>
             <Label Content="Gra 999" FontWeight="Bold" FontSize="40" HorizontalAlignment="Center"/>
-            <Label Content="Dostępne środki: 100 zł" HorizontalAlignment="Center" FontSize="25"/>
+            <Label Content="Dostępne środki: 100 zł" x:Name="fundsLabel" HorizontalAlignment="Center" FontSize="25"/>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Label Content="Obstawiana kwota: " FontSize="25"/>
-                <TextBox Width="75" FontSize="25"/>
+                <TextBox Width="75" FontSize="25" x:Name="betTextBox"/>
             </StackPanel>
-            <Button Content="Start" FontSize="20" Margin="20" Padding="10" Width="200"/>
+            <Button Content="Start" FontSize="20" Margin="20" Padding="10" Width="200" x:Name="startButton" Click="startButton_Click"/>
+            <Button Content="Zakończ" FontSize="15" Margin="5" Padding="5" Width="100" x:Name="endButton" Click="endButton_Click"/>
+            <TextBlock Text="Poprzednie wyniki: " FontSize="20" Margin="10" Visibility="Hidden" x:Name="resultsTextBox" TextWrapping="WrapWithOverflow"/>
         </StackPanel>
     </Grid>
 </Window>
