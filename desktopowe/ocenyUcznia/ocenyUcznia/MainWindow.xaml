@@ -1,0 +1,27 @@
+﻿<Window x:Class="ocenyUcznia.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ocenyUcznia"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Label Content="Oceny ucznia" FontWeight="Bold" FontSize="50" HorizontalAlignment="Center"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label Content="Nowa ocena: "/>
+                <TextBox Width="30" Height="20" x:Name="markTextBox"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                <Label Content="Waga nowej oceny: " VerticalAlignment="Center"/>
+                <TextBox Width="30" Height="20" x:Name="weightTextBox"/>
+            </StackPanel>
+            <Button Content="Dodaj nową ocenę" Width="200" Padding="10" x:Name="addMarkButton" Click="addMarkButton_Click"/>
+            <Label Content="Lista ocen: " Margin="5" FontSize="20" x:Name="marksLabel" Visibility="Hidden"/>
+            <Label Content="Średnia arytmetyczna ocen: " Margin="5" FontSize="20" x:Name="averageArytLabel" Visibility="Hidden"/>
+            <Label Content="Średnia ważona ocen: " Margin="5" FontSize="20" x:Name="averageWeigLabel" Visibility="Hidden"/>
+            <Label Content="Mediana ocen: " Margin="5" FontSize="20" x:Name="medianLabel" Visibility="Hidden"/>
+        </StackPanel>
+    </Grid>
+</Window>
