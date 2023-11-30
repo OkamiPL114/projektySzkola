@@ -1,0 +1,14 @@
+C:\Users\ckz1j\projektySzkola\desktopowe\podzbiorySpojne\podzbiorySpojne\bin\Debug\net6.0\podzbiorySpojne.exe
+C:\Users\ckz1j\projektySzkola\desktopowe\podzbiorySpojne\podzbiorySpojne\bin\Debug\net6.0\podzbiorySpojne.deps.json
+C:\Users\ckz1j\projektySzkola\desktopowe\podzbiorySpojne\podzbiorySpojne\bin\Debug\net6.0\podzbiorySpojne.runtimeconfig.json
+C:\Users\ckz1j\projektySzkola\desktopowe\podzbiorySpojne\podzbiorySpojne\bin\Debug\net6.0\podzbiorySpojne.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\podzbiorySpojne\podzbiorySpojne\bin\Debug\net6.0\podzbiorySpojne.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\podzbiorySpojne\podzbiorySpojne\obj\Debug\net6.0\podzbiorySpojne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckz1j\projektySzkola\desktopowe\podzbiorySpojne\podzbiorySpojne\obj\Debug\net6.0\podzbiorySpojne.AssemblyInfoInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\podzbiorySpojne\podzbiorySpojne\obj\Debug\net6.0\podzbiorySpojne.AssemblyInfo.cs
+C:\Users\ckz1j\projektySzkola\desktopowe\podzbiorySpojne\podzbiorySpojne\obj\Debug\net6.0\podzbiorySpojne.csproj.CoreCompileInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\podzbiorySpojne\podzbiorySpojne\obj\Debug\net6.0\podzbiorySpojne.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\podzbiorySpojne\podzbiorySpojne\obj\Debug\net6.0\refint\podzbiorySpojne.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\podzbiorySpojne\podzbiorySpojne\obj\Debug\net6.0\podzbiorySpojne.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\podzbiorySpojne\podzbiorySpojne\obj\Debug\net6.0\podzbiorySpojne.genruntimeconfig.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\podzbiorySpojne\podzbiorySpojne\obj\Debug\net6.0\ref\podzbiorySpojne.dll
