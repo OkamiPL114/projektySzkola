@@ -1,0 +1,13 @@
+.restaurant {
+    background-color: teal;
+}
+.title {
+    width: 100%;
+    text-align: center;
+}
+.dishes {
+    float: left;
+}
+.order {
+    float: left;
+}

@@ -1,0 +1,70 @@
+[
+    {
+        "kategoria": "Pizza",
+        "dania": [
+            {
+                "nazwa": "Margherita",
+                "cena": 24
+            },
+            {
+                "nazwa": "Focaccia",
+                "cena": 22
+            },
+            {
+                "nazwa": "Americana",
+                "cena": 31
+            }
+        ]
+    },
+    {
+        "kategoria": "Przystawki",
+        "dania": [
+            {
+                "nazwa": "Tatar z Łososia",
+                "cena": 42
+            },
+            {
+                "nazwa": "Tatar z Polędwicy wołowej",
+                "cena": 49
+            },
+            {
+                "nazwa": "Americana",
+                "cena": 31
+            }
+        ]
+    },
+    {
+        "kategoria": "Dania Główne",
+        "dania": [
+            {
+                "nazwa": "Kaczka z pieca",
+                "cena": 64
+            },
+            {
+                "nazwa": "Pieczony filet z sandacza",
+                "cena": 61
+            },
+            {
+                "nazwa": "Piezona polędwica wieprzowa",
+                "cena": 54
+            }
+        ]
+    },
+    {
+        "kategoria": "Desery",
+        "dania": [
+            {
+                "nazwa": "Panna Cotta",
+                "cena": 19
+            },
+            {
+                "nazwa": "Lody waniliowe",
+                "cena": 24
+            },
+            {
+                "nazwa": "Tort Bezowy",
+                "cena": 26
+            }
+        ]
+    }
+]
