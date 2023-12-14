@@ -1,0 +1,14 @@
+C:\Users\ckz1j\projektySzkola\desktopowe\nPermutacja\nPermutacja\bin\Debug\net6.0\nPermutacja.exe
+C:\Users\ckz1j\projektySzkola\desktopowe\nPermutacja\nPermutacja\bin\Debug\net6.0\nPermutacja.deps.json
+C:\Users\ckz1j\projektySzkola\desktopowe\nPermutacja\nPermutacja\bin\Debug\net6.0\nPermutacja.runtimeconfig.json
+C:\Users\ckz1j\projektySzkola\desktopowe\nPermutacja\nPermutacja\bin\Debug\net6.0\nPermutacja.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\nPermutacja\nPermutacja\bin\Debug\net6.0\nPermutacja.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\nPermutacja\nPermutacja\obj\Debug\net6.0\nPermutacja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckz1j\projektySzkola\desktopowe\nPermutacja\nPermutacja\obj\Debug\net6.0\nPermutacja.AssemblyInfoInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\nPermutacja\nPermutacja\obj\Debug\net6.0\nPermutacja.AssemblyInfo.cs
+C:\Users\ckz1j\projektySzkola\desktopowe\nPermutacja\nPermutacja\obj\Debug\net6.0\nPermutacja.csproj.CoreCompileInputs.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\nPermutacja\nPermutacja\obj\Debug\net6.0\nPermutacja.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\nPermutacja\nPermutacja\obj\Debug\net6.0\refint\nPermutacja.dll
+C:\Users\ckz1j\projektySzkola\desktopowe\nPermutacja\nPermutacja\obj\Debug\net6.0\nPermutacja.pdb
+C:\Users\ckz1j\projektySzkola\desktopowe\nPermutacja\nPermutacja\obj\Debug\net6.0\nPermutacja.genruntimeconfig.cache
+C:\Users\ckz1j\projektySzkola\desktopowe\nPermutacja\nPermutacja\obj\Debug\net6.0\ref\nPermutacja.dll
