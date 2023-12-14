@@ -4,32 +4,40 @@
     {
         static void Main(string[] args)
         {
-            int[] arr = { 1, 3, 1 };
+            int[] arr = { 2, 2, 2, 2, 2 };
             int n = arr.Length;
-            int sum = 0;
-            int arrSum = 0;
-            for(int i = 0; i < n; i++) // sprawdź czy ciąg nie jest już permutacją
-            {
-                sum += i + 1;
-                arrSum += arr[i];
-            }
-            if(arrSum == sum)
-            {
-                Console.WriteLine($"Ciąg jest już permutacją liczby {n}");
-                return;
-            }
-            int[] goodArr = new int[n];
+            int count = 0; // zmienna sprawdzająca ilość zmian
+            int[] checkArr = new int[n]; // stwórz tablicę sprawdzającą i wypełnij ją
             for(int i = 0; i < n; i++)
             {
-                goodArr[i] = i + 1;
+                checkArr[i] = i + 1;
             }
-            for(int i = 0; i < n; i++)
-            {
-                if(arr[i] == goodArr[i]) goodArr[i] = 0;
-                else
-                {
 
+            for(int i = 0; i < n; i++) // przejdź po całej tablicy
+            {
+                if(arr[i] > n) arr[i] = n; // jeśli liczba wychodzi poza permutację, zmień ją
+                if(arr[i] == checkArr[arr[i] - 1]) checkArr[arr[i] - 1] = 0; // jeśli liczba wystąpi pierwszy raz, to zmień na zero
+                else // jeśli liczba się powtórzyła
+                {
+                    count++; // zwiększ licznik zmienionych liczb
+                    for(int j = 0; j < n; j++) // przejdź po dostępnych liczbach
+                    {
+                        if(checkArr[j] != 0) // jeśli znajdzie wolną liczbę
+                        {
+                            arr[i] = checkArr[j]; // zamień powtórzoną liczbę na inną
+                            checkArr[j] = 0; // zaznacz ją jako wykorzystaną
+                            break; // i przejdź do następnej liczby
+                        }
+                    }
                 }
+            }
+            if(count > 0) Console.WriteLine($"Zmieniono {count} elementów");
+            else Console.WriteLine("Tablica jest już permutacją");
+            
+            Console.WriteLine("Finalna tablica:");
+            foreach (var item in arr)
+            {
+                Console.Write($"{item} ");
             }
         }
     }
